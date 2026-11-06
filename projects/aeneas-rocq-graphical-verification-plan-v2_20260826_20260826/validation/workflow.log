@@ -1,0 +1,232 @@
+
+=== 2026-08-26T13:39:35.059Z NOTE id=6a151768a4a8 ===
+Project initialized: profile=default; path=/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826
+
+=== 2026-08-26T13:39:40.501Z PYTHON run=1a83b859c8ab ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/project_manager.py", "import-sources", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "/home/zyr/myCode/ppt-master/projects/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.docx", "--copy"]
+
+=== 2026-08-26T13:39:40.832Z PYTHON run=af6a569a17fe ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/doc_to_md.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.docx", "-o", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.md (20 KB)
+=== 2026-08-26T13:39:41.003Z END run=af6a569a17fe elapsed_ms=171 output_lines=6 retained=1 omitted=5 ===
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.md (20 KB)
+=== 2026-08-26T13:39:41.016Z END run=1a83b859c8ab elapsed_ms=515 output_lines=12 retained=1 omitted=11 ===
+
+=== 2026-08-26T13:40:26.884Z PYTHON run=c04b4a83f4ba ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/confirm_ui/server.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--reset-template-selection"]
+stderr:
+  [21:40:26] [INFO] confirm_ui: template selection artifacts already absent
+=== 2026-08-26T13:40:26.885Z END run=c04b4a83f4ba elapsed_ms=1 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-08-26T13:40:53.551Z PYTHON run=47185f51abb2 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/confirm_ui/server.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--daemon"]
+stderr:
+  Traceback (most recent call last):
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/confirm_ui/server.py", line 3163, in <module>
+      raise SystemExit(main())
+                       ^^^^^^
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/confirm_ui/server.py", line 3095, in main
+      proc, port, _ = _launch_background_server(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/confirm_ui/server.py", line 1095, in _launch_background_server
+stderr-tail:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/lib/python3.12/socket.py", line 233, in __init__
+      _socket.socket.__init__(self, family, type, proto, fileno)
+  PermissionError: [Errno 1] Operation not permitted
+=== 2026-08-26T13:40:53.560Z END run=47185f51abb2 elapsed_ms=8 output_lines=16 retained=12 omitted=4 ===
+
+=== 2026-08-26T13:43:09.371Z PYTHON run=2cbed29c4ce7 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/analyze_images.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/images"]
+stdout:
+  [REPORT] Image analysis CSV: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/analysis/image_analysis.csv
+=== 2026-08-26T13:43:09.410Z END run=2cbed29c4ce7 elapsed_ms=39 output_lines=14 retained=1 omitted=13 ===
+
+=== 2026-08-26T13:45:12.108Z PYTHON run=6d7ff1030e01 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/icon_sync.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "tabler-outline/shield-check", "tabler-outline/lock", "tabler-outline/file-code", "tabler-outline/route", "tabler-outline/checklist", "tabler-outline/alert-triangle", "simple-icons/rust"]
+stderr:
+  [OK] 7 icon(s) in /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/icons:
+       + tabler-outline/shield-check
+       + tabler-outline/lock
+       + tabler-outline/file-code
+       + tabler-outline/route
+       + tabler-outline/checklist
+       + tabler-outline/alert-triangle
+       + simple-icons/rust
+=== 2026-08-26T13:45:12.111Z END run=6d7ff1030e01 elapsed_ms=2 output_lines=8 retained=8 omitted=0 ===
+
+=== 2026-08-26T13:47:35.159Z PYTHON run=b23828fbb7f3 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/project_manager.py", "validate", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826"]
+stdout:
+  [WARN]
+  [OK] Project structure is valid, with warnings.
+=== 2026-08-26T13:47:35.560Z END run=b23828fbb7f3 elapsed_ms=400 output_lines=5 retained=2 omitted=3 ===
+
+=== 2026-08-26T13:50:09.947Z PYTHON run=6426507269ef ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_editor/server.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--live", "--daemon"]
+stderr:
+  Traceback (most recent call last):
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_editor/server.py", line 1416, in <module>
+      raise SystemExit(main())
+                       ^^^^^^
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_editor/server.py", line 1301, in main
+      port = args.port if args.port is not None else _find_free_port(DEFAULT_PORT)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/server_common.py", line 56, in find_free_port
+stderr-tail:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/lib/python3.12/socket.py", line 233, in __init__
+      _socket.socket.__init__(self, family, type, proto, fileno)
+  PermissionError: [Errno 1] Operation not permitted
+=== 2026-08-26T13:50:09.991Z END run=6426507269ef elapsed_ms=44 output_lines=13 retained=12 omitted=1 ===
+
+=== 2026-08-26T13:51:06.837Z PYTHON run=1e4c979b0484 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_quality_checker.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--stage", "first-page", "--json"]
+stdout:
+  [WARN] 01_研究目标与问题界定.svg - Passed (with warnings)
+     [WARN] Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id="rust-versus-proof"> x=88.0, y=254.0..330.0, 3 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 1
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 1 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 1        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 1 | text: 24 | images: 0 | icons: 3
+    Geometry: SVG elements 12 | native presets 0 | page-frame elements 1 | marker uses 0
+  [REPORT] JSON quality report exported: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/validation/svg_quality_first_page_report.json
+=== 2026-08-26T13:51:07.374Z END run=1e4c979b0484 elapsed_ms=536 output_lines=36 retained=16 omitted=20 ===
+
+=== 2026-08-26T13:51:21.651Z PYTHON run=c189176d0f03 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_quality_checker.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--stage", "first-page", "--json"]
+stdout:
+  [WARN] 01_研究目标与问题界定.svg - Passed (with warnings)
+     [WARN] Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=254; text='所有权与借用规则类型检查与生命周期约束减…'); use supported explicit text positioning when page fit matters
+  [SUMMARY] Check Summary
+  Total files: 1
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 1 (100%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 1        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 1 | text: 22 | images: 0 | icons: 3
+    Geometry: SVG elements 12 | native presets 0 | page-frame elements 1 | marker uses 0
+  [REPORT] JSON quality report exported: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/validation/svg_quality_first_page_report.json
+=== 2026-08-26T13:51:22.030Z END run=c189176d0f03 elapsed_ms=379 output_lines=36 retained=16 omitted=20 ===
+
+=== 2026-08-26T13:56:42.911Z PYTHON run=9903dff0961c ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_quality_checker.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--stage", "final", "--json"]
+stdout:
+  [ERROR] 01_研究目标与问题界定.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (11 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=254; text='所有权与借用规则类型检查与生命周期约束减…'); use supported explicit text positioning when page fit matters
+  [ERROR] 02_相关工作与总体技术路线.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] <line> marker-end=url(#arrow-primary) marker fill '#153A5B' does not match effective line stroke '#0E7490'
+     [ERROR] <text> (x=56, y=642; text='相关工作定位：Charon 负责可验证语…') exceeds the root viewBox on the horizontal axis: content (56.0, 625.0)-(1316.0, 649.0), canvas (0.0, 0.0)-(1280.0, 720.0), overflow horizontal 2.8%, vertical 0.0%; move or reflow the text until its estimated bounds stay on-page
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (11 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=56, y=103; text='Charon 抽取语义、Aeneas 函…') exceeds <g id="header"> data-pptx-bounds on the horizontal axis: content (56.0, 67.3)-(1239.8, 117.7), container (56.0, 28.0)-(1224.0, 130.0), overflow horizontal 1.4%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [ERROR] 03_Rocq模型与安全属性.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (11 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=88, y=237; text='DomainId') exceeds <g id="state-model"> data-pptx-bounds on the horizontal axis: content (53.6, 223.4)-(122.4, 242.6), container (56.0, 150.0)-(476.0, 570.0), overflow horizontal 0.6%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text
+     [WARN] Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id="invariant-foundation"> x=562.0, y=269.0..294.0, 2 lines; <g id="invariant-foundation"> x=562.0, y=374.0..399.0, 2 lines; <g id="invariant-foundation"> x=562.0, y=479.0..504.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [ERROR] 04_VeriSMo借鉴与最小验证案例.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (11 occurrences), 21 (9 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+     [WARN] <text> (x=906, y=270; text='以 Charon + Aeneas + …') exceeds <g id="verismo-transfer"> data-pptx-bounds on the horizontal axis: content (906.0, 255.6)-(1272.9, 275.9), container (56.0, 148.0)-(1224.0, 308.0), overflow horizontal 4.2%, vertical 0.0%; expand the root module bounds into available non-overlapping space; otherwise reflow the text
+  [ERROR] 05_实施路线与结题验收.svg - Failed
+     viewBox: 0 0 1280 720
+     [ERROR] spec_lock typography-size recurrence: undeclared font-size 15 (11 occurrences), 21 (9 occurrences) exceeds the sparse-display limit of 2 occurrences. Structural text must return to its declared role band; a genuinely recurring display treatment needs a justified named role in the Design Spec and spec_lock.
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 0 (0%)
+    [WARN] With warnings: 0 (0%)
+    [ERROR] With errors: 5 (100%)
+  Provenance categories:
+    blocking: 7          hard findings; gate also requires exit 0
+    introduced: 5        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 152 | images: 0 | icons: 8
+    Geometry: SVG elements 114 | native presets 0 | page-frame elements 5 | marker uses 22
+    Native objects: charts 0 | tables 0 | formulas 2
+    Presets: (none)
+  Issue categories:
+    Font issues: 5
+  [REPORT] JSON quality report exported: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/validation/svg_quality_report.json
+=== 2026-08-26T13:56:43.486Z END run=9903dff0961c elapsed_ms=574 output_lines=60 retained=40 omitted=20 ===
+
+=== 2026-08-26T13:58:12.833Z PYTHON run=e06c9ce8a599 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_quality_checker.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826", "--stage", "final", "--json"]
+stdout:
+  [OK] 01_研究目标与问题界定.svg - Passed
+  [WARN] 03_Rocq模型与安全属性.svg - Passed (with warnings)
+     [WARN] Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id="invariant-foundation"> x=562.0, y=269.0..294.0, 2 lines; <g id="invariant-foundation"> x=562.0, y=374.0..399.0, 2 lines; <g id="invariant-foundation"> x=562.0, y=479.0..504.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy="0". Keep semantically independent text frames separate.
+  [SUMMARY] Check Summary
+  Total files: 5
+    [OK] Fully passed: 4 (80%)
+    [WARN] With warnings: 1 (20%)
+    [ERROR] With errors: 0 (0%)
+  Provenance categories:
+    blocking: 0          hard findings; gate also requires exit 0
+    introduced: 1        advisory; new or changed
+    inherited: 0         informational; prototype-identical
+    source-import: 0     informational; source-conversion loss
+  [CARRIERS] Actual-use receipt (informational; not a quota)
+    Pages: 5 | text: 154 | images: 0 | icons: 8
+    Geometry: SVG elements 114 | native presets 0 | page-frame elements 5 | marker uses 22
+  [REPORT] JSON quality report exported: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/validation/svg_quality_report.json
+=== 2026-08-26T13:58:13.416Z END run=e06c9ce8a599 elapsed_ms=583 output_lines=43 retained=17 omitted=26 ===
+
+=== 2026-08-26T13:59:25.245Z PYTHON run=bd1a47759b52 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/total_md_split.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826"]
+stdout:
+  [OK] SVG files and notes have one-to-one correspondence
+  [Done] Successfully generated 5/5 file(s)
+  [Done] Notes splitting complete
+=== 2026-08-26T13:59:25.250Z END run=bd1a47759b52 elapsed_ms=5 output_lines=14 retained=3 omitted=11 ===
+
+=== 2026-08-26T13:59:29.125Z PYTHON run=c89e829dec44 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/finalize_svg.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826"]
+stdout:
+  [OK] 01_研究目标与问题界定.svg (3 icons)
+  [OK] Done!
+=== 2026-08-26T13:59:29.330Z END run=c89e829dec44 elapsed_ms=204 output_lines=15 retained=2 omitted=13 ===
+
+=== 2026-08-26T13:59:35.267Z PYTHON run=7b69e6a5fc62 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/svg_to_pptx.py", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826"]
+stdout:
+  [Done] Saved: /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/exports/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx
+    [POSTFLIGHT] status=passed-with-warnings quality_gate=passed slides=5 warning_categories=1
+    [POSTFLIGHT][WARNING] quality_introduced_warnings=1
+    [PPTX] /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/exports/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx
+    [REPORT] /home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/validation/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.report.json
+=== 2026-08-26T13:59:35.988Z END run=7b69e6a5fc62 elapsed_ms=720 output_lines=36 retained=5 omitted=31 ===

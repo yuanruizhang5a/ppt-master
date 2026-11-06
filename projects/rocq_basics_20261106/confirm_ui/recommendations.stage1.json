@@ -1,0 +1,29 @@
+{
+  "stage": "stage1",
+  "lang": "en",
+  "primary_language": "en",
+  "recommend": {
+    "canvas": "ppt43"
+  },
+  "audience": {
+    "value": "Students beginning Rocq, with basic programming experience but no assumed Gallina or proof-tactic experience."
+  },
+  "communication_intent": {
+    "value": "Teach Gallina data modeling and computation first, then develop elementary proof skills through worked examples, code/results, proof states, and student practice while covering the key technical content of Basics.html."
+  },
+  "audience_outcome": {
+    "value": "Students can define inductive data and structurally recursive functions; distinguish computed booleans from propositions; use intros, simpl, reflexivity, rewrite, and destruct; explain the grading-policy and binary-number examples; and check homework assumptions."
+  },
+  "core_message": {
+    "value": "Programs compute over inductively defined data; proofs establish their general properties by computation, rewriting, and exhaustive case analysis."
+  },
+  "delivery_context": {
+    "value": "Primarily an instructor-led English course lecture with live code walkthroughs and short exercises; secondarily slides for independent review. Follow the 4:3 academic style of output_R1.pdf and reserve dedicated areas for code and results/proof states."
+  },
+  "artifact_afterlife": {
+    "value": "Editable PPTX course material for student revision and instructor reuse, grounded in the supplied Basics chapter."
+  },
+  "content_divergence": {
+    "value": "Summarize and reorganize for student understanding; choose examples appropriately while retaining all important concepts and technical details."
+  }
+}

@@ -1,0 +1,20 @@
+python3 - <<'PY'
+from pathlib import Path
+import shutil
+
+source = Path('/home/zyr/myCode/ppt-master/projects/course-rocq/lf')
+garbage = Path.home() / 'Garbage'
+garbage.mkdir(parents=True, exist_ok=True)
+count = 0
+for path in sorted(source.rglob('._*')):
+    if not path.is_file() and not path.is_symlink():
+        continue
+    destination = garbage / path.name
+    suffix = 1
+    while destination.exists() or destination.is_symlink():
+        destination = garbage / f'{path.stem}-{suffix}{path.suffix}'
+        suffix += 1
+    shutil.move(str(path), str(destination))
+    count += 1
+print(f'Moved {count} AppleDouble files to {garbage}')
+PY

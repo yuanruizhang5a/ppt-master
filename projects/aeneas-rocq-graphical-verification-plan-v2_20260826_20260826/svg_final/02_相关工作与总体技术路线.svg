@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-primary" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#153A5B"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#E28A22"/>
+    </marker>
+    <marker id="arrow-secondary" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#0E7490"/>
+    </marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="40 28 1200 102">
+    <text x="56" y="54" font-size="17" font-weight="700" letter-spacing="1.2" fill="#0E7490">相关工作 + 总体技术路线</text>
+    <text x="56" y="103" font-size="42" font-weight="700" fill="#153A5B">Charon 抽取语义、Aeneas 函数式化，Rocq 把实现与规约汇合</text>
+    <line x1="56" y1="124" x2="1224" y2="124" stroke="#CCD8E2" stroke-width="2"/>
+  </g>
+
+  <g id="dual-track-route" data-pptx-bounds="56 150 1168 430">
+    <rect x="56" y="150" width="1168" height="430" fill="#FFFFFF" stroke="#CCD8E2" stroke-width="2"/>
+    <line x1="56" y1="352" x2="1000" y2="352" stroke="#CCD8E2" stroke-width="2"/>
+    <rect x="56" y="150" width="92" height="202" fill="#153A5B"/>
+    <rect x="56" y="352" width="92" height="228" fill="#0E7490"/>
+    <text x="102" y="234" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">实现轨</text>
+    <text x="102" y="266" text-anchor="middle" font-size="16" fill="#FFFFFF">既有工作</text>
+    <text x="102" y="446" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">规约轨</text>
+    <text x="102" y="478" text-anchor="middle" font-size="16" fill="#FFFFFF">安全目标</text>
+
+    <rect x="174" y="207" width="126" height="80" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <!-- icon: simple-icons/rust -->
+  <g transform="translate(188, 226) scale(1.41667)" fill="#153A5B">
+    <path d="M23.8346 11.7033l-1.0073-.6236a13.7268 13.7268 0 00-.0283-.2936l.8656-.8069a.3483.3483 0 00-.1154-.578l-1.1066-.414a8.4958 8.4958 0 00-.087-.2856l.6904-.9587a.3462.3462 0 00-.2257-.5446l-1.1663-.1894a9.3574 9.3574 0 00-.1407-.2622l.49-1.0761a.3437.3437 0 00-.0274-.3361.3486.3486 0 00-.3006-.154l-1.1845.0416a6.7444 6.7444 0 00-.1873-.2268l.2723-1.153a.3472.3472 0 00-.417-.4172l-1.1532.2724a14.0183 14.0183 0 00-.2278-.1873l.0415-1.1845a.3442.3442 0 00-.49-.328l-1.076.491c-.0872-.0476-.1742-.0952-.2623-.1407l-.1903-1.1673A.3483.3483 0 0016.256.955l-.9597.6905a8.4867 8.4867 0 00-.2855-.086l-.414-1.1066a.3483.3483 0 00-.5781-.1154l-.8069.8666a9.2936 9.2936 0 00-.2936-.0284L12.2946.1683a.3462.3462 0 00-.5892 0l-.6236 1.0073a13.7383 13.7383 0 00-.2936.0284L9.9803.3374a.3462.3462 0 00-.578.1154l-.4141 1.1065c-.0962.0274-.1903.0567-.2855.086L7.744.955a.3483.3483 0 00-.5447.2258L7.009 2.348a9.3574 9.3574 0 00-.2622.1407l-1.0762-.491a.3462.3462 0 00-.49.328l.0416 1.1845a7.9826 7.9826 0 00-.2278.1873L3.8413 3.425a.3472.3472 0 00-.4171.4171l.2713 1.1531c-.0628.075-.1255.1509-.1863.2268l-1.1845-.0415a.3462.3462 0 00-.328.49l.491 1.0761a9.167 9.167 0 00-.1407.2622l-1.1662.1894a.3483.3483 0 00-.2258.5446l.6904.9587a13.303 13.303 0 00-.087.2855l-1.1065.414a.3483.3483 0 00-.1155.5781l.8656.807a9.2936 9.2936 0 00-.0283.2935l-1.0073.6236a.3442.3442 0 000 .5892l1.0073.6236c.008.0982.0182.1964.0283.2936l-.8656.8079a.3462.3462 0 00.1155.578l1.1065.4141c.0273.0962.0567.1914.087.2855l-.6904.9587a.3452.3452 0 00.2268.5447l1.1662.1893c.0456.088.0922.1751.1408.2622l-.491 1.0762a.3462.3462 0 00.328.49l1.1834-.0415c.0618.0769.1235.1528.1873.2277l-.2713 1.1541a.3462.3462 0 00.4171.4161l1.153-.2713c.075.0638.151.1255.2279.1863l-.0415 1.1845a.3442.3442 0 00.49.327l1.0761-.49c.087.0486.1741.0951.2622.1407l.1903 1.1662a.3483.3483 0 00.5447.2268l.9587-.6904a9.299 9.299 0 00.2855.087l.414 1.1066a.3452.3452 0 00.5781.1154l.8079-.8656c.0972.0111.1954.0203.2936.0294l.6236 1.0073a.3472.3472 0 00.5892 0l.6236-1.0073c.0982-.0091.1964-.0183.2936-.0294l.8069.8656a.3483.3483 0 00.578-.1154l.4141-1.1066a8.4626 8.4626 0 00.2855-.087l.9587.6904a.3452.3452 0 00.5447-.2268l.1903-1.1662c.088-.0456.1751-.0931.2622-.1407l1.0762.49a.3472.3472 0 00.49-.327l-.0415-1.1845a6.7267 6.7267 0 00.2267-.1863l1.1531.2713a.3472.3472 0 00.4171-.416l-.2713-1.1542c.0628-.0749.1255-.1508.1863-.2278l1.1845.0415a.3442.3442 0 00.328-.49l-.49-1.076c.0475-.0872.0951-.1742.1407-.2623l1.1662-.1893a.3483.3483 0 00.2258-.5447l-.6904-.9587.087-.2855 1.1066-.414a.3462.3462 0 00.1154-.5781l-.8656-.8079c.0101-.0972.0202-.1954.0283-.2936l1.0073-.6236a.3442.3442 0 000-.5892zm-6.7413 8.3551a.7138.7138 0 01.2986-1.396.714.714 0 11-.2997 1.396zm-.3422-2.3142a.649.649 0 00-.7715.5l-.3573 1.6685c-1.1035.501-2.3285.7795-3.6193.7795a8.7368 8.7368 0 01-3.6951-.814l-.3574-1.6684a.648.648 0 00-.7714-.499l-1.473.3158a8.7216 8.7216 0 01-.7613-.898h7.1676c.081 0 .1356-.0141.1356-.088v-2.536c0-.074-.0536-.0881-.1356-.0881h-2.0966v-1.6077h2.2677c.2065 0 1.1065.0587 1.394 1.2088.0901.3533.2875 1.5044.4232 1.8729.1346.413.6833 1.2381 1.2685 1.2381h3.5716a.7492.7492 0 00.1296-.0131 8.7874 8.7874 0 01-.8119.9526zM6.8369 20.024a.714.714 0 11-.2997-1.396.714.714 0 01.2997 1.396zM4.1177 8.9972a.7137.7137 0 11-1.304.5791.7137.7137 0 011.304-.579zm-.8352 1.9813l1.5347-.6824a.65.65 0 00.33-.8585l-.3158-.7147h1.2432v5.6025H3.5669a8.7753 8.7753 0 01-.2834-3.348zm6.7343-.5437V8.7836h2.9601c.153 0 1.0792.1772 1.0792.8697 0 .575-.7107.7815-1.2948.7815zm10.7574 1.4862c0 .2187-.008.4363-.0243.651h-.9c-.09 0-.1265.0586-.1265.1477v.413c0 .973-.5487 1.1846-1.0296 1.2382-.4576.0517-.9648-.1913-1.0275-.4717-.2704-1.5186-.7198-1.8436-1.4305-2.4034.8817-.5599 1.799-1.386 1.799-2.4915 0-1.1936-.819-1.9458-1.3769-2.3153-.7825-.5163-1.6491-.6195-1.883-.6195H5.4682a8.7651 8.7651 0 014.907-2.7699l1.0974 1.151a.648.648 0 00.9182.0213l1.227-1.1743a8.7753 8.7753 0 016.0044 4.2762l-.8403 1.8982a.652.652 0 00.33.8585l1.6178.7188c.0283.2875.0425.577.0425.8717zm-9.3006-9.5993a.7128.7128 0 11.984 1.0316.7137.7137 0 01-.984-1.0316zm8.3389 6.71a.7107.7107 0 01.9395-.3625.7137.7137 0 11-.9405.3635z"/>
+  </g>
+    <text x="237" y="254" text-anchor="middle" font-size="20" font-weight="700" fill="#153A5B">Rust / rustc</text>
+    <line x1="300" y1="247" x2="340" y2="247" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <rect x="342" y="207" width="108" height="80" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <text x="396" y="240" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="19" font-weight="700" fill="#153A5B">MIR</text>
+    <text x="396" y="267" text-anchor="middle" font-size="16" fill="#18212B">编译器中间表示</text>
+    <line x1="450" y1="247" x2="490" y2="247" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <rect x="492" y="196" width="154" height="102" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <text x="569" y="231" text-anchor="middle" font-size="22" font-weight="700" fill="#153A5B">Charon</text>
+    <text x="569" y="258" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" fill="#18212B">ULLBC → LLBC</text>
+    <text x="569" y="282" text-anchor="middle" font-size="16" fill="#0E7490">剥离编译器细节</text>
+    <line x1="646" y1="247" x2="686" y2="247" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <rect x="688" y="196" width="154" height="102" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <text x="765" y="231" text-anchor="middle" font-size="22" font-weight="700" fill="#153A5B">Aeneas</text>
+    <text x="765" y="258" text-anchor="middle" font-size="16" fill="#18212B">借用语义函数式化</text>
+    <text x="765" y="282" text-anchor="middle" font-size="16" fill="#0E7490">Coq 后端生成</text>
+    <line x1="842" y1="247" x2="882" y2="247" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <rect x="884" y="196" width="126" height="102" fill="#153A5B"/>
+    <text x="947" y="236" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Rocq</text>
+    <text x="947" y="266" text-anchor="middle" font-size="16" fill="#FFFFFF">函数式模型</text>
+
+    <rect x="174" y="417" width="174" height="92" fill="#FFFFFF" stroke="#0E7490" stroke-width="2"/>
+    <!-- icon: tabler-outline/lock -->
+  <g transform="translate(190, 443) scale(1.33333)" fill="none" stroke="#0E7490" stroke-width="2">
+    <path d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6" />
+    <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
+    <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+  </g>
+    <text x="260" y="452" text-anchor="middle" font-size="20" font-weight="700" fill="#153A5B">安全需求</text>
+    <text x="260" y="481" text-anchor="middle" font-size="16" fill="#18212B">隔离 · 完整性 · 清零</text>
+    <line x1="348" y1="463" x2="390" y2="463" stroke="#0E7490" stroke-width="2" marker-end="url(#arrow-secondary)"/>
+    <rect x="392" y="417" width="154" height="92" fill="#F3F6F8" stroke="#0E7490" stroke-width="2"/>
+    <text x="469" y="452" text-anchor="middle" font-size="20" font-weight="700" fill="#153A5B">抽象状态</text>
+    <text x="469" y="481" text-anchor="middle" font-size="16" fill="#18212B">域、页、拥有者、内容</text>
+    <line x1="546" y1="463" x2="588" y2="463" stroke="#0E7490" stroke-width="2" marker-end="url(#arrow-secondary)"/>
+    <rect x="590" y="417" width="154" height="92" fill="#FFFFFF" stroke="#0E7490" stroke-width="2"/>
+    <text x="667" y="452" text-anchor="middle" font-size="20" font-weight="700" fill="#153A5B">全局不变式</text>
+    <text x="667" y="481" text-anchor="middle" font-size="16" fill="#18212B">唯一拥有 · 合法共享</text>
+    <line x1="744" y1="463" x2="786" y2="463" stroke="#0E7490" stroke-width="2" marker-end="url(#arrow-secondary)"/>
+    <rect x="788" y="417" width="222" height="92" fill="#F3F6F8" stroke="#0E7490" stroke-width="2"/>
+    <text x="899" y="452" text-anchor="middle" font-size="20" font-weight="700" fill="#153A5B">函数前置 / 后置条件</text>
+    <text x="899" y="481" text-anchor="middle" font-size="16" fill="#18212B">把策略约束落到每个操作</text>
+
+    <line x1="1010" y1="247" x2="1052" y2="247" stroke="#E28A22" stroke-width="3" marker-end="url(#arrow-accent)"/>
+    <line x1="1010" y1="463" x2="1052" y2="463" stroke="#E28A22" stroke-width="3" marker-end="url(#arrow-accent)"/>
+    <line x1="1054" y1="247" x2="1054" y2="463" stroke="#E28A22" stroke-width="3"/>
+    <rect x="1074" y="268" width="126" height="174" fill="#FFFFFF" stroke="#E28A22" stroke-width="3"/>
+    <!-- icon: tabler-outline/shield-check -->
+  <g transform="translate(1115, 292) scale(1.83333)" fill="none" stroke="#E28A22" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="1137" y="365" text-anchor="middle" font-size="22" font-weight="700" fill="#153A5B">安全定理</text>
+    <text x="1137" y="396" text-anchor="middle" font-size="16" fill="#18212B">Rocq 检查</text>
+  </g>
+
+  <g id="tool-role-summary" data-pptx-bounds="56 596 1168 76">
+    <line x1="56" y1="606" x2="1224" y2="606" stroke="#153A5B" stroke-width="2"/>
+    <text x="56" y="642" font-size="18" fill="#18212B"><tspan font-weight="700" fill="#153A5B">相关工作定位：</tspan>Charon 负责语义抽取，Aeneas 负责借用感知的函数化翻译；本方案把二者接入内核策略规约与 Rocq 证明。</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1224" y="702" text-anchor="end" font-size="16" fill="#153A5B">02</text>
+</svg>

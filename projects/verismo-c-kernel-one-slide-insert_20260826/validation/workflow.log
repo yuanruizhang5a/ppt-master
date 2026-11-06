@@ -1,0 +1,112 @@
+
+=== 2026-08-26T14:51:08.388Z NOTE id=8a790a3873a2 ===
+Project initialized: profile=default; path=/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826
+
+=== 2026-08-26T14:51:14.938Z PYTHON run=b4ca27a40a6e ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/project_manager.py", "import-sources", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826", "--copy", "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/exports/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx", "/home/zyr/myCode/ppt-master/projects/借鉴VeriSMo的C内核形式化验证方案.docx"]
+
+=== 2026-08-26T14:51:15.265Z PYTHON run=7d97804eca1e ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/pptx_intake.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis"]
+stderr:
+  PPTX intake -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis
+    identity: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.identity.json
+    slide_library: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.slide_library.json
+    source_profile: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/source_profile.json
+=== 2026-08-26T14:51:15.423Z END run=7d97804eca1e elapsed_ms=157 output_lines=4 retained=4 omitted=0 ===
+
+=== 2026-08-26T14:51:15.504Z PYTHON run=6833892c9af1 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.md
+=== 2026-08-26T14:51:15.653Z END run=6833892c9af1 elapsed_ms=149 output_lines=3 retained=1 omitted=2 ===
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.md
+
+=== 2026-08-26T14:51:15.726Z PYTHON run=65e9a0bd1804 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/doc_to_md.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/借鉴VeriSMo的C内核形式化验证方案.docx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/借鉴VeriSMo的C内核形式化验证方案.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/借鉴VeriSMo的C内核形式化验证方案.md (16 KB)
+=== 2026-08-26T14:51:15.888Z END run=65e9a0bd1804 elapsed_ms=162 output_lines=4 retained=1 omitted=3 ===
+=== 2026-08-26T14:51:15.897Z END run=b4ca27a40a6e elapsed_ms=958 output_lines=17 retained=1 omitted=16 ===
+
+=== 2026-08-26T14:52:23.337Z PYTHON run=b3b0b73ef601 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "scaffold", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.slide_library.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan.json", "--slides", "1,2,3,4,5"]
+stderr:
+  Plan scaffold -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan.json
+=== 2026-08-26T14:52:23.467Z END run=b3b0b73ef601 elapsed_ms=130 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-08-26T14:53:38.429Z PYTHON run=692df2f9e581 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.slide_library.json", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan_insert.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json
+=== 2026-08-26T14:53:38.562Z END run=692df2f9e581 elapsed_ms=132 output_lines=7 retained=1 omitted=6 ===
+
+=== 2026-08-26T14:53:57.544Z PYTHON run=b76b23ec8689 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.slide_library.json", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan_insert.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json
+=== 2026-08-26T14:53:57.679Z END run=b76b23ec8689 elapsed_ms=135 output_lines=2 retained=1 omitted=1 ===
+
+=== 2026-08-26T17:52:49.341Z PYTHON run=461bb12b6f93 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "apply", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan_insert.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide.pptx"]
+stderr:
+  Template-filled PPTX -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015249.pptx
+=== 2026-08-26T17:52:49.568Z END run=461bb12b6f93 elapsed_ms=226 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-08-26T17:52:53.617Z PYTHON run=2f49e1064610 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "validate", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826"]
+
+=== 2026-08-26T17:52:53.837Z PYTHON run=2db5ddef43dd ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015249.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md
+=== 2026-08-26T17:52:54.044Z END run=2db5ddef43dd elapsed_ms=207 output_lines=3 retained=1 omitted=2 ===
+=== 2026-08-26T17:52:54.077Z END run=2f49e1064610 elapsed_ms=459 output_lines=26 retained=0 omitted=26 ===
+
+=== 2026-08-26T17:53:09.261Z PYTHON run=2ed8e670b130 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "validate", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826"]
+
+=== 2026-08-26T17:53:09.479Z PYTHON run=b95efaf014d4 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015249.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md
+=== 2026-08-26T17:53:09.655Z END run=b95efaf014d4 elapsed_ms=176 output_lines=3 retained=1 omitted=2 ===
+=== 2026-08-26T17:53:09.676Z END run=2ed8e670b130 elapsed_ms=414 output_lines=3 retained=0 omitted=3 ===
+
+=== 2026-08-26T17:54:32.547Z PYTHON run=c5595e2b0f58 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.slide_library.json", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/check_report.json
+=== 2026-08-26T17:54:32.667Z END run=c5595e2b0f58 elapsed_ms=120 output_lines=2 retained=1 omitted=1 ===
+
+=== 2026-08-26T17:54:47.504Z PYTHON run=adb13f70c982 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "apply", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide.pptx"]
+stderr:
+  Template-filled PPTX -> /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015447.pptx
+=== 2026-08-26T17:54:47.721Z END run=adb13f70c982 elapsed_ms=217 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-08-26T17:54:52.230Z PYTHON run=ae2ac365083b ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "validate", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826"]
+
+=== 2026-08-26T17:54:52.435Z PYTHON run=a190c44c7b18 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015447.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md
+=== 2026-08-26T17:54:52.599Z END run=a190c44c7b18 elapsed_ms=163 output_lines=3 retained=1 omitted=2 ===
+=== 2026-08-26T17:54:52.618Z END run=ae2ac365083b elapsed_ms=388 output_lines=3 retained=0 omitted=3 ===

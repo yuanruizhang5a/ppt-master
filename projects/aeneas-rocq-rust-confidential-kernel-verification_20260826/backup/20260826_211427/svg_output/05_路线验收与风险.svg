@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#167D9A"/></marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="72 48 1136 110">
+    <text x="72" y="82" font-size="18" font-weight="700" fill="#167D9A">05 · 路线、验收与风险</text>
+    <text x="72" y="137" font-size="44" font-weight="700" fill="#123B5D">六阶段路线以“1 个模型、3 项操作、2 类属性”完成验收</text>
+    <line x1="72" y1="157" x2="1208" y2="157" stroke="#D7E0E8" stroke-width="2"/>
+  </g>
+
+  <g id="six-stage-roadmap" data-pptx-bounds="72 180 1136 182">
+    <line x1="156" y1="214" x2="1121" y2="214" stroke="#167D9A" stroke-width="4" marker-end="url(#arrow-teal)"/>
+
+    <rect x="72" y="192" width="168" height="166" rx="14" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="104" cy="214" r="22" fill="#123B5D"/>
+    <text x="104" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="92" y="268" font-size="19" font-weight="700" fill="#123B5D">环境与边界</text>
+    <text x="92" y="303" font-size="16" fill="#506273"><tspan x="92" dy="0">锁定工具链</tspan><tspan x="92" dy="24">与可信假设</tspan></text>
+
+    <rect x="265" y="192" width="168" height="166" rx="14" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="297" cy="214" r="22" fill="#123B5D"/>
+    <text x="297" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="285" y="268" font-size="19" font-weight="700" fill="#123B5D">Rust 目标模块</text>
+    <text x="285" y="303" font-size="16" fill="#506273"><tspan x="285" dy="0">实现页状态</tspan><tspan x="285" dy="24">管理操作</tspan></text>
+
+    <rect x="458" y="192" width="168" height="166" rx="14" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="490" cy="214" r="22" fill="#167D9A"/>
+    <text x="490" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="478" y="268" font-size="19" font-weight="700" fill="#123B5D">自动抽取模型</text>
+    <text x="478" y="303" font-size="16" fill="#506273"><tspan x="478" dy="0">Charon + Aeneas</tspan><tspan x="478" dy="24">生成 Rocq 模型</tspan></text>
+
+    <rect x="651" y="192" width="168" height="166" rx="14" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="683" cy="214" r="22" fill="#167D9A"/>
+    <text x="683" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="671" y="268" font-size="19" font-weight="700" fill="#123B5D">规约与不变式</text>
+    <text x="671" y="303" font-size="16" fill="#506273"><tspan x="671" dy="0">定义状态、访问</tspan><tspan x="671" dy="24">与清零性质</tspan></text>
+
+    <rect x="844" y="192" width="168" height="166" rx="14" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="876" cy="214" r="22" fill="#F59E0B"/>
+    <text x="876" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="864" y="268" font-size="19" font-weight="700" fill="#123B5D">操作定理证明</text>
+    <text x="864" y="303" font-size="16" fill="#506273"><tspan x="864" dy="0">证明隔离、完整</tspan><tspan x="864" dy="24">性与防泄露</tspan></text>
+
+    <rect x="1037" y="192" width="168" height="166" rx="14" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5"/>
+    <circle cx="1069" cy="214" r="22" fill="#F59E0B"/>
+    <text x="1069" y="222" text-anchor="middle" font-size="20" font-weight="700" fill="#FFFFFF">6</text>
+    <text x="1057" y="268" font-size="19" font-weight="700" fill="#123B5D">验收与归档</text>
+    <text x="1057" y="303" font-size="16" fill="#506273"><tspan x="1057" dy="0">脚本可复现</tspan><tspan x="1057" dy="24">报告可审计</tspan></text>
+  </g>
+
+  <g id="acceptance-panel" data-pptx-bounds="72 390 716 240">
+    <rect x="72" y="390" width="716" height="232" rx="16" fill="#123B5D"/>
+    <use data-icon="tabler-outline/checklist" x="104" y="420" width="38" height="38" fill="#9ED4E1" stroke-width="2"/>
+    <text x="158" y="449" font-size="28" font-weight="700" fill="#FFFFFF">验收指标</text>
+    <text x="104" y="505" font-size="32" font-weight="700" fill="#F8C86C">1 个模型 · 3 项操作 · 2 类属性</text>
+    <text x="104" y="550" font-size="20" fill="#FFFFFF"><tspan x="104" dy="0">• Rocq 可重新编译并完成全部定理检查</tspan><tspan x="104" dy="34">• Rust、模型、规约与证明之间具备清晰追踪关系</tspan><tspan x="104" dy="34">• 报告明确记录工具版本、可信边界、限制与复现方法</tspan></text>
+  </g>
+
+  <g id="risk-panel" data-pptx-bounds="820 390 388 232">
+    <rect x="820" y="390" width="388" height="232" rx="16" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/alert-triangle" x="852" y="420" width="38" height="38" fill="#F59E0B" stroke-width="2"/>
+    <text x="906" y="449" font-size="28" font-weight="700" fill="#8D5700">主要风险与收敛策略</text>
+    <text x="852" y="500" font-size="18" fill="#1B2430"><tspan x="852" dy="0">• 工具链不稳定 → 固化版本与最小样例</tspan><tspan x="852" dy="36">• 证明规模膨胀 → 限定模块与核心不变式</tspan><tspan x="852" dy="36">• 结论被过度解读 → 强制声明可信边界</tspan><tspan x="852" dy="36">• 自动化不足 → 优先沉淀可复用引理</tspan></text>
+  </g>
+
+  <g id="closing-statement" data-pptx-bounds="72 646 1136 38">
+    <text x="72" y="673" font-size="22" font-weight="700" fill="#123B5D">首阶段价值：建立可复现、可解释、可扩展的 Rust → Rocq 验证路径，而非宣称全系统已验证。</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1208" y="690" text-anchor="end" font-size="18" fill="#82919F">05</text>
+</svg>

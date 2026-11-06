@@ -1,0 +1,407 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "4a3fcc80969ccb9234f9b5c696bcf2912cddb887349499bda1b2a2b15b1303c9",
+    "file_count": 5,
+    "files": [
+      {
+        "file": "01_研究目标与问题界定.svg",
+        "sha256": "f35b826eee4516f5df4f797bb3411ef7813bb1453b3126e0c5ce8a068988edef"
+      },
+      {
+        "file": "02_相关工作与总体技术路线.svg",
+        "sha256": "79c3062b5903e44f90b2586a3b6119d3150f6dda1068f4b9ff45346c4dbf1431"
+      },
+      {
+        "file": "03_Rocq模型与安全属性.svg",
+        "sha256": "6ab440ea7cd57bab8e713a21709b3bcce2c06a080d5f2926eff5665b2eaca9b2"
+      },
+      {
+        "file": "04_VeriSMo借鉴与最小验证案例.svg",
+        "sha256": "78e6ca6e104e858bc1b1fa81f29be2d4ca0fa161e66d72eaa090e2edfde44793"
+      },
+      {
+        "file": "05_实施路线与结题验收.svg",
+        "sha256": "40a690cad3468a66b4abe391bd1ec283aad336eaf14a5d159813bb184897ab34"
+      }
+    ]
+  },
+  "summary": {
+    "total": 5,
+    "passed": 4,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "03_Rocq模型与安全属性.svg",
+          "message": "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"invariant-foundation\"> x=562.0, y=269.0..294.0, 2 lines; <g id=\"invariant-foundation\"> x=562.0, y=374.0..399.0, 2 lines; <g id=\"invariant-foundation\"> x=562.0, y=479.0..504.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {
+      "Arial, sans-serif": [
+        "01_研究目标与问题界定.svg",
+        "05_实施路线与结题验收.svg"
+      ]
+    },
+    "sizes": {
+      "58": [
+        "01_研究目标与问题界定.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 5,
+    "totals": {
+      "text_elements": 154,
+      "image_placements": 0,
+      "icons": 8,
+      "svg_geometry_elements": 114,
+      "preset_shapes": 0,
+      "page_frame_elements": 5,
+      "marker_uses": 22
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 3,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 2
+    },
+    "geometry_elements": {
+      "circle": 25,
+      "ellipse": 0,
+      "line": 40,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 49
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 2,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_研究目标与问题界定.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/01_研究目标与问题界定.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, sans-serif",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 7,
+        "contextual_values": {
+          "font_families": [
+            "Arial, sans-serif"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "58": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "f35b826eee4516f5df4f797bb3411ef7813bb1453b3126e0c5ce8a068988edef"
+    },
+    {
+      "file": "02_相关工作与总体技术路线.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/02_相关工作与总体技术路线.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 29,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "geometry": {
+            "svg_elements": {
+              "rect": 14,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 13,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 9
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, Arial, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 29,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "79c3062b5903e44f90b2586a3b6119d3150f6dda1068f4b9ff45346c4dbf1431"
+    },
+    {
+      "file": "03_Rocq模型与安全属性.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/03_Rocq模型与安全属性.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Detected 3 paragraph-like line run(s) split across sibling <text> elements (<g id=\"invariant-foundation\"> x=562.0, y=269.0..294.0, 2 lines; <g id=\"invariant-foundation\"> x=562.0, y=374.0..399.0, 2 lines; <g id=\"invariant-foundation\"> x=562.0, y=479.0..504.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 40,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 8,
+              "ellipse": 0,
+              "line": 12,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 6
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, Arial, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 40,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "6ab440ea7cd57bab8e713a21709b3bcce2c06a080d5f2926eff5665b2eaca9b2"
+    },
+    {
+      "file": "04_VeriSMo借鉴与最小验证案例.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/04_VeriSMo借鉴与最小验证案例.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 30,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 2,
+          "geometry": {
+            "svg_elements": {
+              "rect": 10,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 6,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 2
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 1,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, Arial, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 30,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "78e6ca6e104e858bc1b1fa81f29be2d4ca0fa161e66d72eaa090e2edfde44793"
+    },
+    {
+      "file": "05_实施路线与结题验收.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/05_实施路线与结题验收.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 31,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 8,
+              "circle": 10,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 5
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, sans-serif",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 31,
+        "tspan_elements": 0,
+        "contextual_values": {
+          "font_families": [
+            "Arial, sans-serif"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "40a690cad3468a66b4abe391bd1ec283aad336eaf14a5d159813bb184897ab34"
+    }
+  ]
+}

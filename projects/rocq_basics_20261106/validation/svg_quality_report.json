@@ -1,0 +1,4123 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "9acbe948426b2d1a623dc581f8a0cc8d4afdcc3ff91e3893f03ba798f7cbded7",
+    "file_count": 64,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "9903e8fded5b2cad2f76c8ebddd689ad118e6dbe5423c968658927ef754183bb"
+      },
+      {
+        "file": "02_learning_map.svg",
+        "sha256": "fc7ee19b4f3915fdb21d1f8e424c18e2b5535ecd3c1fe1e03bf6dd4c11781c1e"
+      },
+      {
+        "file": "03_functional_style.svg",
+        "sha256": "7a11fe16ba0121a02f214dd3b8c26d8671e9ef0e2ca87d179e03ed0c0cc12708"
+      },
+      {
+        "file": "04_days.svg",
+        "sha256": "fe7b93cc2fa919f68cbb1af37e0ebac7a673d4a23b37f8fd502ec92aab072fdf"
+      },
+      {
+        "file": "05_working_day.svg",
+        "sha256": "33f1ae9a4649d807b7cf887ba7a34c814652225059c74e4a3b9c38848d0f7e06"
+      },
+      {
+        "file": "06_commands.svg",
+        "sha256": "b38b4b15bdf27695e0bcac80a88ebadf059e55c54767af4617dca6bd198fae43"
+      },
+      {
+        "file": "07_example_proof.svg",
+        "sha256": "d7faee71a8d4f55e7c0bbe5af4a73ee3ddb0020555caad564753a0f4a04b41bc"
+      },
+      {
+        "file": "08_booleans.svg",
+        "sha256": "769d1dd19c551d0b7096510f5c46e82d053293441f77de04796127334d3bc3cf"
+      },
+      {
+        "file": "09_boolean_operations.svg",
+        "sha256": "f6f84f5ec2dbdae1c79c82d0a1fd90f1d358e35dc05cd163abf81f8c6221fbd6"
+      },
+      {
+        "file": "10_conditionals.svg",
+        "sha256": "5b31f4d5a829319f361b7cf95e560a8390bcabfec70761e040b970fa7d539b59"
+      },
+      {
+        "file": "11_function_types.svg",
+        "sha256": "f09dcff6923f1137a14b5cd34f557f87dadb0cc6de33ccfcc565f0583f852205"
+      },
+      {
+        "file": "12_boolean_practice.svg",
+        "sha256": "86d59c5aaace3fc6a507b6e7850bc1787d285749e54c77b6c2e434c3423beaa2"
+      },
+      {
+        "file": "13_colors.svg",
+        "sha256": "3e59cfdadfc5af38c741779a05280647bc1bd0d3753a94fbcb9e9d7883b85bd9"
+      },
+      {
+        "file": "14_color_patterns.svg",
+        "sha256": "07e40d302fa78129f6ebe3b461b6a4c8421f7a49b859a44ae20219aa222d89b8"
+      },
+      {
+        "file": "15_modules.svg",
+        "sha256": "b9553a3fbe7a1766c360256d28dcc1d2aca8ebcc219209040485795f418e5246"
+      },
+      {
+        "file": "16_tuples.svg",
+        "sha256": "9eba6359651771e808331812f39f788e7fb5815b8f092afa0220da258a8f4da7"
+      },
+      {
+        "file": "17_naturals.svg",
+        "sha256": "13a100a1a4059aa23c11906d139dc5d1ce962d9fd134f2fcf37c44ea37935a75"
+      },
+      {
+        "file": "18_constructors_functions.svg",
+        "sha256": "52266287ef3c059f21e154c49ae740499056f7b7b76e44998d00ab22a5294f8b"
+      },
+      {
+        "file": "19_even_odd.svg",
+        "sha256": "12df58e6fd014eb96faac31b22c9df0ac851895dacb8a4b60c392ddd9ebf9c15"
+      },
+      {
+        "file": "20_addition.svg",
+        "sha256": "b49f3c5513d3dde267baabcac86ca88deb96946690cd62762629499d02abdd34"
+      },
+      {
+        "file": "21_multiplication.svg",
+        "sha256": "abb5c956550ecdc8ca3f1aa5d90ba580b9c01db9b6f0db8eb59511b809bb6b05"
+      },
+      {
+        "file": "22_subtraction.svg",
+        "sha256": "02863faf72e7cd81b047724788094a6ca969100ed0f67d4f4e0f788aa9b435b2"
+      },
+      {
+        "file": "23_powers_factorial.svg",
+        "sha256": "68a075aadc4395f3656b0bf8a4037fc409439f9e3bf503e41e78c4c669dcff58"
+      },
+      {
+        "file": "24_eqb.svg",
+        "sha256": "ba3fb36fa884d0f0df1f87db94959f5774c87cdcb37f795d2dfbf6a9b5dd4342"
+      },
+      {
+        "file": "25_order_tests.svg",
+        "sha256": "ea3422535b0e5f18882ffbebdbe04bda13232076b7b4538144d637f87f638962"
+      },
+      {
+        "file": "26_bool_prop.svg",
+        "sha256": "82c7bd0ef604d695c300fb2a5a330ce245eb6e83a1764ae88671d6c92462c88f"
+      },
+      {
+        "file": "27_notation.svg",
+        "sha256": "e3014b31d66cec314b7bdc14054a9a6a60a211760d5a6cbbc93570df818ef0a5"
+      },
+      {
+        "file": "28_termination.svg",
+        "sha256": "3ef566a8bf4b587f2a9d7824b6746e3f6d0d68e17b6c5f47a454991a8d845f67"
+      },
+      {
+        "file": "29_general_theorems.svg",
+        "sha256": "4871d84ecb161549c5641bf0847deee8546a2d0c07e0ece3247ce741ee970f65"
+      },
+      {
+        "file": "30_goal_context.svg",
+        "sha256": "a05371ca0b4dca962096c999ad76c39767e3591543769dad691d8fcafe491a21"
+      },
+      {
+        "file": "31_simplification.svg",
+        "sha256": "02f2b5622125e28a509787dd18f8b32f0a6ad25d7ad361e59eddca6645f40ad9"
+      },
+      {
+        "file": "32_rewrite_hypothesis.svg",
+        "sha256": "241122333e640295666fd8bdf50e86d60e68441ef505e39df3e743695e0f1919"
+      },
+      {
+        "file": "33_rewrite_lemmas.svg",
+        "sha256": "e9ab18d70693ded6b42b3ff6b7a5f4ba8c881320c67af99d997b392048e9e298"
+      },
+      {
+        "file": "34_rewrite_practice.svg",
+        "sha256": "c7db10cfea86997ab5f16fa4ae97d0472ae4b9645adb9f60270d143e4390250f"
+      },
+      {
+        "file": "35_proof_endings.svg",
+        "sha256": "8670a501428eee6c2aa0c0ac89f2af03bbfe523e6a889e342638660e0d1cc3e2"
+      },
+      {
+        "file": "36_stuck_simpl.svg",
+        "sha256": "e4cf89036ec6dab9dcd79bc2e6a46230ffc784292e8ccca219effc15cf050695"
+      },
+      {
+        "file": "37_destruct_nat.svg",
+        "sha256": "6cd9686be09d7672b622c896291f78a33380f9bef4fceb69980b5eaf06f950ca"
+      },
+      {
+        "file": "38_negb_involution.svg",
+        "sha256": "472514f5d119248e2bd460c0029bf6e7cf75af6140c6a5796763c14be4aa4512"
+      },
+      {
+        "file": "39_nested_cases.svg",
+        "sha256": "4b27f89e47215312982c27b1c1a3544ddbe067709386e6e362181843f39890ae"
+      },
+      {
+        "file": "40_subgoal_structure.svg",
+        "sha256": "a2e6addd8f31e9aaa51cda0109474fd04c7b8a663bba355aa5235844758d4866"
+      },
+      {
+        "file": "41_hypothesis_simpl.svg",
+        "sha256": "412991a0300c8bbd65a08b226777f7f67e880b3a0669044fb73c13a161fcfeb0"
+      },
+      {
+        "file": "42_function_values_proofs.svg",
+        "sha256": "c743c52bc1769703fc80acbb44d03bc48fb3ac62d6b21e636ec2ccb25f1e28ab"
+      },
+      {
+        "file": "43_tactic_choice.svg",
+        "sha256": "ab678747920639d36e4df3ae5d7eb0369dd56a4ebcc67f406463c163be5836b9"
+      },
+      {
+        "file": "44_grading_model.svg",
+        "sha256": "1fc91ef99789fd6f765c2a7d7d2027c7839db56e44cfce6aabab23b7fde3a606"
+      },
+      {
+        "file": "45_grade_comparators.svg",
+        "sha256": "a07e03dd8024e1246dd917b0e26a4d4b336c4717da5c2299c044128eb57a24e4"
+      },
+      {
+        "file": "46_lexicographic.svg",
+        "sha256": "91aa0603ef9015cfe485469353a903fd47586fc67581c6584989774a853206eb"
+      },
+      {
+        "file": "47_grade_counterexample.svg",
+        "sha256": "9fc37945c3176faf8eb24368a7cc6c00e5ddfe3e32265f26b9e5c04d0a40bd5c"
+      },
+      {
+        "file": "48_repair_theorem.svg",
+        "sha256": "279485de2dfad50f240db1ca4e3db96bb37df8f3bc89511f4069f29b0e88d32f"
+      },
+      {
+        "file": "49_lower_grade.svg",
+        "sha256": "45b9c607324c6f54c171501db38e2c82fbe78d153f441b4e74b88238ed007272"
+      },
+      {
+        "file": "50_lower_grade_properties.svg",
+        "sha256": "1bae1d58b4a9e212adfd98c94e75d3bf2bf27264a2fcd2cda1cc714b20ed7851"
+      },
+      {
+        "file": "51_policy_ranges.svg",
+        "sha256": "89fe89947c7d186acac360b7fce5323d70c6e212bc240536b1ec77cc2b090ebc"
+      },
+      {
+        "file": "52_apply_policy.svg",
+        "sha256": "4104ad2f34259afb5f9d1bb7a2b295a5ff4b87cb618fa154f7d4d58ba972d5d5"
+      },
+      {
+        "file": "53_no_penalty_proof.svg",
+        "sha256": "59f21f7e5d0f57c8ec6f7f116388c6f02d61b5a736ad92b7ab723f9969f57dbd"
+      },
+      {
+        "file": "54_one_step_proof.svg",
+        "sha256": "7ebb1c715af1fd1c629613e5764928c212c8a8c8581b6686c406b26241115d44"
+      },
+      {
+        "file": "55_binary_type.svg",
+        "sha256": "817869049ccecd9f33edc4b06c002563a3034833946af921d19915eb39288158"
+      },
+      {
+        "file": "56_binary_values.svg",
+        "sha256": "ed8ee45c3bd116a7820ec818023f406ad7bac9da9dc0b8712cd403772d0f31d8"
+      },
+      {
+        "file": "57_binary_increment.svg",
+        "sha256": "eee60796e5df5c1dc65957e1ad2e98026110ed58a7850ed7bdc36dc2759991c7"
+      },
+      {
+        "file": "58_binary_conversion.svg",
+        "sha256": "16ed3d5571477eaa8e4645f6dc0141ba4a4f01fc8dd6e1d5fa06f038096a81a0"
+      },
+      {
+        "file": "59_tests_and_proofs.svg",
+        "sha256": "4682a32eebdcbcb7e13caea37c80fadd2b2c27701acb4218dc1336d5c7e6c0d1"
+      },
+      {
+        "file": "60_exercise_map.svg",
+        "sha256": "3be5991056945a69b884a15c64f19307377a126406be52d0f8907e7a9383950f"
+      },
+      {
+        "file": "61_compile_checks.svg",
+        "sha256": "2e6b3026312a27698660afe97d207da56e8269190b9fb15fc8b2ef2dad60f673"
+      },
+      {
+        "file": "62_assumptions_submission.svg",
+        "sha256": "7f561e31431dd0d3d577c627009748b0fd7de3f5404feb84b31856b0b08b8748"
+      },
+      {
+        "file": "63_connected_model.svg",
+        "sha256": "d6b7df3b74e887ce228f3f684b914ad687ed8c76c6c7a90233ce7490b22cc524"
+      },
+      {
+        "file": "64_self_check.svg",
+        "sha256": "6d7a87e026da5a95387fd69dbb7e5c5484ddc8cc98d9d42bd2cccf0327b5f71a"
+      }
+    ]
+  },
+  "summary": {
+    "total": 64,
+    "passed": 0,
+    "warnings": 64,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 65,
+      "issues": [
+        {
+          "file": "01_cover.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=210; text='Functional Programmi…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "02_learning_map.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=674; text='Read a definition, p…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "03_functional_style.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=195; text='Understand a computa…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "04_days.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Inductive day : Type…'), <text> (x=658, y=226; text='day is the type.Its …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "05_working_day.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=136; text='Definition next_work…'), <text> (x=72, y=624; text='next_working_day fri…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "06_commands.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=588; text='Example friday_test …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "07_example_proof.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Example test_next_wo…'), <text> (x=52, y=652; text='A proof connects the…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "08_booleans.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=204; text='Inductive bool : Typ…'), <text> (x=52, y=550; text='Compute (negb true).…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "09_boolean_operations.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=176; text='Definition andb (b1 …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "10_conditionals.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text=\"Definition negb' (b …\"), <text> (x=52, y=658; text='The first constructo…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "10_conditionals.svg",
+          "message": "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"result\"> x=72.0, y=528.0..568.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+        },
+        {
+          "file": "11_function_types.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Check true : bool.Ch…'), <text> (x=52, y=516; text='negb takes one boole…'), <text> (x=52, y=672; text='Rocq can infer many …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "12_boolean_practice.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=196; text='nandb: true when at …'), <text> (x=72, y=392; text='Definition nandb (b1…'), <text> (x=52, y=606; text='nandb true true → fa…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "13_colors.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='Inductive rgb : Type…'), <text> (x=52, y=510; text='red : rgbprimary red…'), <text> (x=534, y=510; text='true redred primaryp…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "14_color_patterns.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=130; text='Definition monochrom…'), <text> (x=52, y=604; text='isred (primary red) …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "15_modules.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=204; text='Module Playground. D…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "16_tuples.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Inductive bit : Type…'), <text> (x=52, y=578; text='all_zero (bits B1 B0…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "17_naturals.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Inductive nat : Type…'), <text> (x=52, y=402; text='O represents 0S O re…'), <text> (x=52, y=610; text='Two constructors gen…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "18_constructors_functions.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Definition pred (n :…'), <text> (x=52, y=514; text='pred 0 → 0 pred 3 → …'), <text> (x=52, y=652; text='S stores a successor…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "19_even_odd.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Fixpoint even (n : n…'), <text> (x=72, y=540; text='even 4 → even 2 → ev…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "20_addition.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint plus (n m :…'), <text> (x=72, y=456; text='plus 3 2→ S (plus 2 …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "21_multiplication.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='Fixpoint mult (n m :…'), <text> (x=52, y=474; text='mult 3 3 → plus 3 (m…'), <text> (x=52, y=674; text='Example test_mult1 :…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "22_subtraction.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint minus (n m …'), <text> (x=72, y=458; text='minus 5 2 → minus 4 …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "23_powers_factorial.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Fixpoint exp (base p…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "24_eqb.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Fixpoint eqb (n m : …'), <text> (x=52, y=600; text='eqb 2 2 → eqb 1 1 → …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "25_order_tests.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Fixpoint leb (n m : …'), <text> (x=52, y=528; text='2 <=? 2 → true 2 <=?…'), <text> (x=52, y=686; text='The notations <=? an…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "26_bool_prop.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=232; text='Check (2 =? 3).(* bo…'), <text> (x=560, y=232; text='Check (2 = 3).(* Pro…'), <text> (x=52, y=610; text='=? computes true or …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "27_notation.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Notation \"x + y\" := …'), <text> (x=52, y=524; text='Lower precedence lev…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "28_termination.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=200; text=\"Fixpoint plus' (n m …\"), <text> (x=52, y=448; text='Rocq checks that som…'), <text> (x=72, y=678; text='A terminating algori…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "29_general_theorems.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=214; text='Example plus_1_1 : 1…'), <text> (x=52, y=558; text='forall n means the p…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "30_goal_context.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem plus_O_n : f…'), <text> (x=72, y=356; text='Start: goal forall n…'), <text> (x=52, y=626; text='The context records …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "31_simplification.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=422; text='The match cannot cho…'), <text> (x=72, y=668; text='reflexivity computes…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "32_rewrite_hypothesis.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem plus_id_exam…'), <text> (x=52, y=454; text='H : n = m goal: n + …'), <text> (x=52, y=674; text='In a theorem, -> mea…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "33_rewrite_lemmas.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=190; text='mult_n_O : forall n,…'), <text> (x=72, y=374; text='Theorem mult_n_0_m_0…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "34_rewrite_practice.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem plus_id_exer…'), <text> (x=72, y=444; text='Theorem mult_n_1 : f…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "35_proof_endings.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=208; text='Every remaining goal…'), <text> (x=52, y=398; text='Useful as a temporar…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "36_stuck_simpl.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem plus_1_neq_0…'), <text> (x=52, y=646; text='plus first inspects …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "37_destruct_nat.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Theorem plus_1_neq_0…'), <text> (x=52, y=488; text='Case O: (0 + 1) =? 0…'), <text> (x=52, y=680; text=\"[| n'] names no fiel…\"); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "38_negb_involution.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem negb_involut…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "39_nested_cases.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem andb_commuta…'), <text> (x=52, y=630; text='Each branch checks o…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "40_subgoal_structure.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='intros b c. destruct…'), <text> (x=72, y=480; text='intros [| n]. (* two…'), <text> (x=52, y=654; text='Intro patterns are c…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "41_hypothesis_simpl.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem andb_true_el…'), <text> (x=52, y=590; text='If b = true, simpl i…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "42_function_values_proofs.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Theorem identity_fn_…'), <text> (x=72, y=496; text='Theorem negation_fn_…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "43_tactic_choice.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=504; text='forall n, 0 =? (n + …'), <text> (x=52, y=688; text='destruct provides ca…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "44_grading_model.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=200; text='Inductive letter : T…'), <text> (x=52, y=534; text='Grade A Minus repres…'), <text> (x=52, y=684; text='We can compute decis…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "45_grade_comparators.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=122; text='Definition letter_co…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "46_lexicographic.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Definition grade_com…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "47_grade_counterexample.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition lower_let…'), <text> (x=72, y=592; text='lower_letter F = Fle…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "48_repair_theorem.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Theorem lower_letter…'), <text> (x=52, y=606; text='The hypothesis says …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "49_lower_grade.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition lower_gra…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "50_lower_grade_properties.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='lower_grade (Grade A…'), <text> (x=72, y=434; text='forall g : grade, gr…'), <text> (x=52, y=622; text='Proof plan: unpack G…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "51_policy_ranges.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=586; text='A step changes the m…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "52_apply_policy.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition apply_lat…'), <text> (x=72, y=574; text='days 8 → A+ days 9 →…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "53_no_penalty_proof.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=130; text='apply_late_policy_un…'), <text> (x=72, y=330; text='Theorem no_penalty_f…'), <text> (x=52, y=660; text='if late_days <? 9 th…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "54_one_step_proof.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem grade_lowere…'), <text> (x=52, y=544; text='H9 selects the outer…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "55_binary_type.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Inductive bin : Type…'), <text> (x=52, y=666; text='Unary values chain S…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "56_binary_values.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=664; text='Comprehension check:…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "57_binary_increment.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint incr (m : b…'), <text> (x=72, y=484; text='incr (B1 (B1 Z))→ B0…'), <text> (x=52, y=688; text='A low bit 0 becomes …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "58_binary_conversion.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint bin_to_nat …'), <text> (x=52, y=432; text='bin_to_nat (B0 (B1 Z…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "59_tests_and_proofs.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Example test_bin_inc…'), <text> (x=52, y=656; text='This property quanti…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "60_exercise_map.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=328; text='plus_id_exercise · m…'), <text> (x=52, y=526; text='letter_comparison_Eq…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "61_compile_checks.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='rocq compile -Q . LF…'), <text> (x=52, y=658; text='Check missing exerci…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "62_assumptions_submission.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=198; text='Type OK? You proved …'), <text> (x=52, y=406; text=\"Check the course's a…\"), <text> (x=72, y=638; text='Keep exercise names …'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "63_connected_model.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=682; text='The same ideas expla…'); use supported explicit text positioning when page fit matters"
+        },
+        {
+          "file": "64_self_check.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=516; text='Compute (bin_to_nat …'); use supported explicit text positioning when page fit matters"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 64,
+    "totals": {
+      "text_elements": 431,
+      "image_placements": 0,
+      "icons": 0,
+      "svg_geometry_elements": 179,
+      "preset_shapes": 0,
+      "page_frame_elements": 1,
+      "marker_uses": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 3,
+      "formulas": 0
+    },
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 0,
+      "path": 3,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 176
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 3
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=210; text='Functional Programmi…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "9903e8fded5b2cad2f76c8ebddd689ad118e6dbe5423c968658927ef754183bb"
+    },
+    {
+      "file": "02_learning_map.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/02_learning_map.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=674; text='Read a definition, p…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "fc7ee19b4f3915fdb21d1f8e424c18e2b5535ecd3c1fe1e03bf6dd4c11781c1e"
+    },
+    {
+      "file": "03_functional_style.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/03_functional_style.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=195; text='Understand a computa…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "7a11fe16ba0121a02f214dd3b8c26d8671e9ef0e2ca87d179e03ed0c0cc12708"
+    },
+    {
+      "file": "04_days.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/04_days.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Inductive day : Type…'), <text> (x=658, y=226; text='day is the type.Its …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "fe7b93cc2fa919f68cbb1af37e0ebac7a673d4a23b37f8fd502ec92aab072fdf"
+    },
+    {
+      "file": "05_working_day.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/05_working_day.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=136; text='Definition next_work…'), <text> (x=72, y=624; text='next_working_day fri…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "33f1ae9a4649d807b7cf887ba7a34c814652225059c74e4a3b9c38848d0f7e06"
+    },
+    {
+      "file": "06_commands.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/06_commands.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=588; text='Example friday_test …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "b38b4b15bdf27695e0bcac80a88ebadf059e55c54767af4617dca6bd198fae43"
+    },
+    {
+      "file": "07_example_proof.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/07_example_proof.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Example test_next_wo…'), <text> (x=52, y=652; text='A proof connects the…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "d7faee71a8d4f55e7c0bbe5af4a73ee3ddb0020555caad564753a0f4a04b41bc"
+    },
+    {
+      "file": "08_booleans.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/08_booleans.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=204; text='Inductive bool : Typ…'), <text> (x=52, y=550; text='Compute (negb true).…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "769d1dd19c551d0b7096510f5c46e82d053293441f77de04796127334d3bc3cf"
+    },
+    {
+      "file": "09_boolean_operations.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/09_boolean_operations.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=176; text='Definition andb (b1 …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "f6f84f5ec2dbdae1c79c82d0a1fd90f1d358e35dc05cd163abf81f8c6221fbd6"
+    },
+    {
+      "file": "10_conditionals.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/10_conditionals.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text=\"Definition negb' (b …\"), <text> (x=52, y=658; text='The first constructo…'); use supported explicit text positioning when page fit matters",
+        "Detected 1 paragraph-like line run(s) split across sibling <text> elements (<g id=\"result\"> x=72.0, y=528.0..568.0, 2 lines). If each run is one prose paragraph, combine it into one <text>: keep its first line as direct text and use direct <tspan> children with the parent x and positive relative dy values for later lines. An all-<tspan> form may start with dy=\"0\". Keep semantically independent text frames separate."
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "5b31f4d5a829319f361b7cf95e560a8390bcabfec70761e040b970fa7d539b59"
+    },
+    {
+      "file": "11_function_types.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/11_function_types.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Check true : bool.Ch…'), <text> (x=52, y=516; text='negb takes one boole…'), <text> (x=52, y=672; text='Rocq can infer many …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "f09dcff6923f1137a14b5cd34f557f87dadb0cc6de33ccfcc565f0583f852205"
+    },
+    {
+      "file": "12_boolean_practice.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/12_boolean_practice.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=196; text='nandb: true when at …'), <text> (x=72, y=392; text='Definition nandb (b1…'), <text> (x=52, y=606; text='nandb true true → fa…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "86d59c5aaace3fc6a507b6e7850bc1787d285749e54c77b6c2e434c3423beaa2"
+    },
+    {
+      "file": "13_colors.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/13_colors.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='Inductive rgb : Type…'), <text> (x=52, y=510; text='red : rgbprimary red…'), <text> (x=534, y=510; text='true redred primaryp…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "3e59cfdadfc5af38c741779a05280647bc1bd0d3753a94fbcb9e9d7883b85bd9"
+    },
+    {
+      "file": "14_color_patterns.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/14_color_patterns.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=130; text='Definition monochrom…'), <text> (x=52, y=604; text='isred (primary red) …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "07e40d302fa78129f6ebe3b461b6a4c8421f7a49b859a44ae20219aa222d89b8"
+    },
+    {
+      "file": "15_modules.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/15_modules.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=204; text='Module Playground. D…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "b9553a3fbe7a1766c360256d28dcc1d2aca8ebcc219209040485795f418e5246"
+    },
+    {
+      "file": "16_tuples.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/16_tuples.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Inductive bit : Type…'), <text> (x=52, y=578; text='all_zero (bits B1 B0…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "9eba6359651771e808331812f39f788e7fb5815b8f092afa0220da258a8f4da7"
+    },
+    {
+      "file": "17_naturals.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/17_naturals.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Inductive nat : Type…'), <text> (x=52, y=402; text='O represents 0S O re…'), <text> (x=52, y=610; text='Two constructors gen…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "13a100a1a4059aa23c11906d139dc5d1ce962d9fd134f2fcf37c44ea37935a75"
+    },
+    {
+      "file": "18_constructors_functions.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/18_constructors_functions.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Definition pred (n :…'), <text> (x=52, y=514; text='pred 0 → 0 pred 3 → …'), <text> (x=52, y=652; text='S stores a successor…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "52266287ef3c059f21e154c49ae740499056f7b7b76e44998d00ab22a5294f8b"
+    },
+    {
+      "file": "19_even_odd.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/19_even_odd.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Fixpoint even (n : n…'), <text> (x=72, y=540; text='even 4 → even 2 → ev…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "12df58e6fd014eb96faac31b22c9df0ac851895dacb8a4b60c392ddd9ebf9c15"
+    },
+    {
+      "file": "20_addition.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/20_addition.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint plus (n m :…'), <text> (x=72, y=456; text='plus 3 2→ S (plus 2 …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "b49f3c5513d3dde267baabcac86ca88deb96946690cd62762629499d02abdd34"
+    },
+    {
+      "file": "21_multiplication.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/21_multiplication.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='Fixpoint mult (n m :…'), <text> (x=52, y=474; text='mult 3 3 → plus 3 (m…'), <text> (x=52, y=674; text='Example test_mult1 :…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "abb5c956550ecdc8ca3f1aa5d90ba580b9c01db9b6f0db8eb59511b809bb6b05"
+    },
+    {
+      "file": "22_subtraction.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/22_subtraction.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint minus (n m …'), <text> (x=72, y=458; text='minus 5 2 → minus 4 …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "02863faf72e7cd81b047724788094a6ca969100ed0f67d4f4e0f788aa9b435b2"
+    },
+    {
+      "file": "23_powers_factorial.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/23_powers_factorial.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Fixpoint exp (base p…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "68a075aadc4395f3656b0bf8a4037fc409439f9e3bf503e41e78c4c669dcff58"
+    },
+    {
+      "file": "24_eqb.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/24_eqb.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Fixpoint eqb (n m : …'), <text> (x=52, y=600; text='eqb 2 2 → eqb 1 1 → …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "ba3fb36fa884d0f0df1f87db94959f5774c87cdcb37f795d2dfbf6a9b5dd4342"
+    },
+    {
+      "file": "25_order_tests.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/25_order_tests.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Fixpoint leb (n m : …'), <text> (x=52, y=528; text='2 <=? 2 → true 2 <=?…'), <text> (x=52, y=686; text='The notations <=? an…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "ea3422535b0e5f18882ffbebdbe04bda13232076b7b4538144d637f87f638962"
+    },
+    {
+      "file": "26_bool_prop.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/26_bool_prop.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=232; text='Check (2 =? 3).(* bo…'), <text> (x=560, y=232; text='Check (2 = 3).(* Pro…'), <text> (x=52, y=610; text='=? computes true or …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "82c7bd0ef604d695c300fb2a5a330ce245eb6e83a1764ae88671d6c92462c88f"
+    },
+    {
+      "file": "27_notation.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/27_notation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Notation \"x + y\" := …'), <text> (x=52, y=524; text='Lower precedence lev…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "e3014b31d66cec314b7bdc14054a9a6a60a211760d5a6cbbc93570df818ef0a5"
+    },
+    {
+      "file": "28_termination.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/28_termination.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=200; text=\"Fixpoint plus' (n m …\"), <text> (x=52, y=448; text='Rocq checks that som…'), <text> (x=72, y=678; text='A terminating algori…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "3ef566a8bf4b587f2a9d7824b6746e3f6d0d68e17b6c5f47a454991a8d845f67"
+    },
+    {
+      "file": "29_general_theorems.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/29_general_theorems.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=214; text='Example plus_1_1 : 1…'), <text> (x=52, y=558; text='forall n means the p…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "4871d84ecb161549c5641bf0847deee8546a2d0c07e0ece3247ce741ee970f65"
+    },
+    {
+      "file": "30_goal_context.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/30_goal_context.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem plus_O_n : f…'), <text> (x=72, y=356; text='Start: goal forall n…'), <text> (x=52, y=626; text='The context records …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "a05371ca0b4dca962096c999ad76c39767e3591543769dad691d8fcafe491a21"
+    },
+    {
+      "file": "31_simplification.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/31_simplification.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=422; text='The match cannot cho…'), <text> (x=72, y=668; text='reflexivity computes…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "02f2b5622125e28a509787dd18f8b32f0a6ad25d7ad361e59eddca6645f40ad9"
+    },
+    {
+      "file": "32_rewrite_hypothesis.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/32_rewrite_hypothesis.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem plus_id_exam…'), <text> (x=52, y=454; text='H : n = m goal: n + …'), <text> (x=52, y=674; text='In a theorem, -> mea…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "241122333e640295666fd8bdf50e86d60e68441ef505e39df3e743695e0f1919"
+    },
+    {
+      "file": "33_rewrite_lemmas.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/33_rewrite_lemmas.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=190; text='mult_n_O : forall n,…'), <text> (x=72, y=374; text='Theorem mult_n_0_m_0…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "e9ab18d70693ded6b42b3ff6b7a5f4ba8c881320c67af99d997b392048e9e298"
+    },
+    {
+      "file": "34_rewrite_practice.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/34_rewrite_practice.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem plus_id_exer…'), <text> (x=72, y=444; text='Theorem mult_n_1 : f…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "c7db10cfea86997ab5f16fa4ae97d0472ae4b9645adb9f60270d143e4390250f"
+    },
+    {
+      "file": "35_proof_endings.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/35_proof_endings.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=208; text='Every remaining goal…'), <text> (x=52, y=398; text='Useful as a temporar…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "8670a501428eee6c2aa0c0ac89f2af03bbfe523e6a889e342638660e0d1cc3e2"
+    },
+    {
+      "file": "36_stuck_simpl.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/36_stuck_simpl.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem plus_1_neq_0…'), <text> (x=52, y=646; text='plus first inspects …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "e4cf89036ec6dab9dcd79bc2e6a46230ffc784292e8ccca219effc15cf050695"
+    },
+    {
+      "file": "37_destruct_nat.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/37_destruct_nat.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=196; text='Theorem plus_1_neq_0…'), <text> (x=52, y=488; text='Case O: (0 + 1) =? 0…'), <text> (x=52, y=680; text=\"[| n'] names no fiel…\"); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "6cd9686be09d7672b622c896291f78a33380f9bef4fceb69980b5eaf06f950ca"
+    },
+    {
+      "file": "38_negb_involution.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/38_negb_involution.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Theorem negb_involut…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "472514f5d119248e2bd460c0029bf6e7cf75af6140c6a5796763c14be4aa4512"
+    },
+    {
+      "file": "39_nested_cases.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/39_nested_cases.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem andb_commuta…'), <text> (x=52, y=630; text='Each branch checks o…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 3,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 3,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "4b27f89e47215312982c27b1c1a3544ddbe067709386e6e362181843f39890ae"
+    },
+    {
+      "file": "40_subgoal_structure.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/40_subgoal_structure.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='intros b c. destruct…'), <text> (x=72, y=480; text='intros [| n]. (* two…'), <text> (x=52, y=654; text='Intro patterns are c…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "a2e6addd8f31e9aaa51cda0109474fd04c7b8a663bba355aa5235844758d4866"
+    },
+    {
+      "file": "41_hypothesis_simpl.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/41_hypothesis_simpl.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem andb_true_el…'), <text> (x=52, y=590; text='If b = true, simpl i…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 3,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 3,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "412991a0300c8bbd65a08b226777f7f67e880b3a0669044fb73c13a161fcfeb0"
+    },
+    {
+      "file": "42_function_values_proofs.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/42_function_values_proofs.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Theorem identity_fn_…'), <text> (x=72, y=496; text='Theorem negation_fn_…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 4,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "c743c52bc1769703fc80acbb44d03bc48fb3ac62d6b21e636ec2ccb25f1e28ab"
+    },
+    {
+      "file": "43_tactic_choice.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/43_tactic_choice.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=504; text='forall n, 0 =? (n + …'), <text> (x=52, y=688; text='destruct provides ca…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "ab678747920639d36e4df3ae5d7eb0369dd56a4ebcc67f406463c163be5836b9"
+    },
+    {
+      "file": "44_grading_model.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/44_grading_model.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=200; text='Inductive letter : T…'), <text> (x=52, y=534; text='Grade A Minus repres…'), <text> (x=52, y=684; text='We can compute decis…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "1fc91ef99789fd6f765c2a7d7d2027c7839db56e44cfce6aabab23b7fde3a606"
+    },
+    {
+      "file": "45_grade_comparators.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/45_grade_comparators.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=122; text='Definition letter_co…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 16
+      },
+      "passed": true,
+      "source_sha256": "a07e03dd8024e1246dd917b0e26a4d4b336c4717da5c2299c044128eb57a24e4"
+    },
+    {
+      "file": "46_lexicographic.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/46_lexicographic.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Definition grade_com…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "91aa0603ef9015cfe485469353a903fd47586fc67581c6584989774a853206eb"
+    },
+    {
+      "file": "47_grade_counterexample.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/47_grade_counterexample.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition lower_let…'), <text> (x=72, y=592; text='lower_letter F = Fle…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "9fc37945c3176faf8eb24368a7cc6c00e5ddfe3e32265f26b9e5c04d0a40bd5c"
+    },
+    {
+      "file": "48_repair_theorem.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/48_repair_theorem.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=194; text='Theorem lower_letter…'), <text> (x=52, y=606; text='The hypothesis says …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 12
+      },
+      "passed": true,
+      "source_sha256": "279485de2dfad50f240db1ca4e3db96bb37df8f3bc89511f4069f29b0e88d32f"
+    },
+    {
+      "file": "49_lower_grade.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/49_lower_grade.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition lower_gra…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "45b9c607324c6f54c171501db38e2c82fbe78d153f441b4e74b88238ed007272"
+    },
+    {
+      "file": "50_lower_grade_properties.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/50_lower_grade_properties.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='lower_grade (Grade A…'), <text> (x=72, y=434; text='forall g : grade, gr…'), <text> (x=52, y=622; text='Proof plan: unpack G…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "1bae1d58b4a9e212adfd98c94e75d3bf2bf27264a2fcd2cda1cc714b20ed7851"
+    },
+    {
+      "file": "51_policy_ranges.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/51_policy_ranges.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=586; text='A step changes the m…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 17,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 17,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "89fe89947c7d186acac360b7fce5323d70c6e212bc240536b1ec77cc2b090ebc"
+    },
+    {
+      "file": "52_apply_policy.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/52_apply_policy.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Definition apply_lat…'), <text> (x=72, y=574; text='days 8 → A+ days 9 →…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "4104ad2f34259afb5f9d1bb7a2b295a5ff4b87cb618fa154f7d4d58ba972d5d5"
+    },
+    {
+      "file": "53_no_penalty_proof.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/53_no_penalty_proof.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=130; text='apply_late_policy_un…'), <text> (x=72, y=330; text='Theorem no_penalty_f…'), <text> (x=52, y=660; text='if late_days <? 9 th…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 10
+      },
+      "passed": true,
+      "source_sha256": "59f21f7e5d0f57c8ec6f7f116388c6f02d61b5a736ad92b7ab723f9969f57dbd"
+    },
+    {
+      "file": "54_one_step_proof.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/54_one_step_proof.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=132; text='Theorem grade_lowere…'), <text> (x=52, y=544; text='H9 selects the outer…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 11
+      },
+      "passed": true,
+      "source_sha256": "7ebb1c715af1fd1c629613e5764928c212c8a8c8581b6686c406b26241115d44"
+    },
+    {
+      "file": "55_binary_type.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/55_binary_type.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=206; text='Inductive bin : Type…'), <text> (x=52, y=666; text='Unary values chain S…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "817869049ccecd9f33edc4b06c002563a3034833946af921d19915eb39288158"
+    },
+    {
+      "file": "56_binary_values.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/56_binary_values.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=664; text='Comprehension check:…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 24,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 1
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 24,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "ed8ee45c3bd116a7820ec818023f406ad7bac9da9dc0b8712cd403772d0f31d8"
+    },
+    {
+      "file": "57_binary_increment.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/57_binary_increment.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint incr (m : b…'), <text> (x=72, y=484; text='incr (B1 (B1 Z))→ B0…'), <text> (x=52, y=688; text='A low bit 0 becomes …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 9
+      },
+      "passed": true,
+      "source_sha256": "eee60796e5df5c1dc65957e1ad2e98026110ed58a7850ed7bdc36dc2759991c7"
+    },
+    {
+      "file": "58_binary_conversion.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/58_binary_conversion.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=134; text='Fixpoint bin_to_nat …'), <text> (x=52, y=432; text='bin_to_nat (B0 (B1 Z…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 7
+      },
+      "passed": true,
+      "source_sha256": "16ed3d5571477eaa8e4645f6dc0141ba4a4f01fc8dd6e1d5fa06f038096a81a0"
+    },
+    {
+      "file": "59_tests_and_proofs.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/59_tests_and_proofs.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=198; text='Example test_bin_inc…'), <text> (x=52, y=656; text='This property quanti…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "4682a32eebdcbcb7e13caea37c80fadd2b2c27701acb4218dc1336d5c7e6c0d1"
+    },
+    {
+      "file": "60_exercise_map.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/60_exercise_map.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=328; text='plus_id_exercise · m…'), <text> (x=52, y=526; text='letter_comparison_Eq…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 3
+      },
+      "passed": true,
+      "source_sha256": "3be5991056945a69b884a15c64f19307377a126406be52d0f8907e7a9383950f"
+    },
+    {
+      "file": "61_compile_checks.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/61_compile_checks.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=202; text='rocq compile -Q . LF…'), <text> (x=52, y=658; text='Check missing exerci…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 7,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 7,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "2e6b3026312a27698660afe97d207da56e8269190b9fb15fc8b2ef2dad60f673"
+    },
+    {
+      "file": "62_assumptions_submission.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/62_assumptions_submission.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=198; text='Type OK? You proved …'), <text> (x=52, y=406; text=\"Check the course's a…\"), <text> (x=72, y=638; text='Keep exercise names …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 6,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 6,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "7f561e31431dd0d3d577c627009748b0fd7de3f5404feb84b31856b0b08b8748"
+    },
+    {
+      "file": "63_connected_model.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/63_connected_model.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=52, y=682; text='The same ideas expla…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 8,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif"
+        ],
+        "text_elements": 8,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "d6b7df3b74e887ce228f3f684b914ad687ed8c76c6c7a90233ce7490b22cc524"
+    },
+    {
+      "file": "64_self_check.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/rocq_basics_20261106/svg_output/64_self_check.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=72, y=516; text='Compute (bin_to_nat …'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1024 768",
+        "carrier_receipt": {
+          "text_elements": 10,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "geometry": {
+            "svg_elements": {
+              "rect": 3,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 0,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, DejaVu Sans, sans-serif",
+          "Consolas, DejaVu Sans Mono, monospace"
+        ],
+        "text_elements": 10,
+        "tspan_elements": 1
+      },
+      "passed": true,
+      "source_sha256": "6d7a87e026da5a95387fd69dbb7e5c5484ddc8cc98d9d42bd2cccf0327b5f71a"
+    }
+  ]
+}

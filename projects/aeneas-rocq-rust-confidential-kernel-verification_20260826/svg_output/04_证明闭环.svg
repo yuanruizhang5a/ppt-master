@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#123B5D"/></marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="72 48 1136 110">
+    <text x="72" y="82" font-size="18" font-weight="700" fill="#167D9A">04 · 证明闭环</text>
+    <text x="72" y="137" font-size="44" font-weight="700" fill="#123B5D">三个关键操作形成隔离、完整性、防泄露的证明闭环</text>
+    <line x1="72" y1="157" x2="1208" y2="157" stroke="#D7E0E8" stroke-width="2"/>
+  </g>
+
+  <g id="operation-flow" data-pptx-bounds="72 180 1136 206">
+    <rect x="72" y="180" width="330" height="206" rx="16" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="116" cy="224" r="24" fill="#123B5D"/>
+    <text x="116" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="156" y="233" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="26" font-weight="700" fill="#123B5D">may_access</text>
+    <text x="104" y="284" font-size="20" fill="#506273"><tspan x="104" dy="0">根据页面所有者、共享集合与域身份</tspan><tspan x="104" dy="30">判定访问是否被授权。</tspan></text>
+    <rect x="104" y="344" width="266" height="26" rx="13" fill="#DDEAF0"/>
+    <text x="237" y="363" text-anchor="middle" font-size="16" font-weight="700" fill="#167D9A">隔离：未授权域不可访问</text>
+
+    <line x1="402" y1="283" x2="438" y2="283" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)"/>
+
+    <rect x="450" y="180" width="330" height="206" rx="16" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5"/>
+    <circle cx="494" cy="224" r="24" fill="#167D9A"/>
+    <text x="494" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="534" y="233" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="26" font-weight="700" fill="#123B5D">release_page</text>
+    <text x="482" y="284" font-size="20" fill="#506273"><tspan x="482" dy="0">释放页面时移除旧所有权与共享关系，</tspan><tspan x="482" dy="30">并执行内容清零。</tspan></text>
+    <rect x="482" y="344" width="266" height="26" rx="13" fill="#DDEAF0"/>
+    <text x="615" y="363" text-anchor="middle" font-size="16" font-weight="700" fill="#167D9A">完整性：状态转换保持 valid_state</text>
+
+    <line x1="780" y1="283" x2="816" y2="283" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)"/>
+
+    <rect x="828" y="180" width="330" height="206" rx="16" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5"/>
+    <circle cx="872" cy="224" r="24" fill="#F59E0B"/>
+    <text x="872" y="232" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="912" y="233" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="26" font-weight="700" fill="#123B5D">reassign_page</text>
+    <text x="860" y="284" font-size="20" fill="#506273"><tspan x="860" dy="0">重新分配页面给新域，并要求新域看到</tspan><tspan x="860" dy="30">的初始内容为零页。</tspan></text>
+    <rect x="860" y="344" width="266" height="26" rx="13" fill="#FBE6BA"/>
+    <text x="993" y="363" text-anchor="middle" font-size="16" font-weight="700" fill="#8D5700">防泄露：旧数据不可跨域残留</text>
+  </g>
+
+  <g id="invariant-bridge" data-pptx-bounds="72 406 1136 40">
+    <line x1="72" y1="426" x2="1208" y2="426" stroke="#D7E0E8" stroke-width="2"/>
+    <rect x="482" y="406" width="316" height="40" rx="20" fill="#FFFFFF" stroke="#167D9A" stroke-width="1.5"/>
+    <text x="640" y="433" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#167D9A">共同前提：valid_state(s)</text>
+  </g>
+
+  <rect id="formula-frame" data-pptx-role="decoration" x="104" y="458" width="1072" height="144" rx="14" fill="#F3F6FA" stroke="#D7E0E8" stroke-width="1.5"/>
+  <g id="security-theorems" data-pptx-replace-with="formula" data-pptx-x="104" data-pptx-y="458" data-pptx-width="1072" data-pptx-height="144" data-pptx-bounds="104 458 1072 144">
+    <metadata type="application/json"><![CDATA[{"latex":"\\begin{aligned}\\mathrm{may\\_access}(p,d)=\\mathrm{true} &\\rightarrow \\mathrm{authorized}(d,p) \\\\ \\mathrm{reassign\\_page}(s,pid,d)=\\mathrm{Ok}(s') &\\rightarrow \\mathrm{page\\_contents}(s',pid)=\\mathrm{zero\\_page}\\end{aligned}","display":"block","font_size":22,"color":"#123B5D","align":"center"}]]></metadata>
+    <text x="640" y="510" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#123B5D"><tspan x="640" dy="0">may_access(p,d) = true  →  authorized(d,p)</tspan><tspan x="640" dy="48">reassign_page(s,pid,d) = Ok(s′)  →  page_contents(s′,pid) = zero_page</tspan></text>
+  </g>
+
+  <g id="closure-conclusion" data-pptx-bounds="72 622 1136 46">
+    <text x="640" y="653" text-anchor="middle" font-size="22" font-weight="700" fill="#123B5D">每个操作既证明局部后置条件，也证明全局状态不变式被保持。</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1208" y="690" text-anchor="end" font-size="18" fill="#82919F">04</text>
+</svg>

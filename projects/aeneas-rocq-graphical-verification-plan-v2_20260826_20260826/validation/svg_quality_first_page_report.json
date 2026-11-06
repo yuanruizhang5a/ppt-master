@@ -1,0 +1,177 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "c415453cde4e20573a3a1c49c1c1fbdb364e5fc367c2554d87a969b469596996",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_研究目标与问题界定.svg",
+        "sha256": "3dd091e1c71e2ef0d214ad4f6ad5862c4c4a86db4e1f510a39574b5439c0a997"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 0,
+    "warnings": 1,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 1,
+      "issues": [
+        {
+          "file": "01_研究目标与问题界定.svg",
+          "message": "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=254; text='所有权与借用规则类型检查与生命周期约束减…'); use supported explicit text positioning when page fit matters"
+        }
+      ]
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {
+      "Arial, sans-serif": [
+        "01_研究目标与问题界定.svg"
+      ]
+    },
+    "sizes": {
+      "15": [
+        "01_研究目标与问题界定.svg"
+      ],
+      "58": [
+        "01_研究目标与问题界定.svg"
+      ]
+    }
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 1,
+    "totals": {
+      "text_elements": 22,
+      "image_placements": 0,
+      "icons": 3,
+      "svg_geometry_elements": 12,
+      "preset_shapes": 0,
+      "page_frame_elements": 1,
+      "marker_uses": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 1,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0
+    },
+    "geometry_elements": {
+      "circle": 4,
+      "ellipse": 0,
+      "line": 2,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 6
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_研究目标与问题界定.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826/svg_output/01_研究目标与问题界定.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [
+        "Cannot verify root viewBox bounds for visible text with unsupported or unresolved geometry: <text> (x=88, y=254; text='所有权与借用规则类型检查与生命周期约束减…'); use supported explicit text positioning when page fit matters"
+      ],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 22,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 3,
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 4,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Arial, sans-serif",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 22,
+        "tspan_elements": 9,
+        "contextual_values": {
+          "font_families": [
+            "Arial, sans-serif"
+          ]
+        },
+        "sparse_typography_sizes": {
+          "15": 1,
+          "58": 1
+        }
+      },
+      "passed": true,
+      "source_sha256": "3dd091e1c71e2ef0d214ad4f6ad5862c4c4a86db4e1f510a39574b5439c0a997"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#123B5D" /></marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><polygon points="0,0 10,5 0,10" fill="#167D9A" /></marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="header" data-pptx-bounds="72 48 1136 110">
+    <text x="72" y="82" font-size="18" font-weight="700" fill="#167D9A">03 · 总体技术方案</text>
+    <text x="72" y="137" font-size="44" font-weight="700" fill="#123B5D">两条主线在 Rocq 汇合，把实现模型连接到安全规约</text>
+    <line x1="72" y1="157" x2="1208" y2="157" stroke="#D7E0E8" stroke-width="2" />
+  </g>
+
+  <g id="implementation-lane" data-pptx-bounds="60 174 864 124">
+    <rect x="72" y="174" width="120" height="124" rx="12" fill="#123B5D" />
+    <text x="132" y="218" text-anchor="middle" font-size="18" font-weight="700" fill="#A9D7E2">实现主线</text>
+    <text x="132" y="254" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Rust → Rocq</text>
+    <text x="132" y="280" text-anchor="middle" font-size="16" fill="#DDEAF0">语义抽取</text>
+
+    <rect x="220" y="192" width="128" height="88" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="284" y="226">目标安全</text><text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="284" y="250">Rust 模块</text><line x1="348" y1="236" x2="368" y2="236" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="374" y="192" width="116" height="88" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="432" y="226">rustc</text><text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="432" y="250">MIR</text><line x1="490" y1="236" x2="510" y2="236" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="516" y="192" width="140" height="88" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="586" y="226">Charon</text><text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="586" y="250">ULLBC / LLBC</text><line x1="656" y1="236" x2="676" y2="236" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="682" y="192" width="116" height="88" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="740" y="226">Aeneas</text><text text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D" x="740" y="250">Coq 后端</text><line x1="798" y1="236" x2="818" y2="236" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="824" y="192" width="100" height="88" rx="10" fill="#DDEAF0" stroke="#167D9A" stroke-width="2" />
+    <text text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="874" y="226">Rocq</text><text text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="874" y="250">功能模型</text></g>
+
+  <g id="specification-lane" data-pptx-bounds="60 316 864 156">
+    <rect x="72" y="316" width="120" height="156" rx="12" fill="#167D9A" />
+    <text x="132" y="364" text-anchor="middle" font-size="18" font-weight="700" fill="#C8E7EE">规约主线</text>
+    <text x="132" y="400" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">需求 → 不变式</text>
+    <text x="132" y="430" text-anchor="middle" font-size="16" fill="#E6F3F6">安全抽象</text>
+
+    <rect x="220" y="342" width="126" height="104" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text x="283" y="402" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A">安全需求</text>
+    <line x1="346" y1="394" x2="366" y2="394" stroke="#167D9A" stroke-width="2" marker-end="url(#arrow-teal)" />
+
+    <rect x="372" y="342" width="146" height="104" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="445" y="384">DomainId</text><text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="445" y="408">PageId</text><line x1="518" y1="394" x2="538" y2="394" stroke="#167D9A" stroke-width="2" marker-end="url(#arrow-teal)" />
+
+    <rect x="544" y="342" width="158" height="104" rx="10" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="623" y="384">PageState</text><text font-family="Consolas, Microsoft YaHei, Arial, monospace" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="623" y="408">KernelState</text><line x1="702" y1="394" x2="722" y2="394" stroke="#167D9A" stroke-width="2" marker-end="url(#arrow-teal)" />
+
+    <rect x="728" y="330" width="196" height="128" rx="10" fill="#EAF5F7" stroke="#167D9A" stroke-width="2" />
+    <text x="746" y="360" font-size="17" font-weight="700" fill="#167D9A">核心不变式</text>
+    <text font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" fill="#1B2430" x="746" y="390">unique_ownership</text><text font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" fill="#1B2430" x="746" y="414">valid_sharing</text><text font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" fill="#1B2430" x="746" y="438">reuse_is_clean</text></g>
+
+  <g id="proof-outcomes" data-pptx-bounds="960 174 248 378">
+    <line x1="924" y1="236" x2="950" y2="292" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+    <line x1="924" y1="394" x2="950" y2="328" stroke="#167D9A" stroke-width="2" marker-end="url(#arrow-teal)" />
+    <rect x="960" y="174" width="248" height="378" rx="16" fill="#FFFFFF" stroke="#123B5D" stroke-width="2" />
+    <rect x="960" y="174" width="248" height="58" rx="16" fill="#123B5D" />
+    <rect x="960" y="216" width="248" height="16" fill="#123B5D" />
+    <text x="1084" y="211" text-anchor="middle" font-size="22" font-weight="700" fill="#FFFFFF">Rocq 中汇合与验收</text>
+
+    <rect x="980" y="250" width="208" height="58" rx="9" fill="#F3F6FA" />
+    <text x="1084" y="286" text-anchor="middle" font-size="18" font-weight="700" fill="#123B5D">操作前 / 后置条件</text>
+    <line x1="1084" y1="308" x2="1084" y2="326" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="980" y="332" width="208" height="74" rx="9" fill="#EAF5F7" />
+    <text text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="1084" y="360">隔离 / 完整性</text><text text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A" x="1084" y="384">防泄露定理</text><line x1="1084" y1="406" x2="1084" y2="424" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="980" y="430" width="208" height="46" rx="9" fill="#FFF7E8" />
+    <text x="1084" y="459" text-anchor="middle" font-size="18" font-weight="700" fill="#8D5700">Rocq 机器检查</text>
+    <line x1="1084" y1="476" x2="1084" y2="494" stroke="#123B5D" stroke-width="2" marker-end="url(#arrow-navy)" />
+
+    <rect x="980" y="500" width="208" height="34" rx="9" fill="#DDEAF0" />
+    <text x="1084" y="523" text-anchor="middle" font-size="17" font-weight="700" fill="#123B5D">证明脚本 + 验证报告</text>
+  </g>
+
+  <g id="trusted-rail" data-pptx-bounds="72 574 1136 80">
+    <rect x="72" y="574" width="1136" height="80" rx="12" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5" />
+    
+  <g transform="translate(96, 594) scale(1.58333)" fill="none" stroke="#F59E0B" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="152" y="607" font-size="18" font-weight="700" fill="#8D5700">可信边界贯穿全链路</text>
+    <text x="152" y="638" font-size="20" fill="#506273">rustc / Charon / Aeneas 翻译正确性、Rocq 内核与硬件假设均单独记录，不被证明结论隐含吞并。</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1208" y="690" text-anchor="end" font-size="18" fill="#82919F">03</text>
+</svg>

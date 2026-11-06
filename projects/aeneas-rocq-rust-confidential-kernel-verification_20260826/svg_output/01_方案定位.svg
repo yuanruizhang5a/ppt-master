@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="72 54 1136 126">
+    <rect x="72" y="58" width="8" height="106" rx="4" fill="#F59E0B"/>
+    <text x="104" y="105" font-size="20" font-weight="700" fill="#167D9A">RUST 机密计算内核 · 形式化验证方案</text>
+    <text x="104" y="158" font-size="44" font-weight="700" fill="#123B5D">可验收的第一阶段，不是“验证整个内核”</text>
+  </g>
+
+  <g id="scope-statement" data-pptx-bounds="104 198 1072 102">
+    <text x="104" y="237" font-size="32" font-weight="700" fill="#1B2430">范围可控、可证明、可验收</text>
+    <text x="104" y="280" font-size="24" fill="#506273">聚焦一个代表性安全 Rust 模块，以 Aeneas 连接实现语义，以 Rocq 固化安全结论。</text>
+  </g>
+
+  <g id="verification-path" data-pptx-bounds="104 326 1072 150">
+    <line x1="188" y1="377" x2="1092" y2="377" stroke="#D7E0E8" stroke-width="4"/>
+    <circle cx="188" cy="377" r="45" fill="#F3F6FA" stroke="#123B5D" stroke-width="2"/>
+    <use data-icon="simple-icons/rust" x="164" y="353" width="48" height="48" fill="#123B5D"/>
+    <circle cx="640" cy="377" r="45" fill="#F3F6FA" stroke="#167D9A" stroke-width="2"/>
+    <text x="640" y="387" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="22" font-weight="700" fill="#167D9A">Rocq</text>
+    <circle cx="1092" cy="377" r="45" fill="#FFF7E8" stroke="#F59E0B" stroke-width="2"/>
+    <use data-icon="tabler-outline/shield-check" x="1068" y="353" width="48" height="48" fill="#F59E0B" stroke-width="2"/>
+    <text x="188" y="449" text-anchor="middle" font-size="20" font-weight="700" fill="#123B5D">真实 Rust 实现</text>
+    <text x="640" y="449" text-anchor="middle" font-size="20" font-weight="700" fill="#167D9A">可机检证明</text>
+    <text x="1092" y="449" text-anchor="middle" font-size="20" font-weight="700" fill="#A86500">安全结论</text>
+  </g>
+
+  <g id="deliverable-rust" data-pptx-bounds="104 496 324 142">
+    <rect x="104" y="496" width="324" height="142" rx="14" fill="#F3F6FA" stroke="#D7E0E8" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/file-code" x="128" y="522" width="36" height="36" fill="#123B5D" stroke-width="2"/>
+    <text x="180" y="548" font-size="24" font-weight="700" fill="#123B5D">Rust 模块</text>
+    <text x="128" y="586" font-size="20" fill="#506273"><tspan x="128" dy="0">明确验证目标、代码范围</tspan><tspan x="128" dy="28">与安全编码策略</tspan></text>
+  </g>
+
+  <g id="deliverable-proof" data-pptx-bounds="478 496 324 142">
+    <rect x="478" y="496" width="324" height="142" rx="14" fill="#F3F6FA" stroke="#D7E0E8" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/lock" x="502" y="522" width="36" height="36" fill="#167D9A" stroke-width="2"/>
+    <text x="554" y="548" font-size="24" font-weight="700" fill="#123B5D">Rocq 模型与证明</text>
+    <text x="502" y="586" font-size="20" fill="#506273"><tspan x="502" dy="0">功能模型、不变式与定理</tspan><tspan x="502" dy="28">可复现证明脚本</tspan></text>
+  </g>
+
+  <g id="deliverable-report" data-pptx-bounds="852 496 324 142">
+    <rect x="852" y="496" width="324" height="142" rx="14" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/checklist" x="876" y="522" width="36" height="36" fill="#F59E0B" stroke-width="2"/>
+    <text x="928" y="548" font-size="24" font-weight="700" fill="#123B5D">验证报告</text>
+    <text x="876" y="586" font-size="20" fill="#506273"><tspan x="876" dy="0">可信边界、假设与结果</tspan><tspan x="876" dy="28">以及局限说明</tspan></text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1208" y="681" text-anchor="end" font-size="18" fill="#82919F">01</text>
+</svg>

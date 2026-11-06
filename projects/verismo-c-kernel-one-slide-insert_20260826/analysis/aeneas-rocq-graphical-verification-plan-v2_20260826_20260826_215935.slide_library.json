@@ -1,0 +1,2538 @@
+{
+  "schema": "template_fill_pptx_library.v1",
+  "source_pptx": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+  "slide_count": 5,
+  "canvas_px": {
+    "width": 1280,
+    "height": 720
+  },
+  "slides": [
+    {
+      "slide_index": 1,
+      "page_type": "cover_candidate",
+      "text_summary": "研究目标与问题界定\nRust 消除了部分内存错误，却不能自动证明权限与清零正确\nRust 能保证什么\n所有权与借用规则\n类型检查与生命周期约束\n减少悬垂引用、重复释放等错误\n≠\n仍有策略证明缺口\n仍需形式化证明什么\n授权隔离：谁能访问哪一页\n状态完整性：操作是否保持不变式\n重分配清零：旧域数据是否不可见\n验证边界：把可信核心压缩到可审计范围\n本项目证明\n顺序 safe Rust 策略逻辑\n页访问、释放、重分配\n显式信任\nunsafe 边界与硬件语义\n工具链正确性作为可信基\n当前不覆盖\n全内核、并发与侧信道\n不夸大为整机完全验证\n交付闭环：抽象状态模型 → Rust 对应函数 → Rocq 安全定理 → 可复现脚本与报告\n01",
+      "slots": [
+        {
+          "slot_id": "s01_sh2",
+          "role": "title_candidate",
+          "text": "研究目标与问题界定",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 40,
+            "width": 174,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh3",
+          "role": "title_candidate",
+          "text": "Rust 消除了部分内存错误，却不能自动证明权限与清零正确",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 54,
+            "y": 68,
+            "width": 1205,
+            "height": 65
+          },
+          "text_metrics": {
+            "font_size_px": 42.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh11",
+          "role": "label_candidate",
+          "text": "Rust 能保证什么",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 151,
+            "y": 179,
+            "width": 215,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh12",
+          "role": "label_candidate",
+          "text": "所有权与借用规则",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 87,
+            "y": 234,
+            "width": 196,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh13",
+          "role": "label_candidate",
+          "text": "类型检查与生命周期约束",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 87,
+            "y": 272,
+            "width": 269,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh14",
+          "role": "label_candidate",
+          "text": "减少悬垂引用、重复释放等错误",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 87,
+            "y": 310,
+            "width": 342,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh16",
+          "role": "label_candidate",
+          "text": "≠",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 620,
+            "y": 224,
+            "width": 40,
+            "height": 89
+          },
+          "text_metrics": {
+            "font_size_px": 58.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh17",
+          "role": "label_candidate",
+          "text": "仍有策略证明缺口",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 567,
+            "y": 324,
+            "width": 146,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh21",
+          "role": "label_candidate",
+          "text": "仍需形式化证明什么",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 827,
+            "y": 179,
+            "width": 250,
+            "height": 40
+          },
+          "text_metrics": {
+            "font_size_px": 26.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh22",
+          "role": "label_candidate",
+          "text": "授权隔离：谁能访问哪一页",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 763,
+            "y": 234,
+            "width": 294,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh23",
+          "role": "label_candidate",
+          "text": "状态完整性：操作是否保持不变式",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 763,
+            "y": 272,
+            "width": 366,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh24",
+          "role": "label_candidate",
+          "text": "重分配清零：旧域数据是否不可见",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 763,
+            "y": 310,
+            "width": 366,
+            "height": 35
+          },
+          "text_metrics": {
+            "font_size_px": 22.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh26",
+          "role": "label_candidate",
+          "text": "验证边界：把可信核心压缩到可审计范围",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 406,
+            "width": 363,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh31",
+          "role": "label_candidate",
+          "text": "本项目证明",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 170,
+            "y": 453,
+            "width": 92,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh32",
+          "role": "label_candidate",
+          "text": "顺序 safe Rust 策略逻辑",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 67,
+            "y": 507,
+            "width": 298,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh33",
+          "role": "label_candidate",
+          "text": "页访问、释放、重分配",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 125,
+            "y": 543,
+            "width": 182,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh34",
+          "role": "label_candidate",
+          "text": "显式信任",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 603,
+            "y": 453,
+            "width": 74,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh35",
+          "role": "label_candidate",
+          "text": "unsafe 边界与硬件语义",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 502,
+            "y": 507,
+            "width": 276,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh36",
+          "role": "label_candidate",
+          "text": "工具链正确性作为可信基",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 540,
+            "y": 543,
+            "width": 200,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh37",
+          "role": "label_candidate",
+          "text": "当前不覆盖",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1018,
+            "y": 453,
+            "width": 92,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh38",
+          "role": "label_candidate",
+          "text": "全内核、并发与侧信道",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 936,
+            "y": 507,
+            "width": 256,
+            "height": 37
+          },
+          "text_metrics": {
+            "font_size_px": 24.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh39",
+          "role": "label_candidate",
+          "text": "不夸大为整机完全验证",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 973,
+            "y": 543,
+            "width": 182,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh47",
+          "role": "body_candidate",
+          "text": "交付闭环：抽象状态模型 → Rust 对应函数 → Rocq 安全定理 → 可复现脚本与报告",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 133,
+            "y": 623,
+            "width": 839,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s01_sh49",
+          "role": "label_candidate",
+          "text": "01",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1205,
+            "y": 688,
+            "width": 20,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 2,
+      "page_type": "content_candidate",
+      "text_summary": "相关工作 + 总体技术路线\nCharon 抽取语义、Aeneas 函数式化，Rocq 把实现与规约汇合\n实现轨\n既有工作\n规约轨\n安全目标\nRust / rustc\nMIR\n编译器中间表示\nCharon\nULLBC → LLBC\n剥离编译器细节\nAeneas\n借用语义函数式化\nCoq 后端生成\nRocq\n函数式模型\n安全需求\n隔离 · 完整性 · 清零\n抽象状态\n域、页、拥有者、内容\n全局不变式\n唯一拥有 · 合法共享\n函数前置 / 后置条件\n把策略约束落到每个操作\n安全定理\nRocq 检查\n相关工作定位：Charon 负责语义抽取，Aeneas 负责借用感知的函数化翻译；本方案把二者接入内核策略规约与 Rocq 证明。\n02",
+      "slots": [
+        {
+          "slot_id": "s02_sh2",
+          "role": "title_candidate",
+          "text": "相关工作 + 总体技术路线",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 40,
+            "width": 219,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh3",
+          "role": "title_candidate",
+          "text": "Charon 抽取语义、Aeneas 函数式化，Rocq 把实现与规约汇合",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 54,
+            "y": 67,
+            "width": 1271,
+            "height": 65
+          },
+          "text_metrics": {
+            "font_size_px": 42.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh10",
+          "role": "label_candidate",
+          "text": "实现轨",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 66,
+            "y": 215,
+            "width": 72,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh11",
+          "role": "label_candidate",
+          "text": "既有工作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 67,
+            "y": 252,
+            "width": 69,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh12",
+          "role": "label_candidate",
+          "text": "规约轨",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 66,
+            "y": 427,
+            "width": 72,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh13",
+          "role": "label_candidate",
+          "text": "安全目标",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 67,
+            "y": 464,
+            "width": 69,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh16",
+          "role": "label_candidate",
+          "text": "Rust / rustc",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 168,
+            "y": 237,
+            "width": 138,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh19",
+          "role": "label_candidate",
+          "text": "MIR",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 377,
+            "y": 224,
+            "width": 37,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh20",
+          "role": "label_candidate",
+          "text": "编译器中间表示",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 336,
+            "y": 253,
+            "width": 120,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh23",
+          "role": "label_candidate",
+          "text": "Charon",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 527,
+            "y": 212,
+            "width": 83,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh24",
+          "role": "label_candidate",
+          "text": "ULLBC → LLBC",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 514,
+            "y": 244,
+            "width": 111,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh25",
+          "role": "label_candidate",
+          "text": "剥离编译器细节",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 509,
+            "y": 268,
+            "width": 120,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh28",
+          "role": "label_candidate",
+          "text": "Aeneas",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 723,
+            "y": 212,
+            "width": 83,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh29",
+          "role": "label_candidate",
+          "text": "借用语义函数式化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 697,
+            "y": 244,
+            "width": 137,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh30",
+          "role": "label_candidate",
+          "text": "Coq 后端生成",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 713,
+            "y": 268,
+            "width": 104,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh33",
+          "role": "label_candidate",
+          "text": "Rocq",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 919,
+            "y": 217,
+            "width": 56,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh34",
+          "role": "label_candidate",
+          "text": "函数式模型",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 904,
+            "y": 252,
+            "width": 86,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh40",
+          "role": "label_candidate",
+          "text": "安全需求",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 217,
+            "y": 435,
+            "width": 86,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh41",
+          "role": "label_candidate",
+          "text": "隔离 · 完整性 · 清零",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 180,
+            "y": 467,
+            "width": 159,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh44",
+          "role": "label_candidate",
+          "text": "抽象状态",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 426,
+            "y": 435,
+            "width": 86,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh45",
+          "role": "label_candidate",
+          "text": "域、页、拥有者、内容",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 384,
+            "y": 467,
+            "width": 171,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh48",
+          "role": "label_candidate",
+          "text": "全局不变式",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 613,
+            "y": 435,
+            "width": 108,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh49",
+          "role": "label_candidate",
+          "text": "唯一拥有 · 合法共享",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 589,
+            "y": 467,
+            "width": 156,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh52",
+          "role": "label_candidate",
+          "text": "函数前置 / 后置条件",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 801,
+            "y": 435,
+            "width": 197,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh53",
+          "role": "label_candidate",
+          "text": "把策略约束落到每个操作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 805,
+            "y": 467,
+            "width": 188,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh61",
+          "role": "label_candidate",
+          "text": "安全定理",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1089,
+            "y": 346,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh62",
+          "role": "label_candidate",
+          "text": "Rocq 检查",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1098,
+            "y": 382,
+            "width": 79,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh65",
+          "role": "label_candidate",
+          "text": "相关工作定位：Charon 负责语义抽取，Aeneas 负责借用感知的函数化翻译；本方案把二者接入内核策略规约与 Rocq 证明。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 627,
+            "width": 1061,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s02_sh67",
+          "role": "label_candidate",
+          "text": "02",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1205,
+            "y": 688,
+            "width": 20,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 3,
+      "page_type": "toc_candidate",
+      "text_summary": "第 5–8 节｜状态、翻译与性质\n小状态模型足以支撑四类可解释的安全结论\n01｜Rocq 抽象状态\nDomainId\nPageState\npid : PageId\nKernel\nState\nPageState\nowner\n唯一拥有域\nshared_with\n显式共享域集合\ncontents\n页内容抽象\ncleared\n重分配前清零标记\n02｜不变式地基\nunique_ownership\n任一页至多有一个拥有者，\n排除双重归属。\nvalid_sharing\n共享集合只包含明确授权域，\n共享不绕过所有权。\nreuse_is_clean\n再次分配前必须清零，\n新域无法观察旧数据。\n每个 Rust 操作都保持这些条件\n03｜由不变式推出的结论\n访问隔离\n未授权域无法读写该页\n状态完整性\n每次状态迁移保持全局不变式\n重分配防泄露\n新拥有者只能看到 zero_page\n局部非干扰\n不等同于全系统非干扰结论\n03",
+      "slots": [
+        {
+          "slot_id": "s03_sh2",
+          "role": "title_candidate",
+          "text": "第 5–8 节｜状态、翻译与性质",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 40,
+            "width": 262,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh3",
+          "role": "title_candidate",
+          "text": "小状态模型足以支撑四类可解释的安全结论",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 54,
+            "y": 67,
+            "width": 849,
+            "height": 65
+          },
+          "text_metrics": {
+            "font_size_px": 42.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh6",
+          "role": "label_candidate",
+          "text": "01｜Rocq 抽象状态",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 161,
+            "width": 190,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh9",
+          "role": "label_candidate",
+          "text": "DomainId",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 50,
+            "y": 223,
+            "width": 75,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh11",
+          "role": "label_candidate",
+          "text": "PageState",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 201,
+            "y": 209,
+            "width": 102,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh12",
+          "role": "label_candidate",
+          "text": "pid : PageId",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 203,
+            "y": 237,
+            "width": 97,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh15",
+          "role": "label_candidate",
+          "text": "Kernel",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 404,
+            "y": 210,
+            "width": 56,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh16",
+          "role": "label_candidate",
+          "text": "State",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 407,
+            "y": 234,
+            "width": 51,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh19",
+          "role": "label_candidate",
+          "text": "PageState",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 320,
+            "width": 102,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh23",
+          "role": "label_candidate",
+          "text": "owner",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 366,
+            "width": 55,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh24",
+          "role": "label_candidate",
+          "text": "唯一拥有域",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 225,
+            "y": 366,
+            "width": 92,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh25",
+          "role": "label_candidate",
+          "text": "shared_with",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 410,
+            "width": 110,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh26",
+          "role": "label_candidate",
+          "text": "显式共享域集合",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 225,
+            "y": 410,
+            "width": 128,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh27",
+          "role": "label_candidate",
+          "text": "contents",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 454,
+            "width": 81,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh28",
+          "role": "label_candidate",
+          "text": "页内容抽象",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 225,
+            "y": 454,
+            "width": 92,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh29",
+          "role": "label_candidate",
+          "text": "cleared",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 498,
+            "width": 66,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh30",
+          "role": "label_candidate",
+          "text": "重分配前清零标记",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 225,
+            "y": 498,
+            "width": 146,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh32",
+          "role": "label_candidate",
+          "text": "02｜不变式地基",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 495,
+            "y": 161,
+            "width": 153,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh37",
+          "role": "label_candidate",
+          "text": "unique_ownership",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 224,
+            "width": 172,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh38",
+          "role": "label_candidate",
+          "text": "任一页至多有一个拥有者，",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 255,
+            "width": 218,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh39",
+          "role": "label_candidate",
+          "text": "排除双重归属。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 280,
+            "width": 128,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh40",
+          "role": "label_candidate",
+          "text": "valid_sharing",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 329,
+            "width": 130,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh41",
+          "role": "label_candidate",
+          "text": "共享集合只包含明确授权域，",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 360,
+            "width": 237,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh42",
+          "role": "label_candidate",
+          "text": "共享不绕过所有权。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 385,
+            "width": 164,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh43",
+          "role": "label_candidate",
+          "text": "reuse_is_clean",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 434,
+            "width": 146,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh44",
+          "role": "label_candidate",
+          "text": "再次分配前必须清零，",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 465,
+            "width": 182,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh45",
+          "role": "label_candidate",
+          "text": "新域无法观察旧数据。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 561,
+            "y": 490,
+            "width": 182,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh47",
+          "role": "label_candidate",
+          "text": "每个 Rust 操作都保持这些条件",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 530,
+            "y": 538,
+            "width": 257,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh49",
+          "role": "label_candidate",
+          "text": "03｜由不变式推出的结论",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 805,
+            "y": 161,
+            "width": 238,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh60",
+          "role": "label_candidate",
+          "text": "访问隔离",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 222,
+            "width": 86,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh61",
+          "role": "label_candidate",
+          "text": "未授权域无法读写该页",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 250,
+            "width": 171,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh63",
+          "role": "label_candidate",
+          "text": "状态完整性",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 307,
+            "width": 108,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh64",
+          "role": "label_candidate",
+          "text": "每次状态迁移保持全局不变式",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 335,
+            "width": 222,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh66",
+          "role": "label_candidate",
+          "text": "重分配防泄露",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 392,
+            "width": 129,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh67",
+          "role": "label_candidate",
+          "text": "新拥有者只能看到 zero_page",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 420,
+            "width": 226,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh69",
+          "role": "label_candidate",
+          "text": "局部非干扰",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 477,
+            "width": 108,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh70",
+          "role": "label_candidate",
+          "text": "不等同于全系统非干扰结论",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 915,
+            "y": 505,
+            "width": 205,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s03_sh72",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 56,
+            "y": 586,
+            "width": 1168,
+            "height": 96
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s03_sh73",
+          "role": "label_candidate",
+          "text": "03",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1205,
+            "y": 688,
+            "width": 20,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 4,
+      "page_type": "toc_candidate",
+      "text_summary": "第 9–10 节｜方法借鉴与验证样例\n借鉴 VeriSMo 的边界思想，用三个操作闭合最小验证案例\n方法迁移：保留思想，不照搬证明规模\n留\n保留\n以借用边界隔离 unsafe，并让 proof boundary 可审计\n简\n简化\n从整机验证收敛到顺序页管理与局部非干扰\n换\n替换\n以 Charon + Aeneas + Rocq 对接真实 Rust 源码\n最小案例：一页内存从授权访问到安全重分配\nPage(owner = d₁)\ncontents = secret₁\n仅 d₁ / shared_with 可访问\nrelease_page\nPage(owner = None)\ncontents = zero_page\ncleared = true\nreassign_page\nPage(owner = d₂)\ncontents = zero_page\n旧域数据不进入新域\n证明闭环\n授权 + 清零 + 不变式\nmay_access 是所有读写入口的守门条件；不满足授权即拒绝进入状态迁移。\n04",
+      "slots": [
+        {
+          "slot_id": "s04_sh2",
+          "role": "title_candidate",
+          "text": "第 9–10 节｜方法借鉴与验证样例",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 40,
+            "width": 293,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh3",
+          "role": "title_candidate",
+          "text": "借鉴 VeriSMo 的边界思想，用三个操作闭合最小验证案例",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 54,
+            "y": 67,
+            "width": 1172,
+            "height": 65
+          },
+          "text_metrics": {
+            "font_size_px": 42.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh6",
+          "role": "title_candidate",
+          "text": "方法迁移：保留思想，不照搬证明规模",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 159,
+            "width": 362,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh11",
+          "role": "label_candidate",
+          "text": "留",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 81,
+            "y": 241,
+            "width": 22,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh12",
+          "role": "label_candidate",
+          "text": "保留",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 127,
+            "y": 220,
+            "width": 48,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh13",
+          "role": "label_candidate",
+          "text": "以借用边界隔离 unsafe，并让 proof boundary 可审计",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 127,
+            "y": 256,
+            "width": 447,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh15",
+          "role": "label_candidate",
+          "text": "简",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 470,
+            "y": 241,
+            "width": 22,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh16",
+          "role": "label_candidate",
+          "text": "简化",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 516,
+            "y": 220,
+            "width": 48,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh17",
+          "role": "label_candidate",
+          "text": "从整机验证收敛到顺序页管理与局部非干扰",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 516,
+            "y": 256,
+            "width": 345,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh19",
+          "role": "label_candidate",
+          "text": "换",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 859,
+            "y": 241,
+            "width": 22,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh20",
+          "role": "label_candidate",
+          "text": "替换",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 905,
+            "y": 220,
+            "width": 48,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh21",
+          "role": "label_candidate",
+          "text": "以 Charon + Aeneas + Rocq 对接真实 Rust 源码",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 905,
+            "y": 256,
+            "width": 370,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh23",
+          "role": "label_candidate",
+          "text": "最小案例：一页内存从授权访问到安全重分配",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 335,
+            "width": 426,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh26",
+          "role": "label_candidate",
+          "text": "Page(owner = d₁)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 104,
+            "y": 407,
+            "width": 182,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh27",
+          "role": "label_candidate",
+          "text": "contents = secret₁",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 109,
+            "y": 441,
+            "width": 171,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh28",
+          "role": "label_candidate",
+          "text": "仅 d₁ / shared_with 可访问",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 85,
+            "y": 467,
+            "width": 219,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh31",
+          "role": "label_candidate",
+          "text": "release_page",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 307,
+            "y": 372,
+            "width": 114,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh33",
+          "role": "label_candidate",
+          "text": "Page(owner = None)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 434,
+            "y": 407,
+            "width": 206,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh34",
+          "role": "label_candidate",
+          "text": "contents = zero_page",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 441,
+            "y": 441,
+            "width": 191,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh35",
+          "role": "label_candidate",
+          "text": "cleared = true",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 474,
+            "y": 467,
+            "width": 125,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh38",
+          "role": "label_candidate",
+          "text": "reassign_page",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 644,
+            "y": 372,
+            "width": 124,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh40",
+          "role": "label_candidate",
+          "text": "Page(owner = d₂)",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 788,
+            "y": 407,
+            "width": 182,
+            "height": 29
+          },
+          "text_metrics": {
+            "font_size_px": 18.93,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh41",
+          "role": "label_candidate",
+          "text": "contents = zero_page",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 783,
+            "y": 441,
+            "width": 191,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh42",
+          "role": "label_candidate",
+          "text": "旧域数据不进入新域",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 802,
+            "y": 467,
+            "width": 154,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh47",
+          "role": "label_candidate",
+          "text": "证明闭环",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1075,
+            "y": 453,
+            "width": 78,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh48",
+          "role": "label_candidate",
+          "text": "授权 + 清零 + 不变式",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1034,
+            "y": 479,
+            "width": 159,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh54",
+          "role": "label_candidate",
+          "text": "may_access 是所有读写入口的守门条件；不满足授权即拒绝进入状态迁移。",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 135,
+            "y": 532,
+            "width": 622,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s04_sh56",
+          "role": "label_candidate",
+          "text": "",
+          "paragraph_count": 0,
+          "geometry": {
+            "x": 56,
+            "y": 584,
+            "width": 1168,
+            "height": 98
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 0
+          }
+        },
+        {
+          "slot_id": "s04_sh57",
+          "role": "label_candidate",
+          "text": "04",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1205,
+            "y": 688,
+            "width": 20,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    },
+    {
+      "slide_index": 5,
+      "page_type": "ending_candidate",
+      "text_summary": "第 11–12 节｜实施步骤与项目指标\n六阶段路线最终落在可复现的“1–3–2–1”验收闭环\n六阶段实施路线｜每一步都有清晰完成标志\n1\n确定边界\n目标函数 + unsafe / 外部依赖清单\n2\n打通工具\n固定版本，生成可加载 LLBC / Rocq\n3\n建立规约\n形成抽象状态与核心安全不变式\n4\n证明函数\n完成不少于 3 项关键操作证明\n5\n证明属性\n归纳不少于 2 类典型安全属性\n6\n验收整理\n源码、模型、脚本、复现说明与报告\n1\n3\n2\n1\n个核心模型\n项关键操作\n类安全属性\n套案例与报告\n验收不是“整机已证明”，而是一条可复现、可解释、可扩展的 Rust → Rocq 路线\n05",
+      "slots": [
+        {
+          "slot_id": "s05_sh2",
+          "role": "title_candidate",
+          "text": "第 11–12 节｜实施步骤与项目指标",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 40,
+            "width": 305,
+            "height": 26
+          },
+          "text_metrics": {
+            "font_size_px": 17.07,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh3",
+          "role": "title_candidate",
+          "text": "六阶段路线最终落在可复现的“1–3–2–1”验收闭环",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 54,
+            "y": 67,
+            "width": 992,
+            "height": 65
+          },
+          "text_metrics": {
+            "font_size_px": 42.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh6",
+          "role": "title_candidate",
+          "text": "六阶段实施路线｜每一步都有清晰完成标志",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 55,
+            "y": 159,
+            "width": 404,
+            "height": 31
+          },
+          "text_metrics": {
+            "font_size_px": 20.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh14",
+          "role": "label_candidate",
+          "text": "1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 82,
+            "y": 224,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh15",
+          "role": "label_candidate",
+          "text": "确定边界",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 121,
+            "y": 218,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh16",
+          "role": "label_candidate",
+          "text": "目标函数 + unsafe / 外部依赖清单",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 77,
+            "y": 257,
+            "width": 266,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh19",
+          "role": "label_candidate",
+          "text": "2",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 456,
+            "y": 224,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh20",
+          "role": "label_candidate",
+          "text": "打通工具",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 495,
+            "y": 218,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh21",
+          "role": "label_candidate",
+          "text": "固定版本，生成可加载 LLBC / Rocq",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 451,
+            "y": 257,
+            "width": 280,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh24",
+          "role": "label_candidate",
+          "text": "3",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 830,
+            "y": 224,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh25",
+          "role": "label_candidate",
+          "text": "建立规约",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 869,
+            "y": 218,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh26",
+          "role": "label_candidate",
+          "text": "形成抽象状态与核心安全不变式",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 825,
+            "y": 257,
+            "width": 239,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh29",
+          "role": "label_candidate",
+          "text": "4",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 830,
+            "y": 381,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh30",
+          "role": "label_candidate",
+          "text": "证明函数",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 869,
+            "y": 375,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh31",
+          "role": "label_candidate",
+          "text": "完成不少于 3 项关键操作证明",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 825,
+            "y": 414,
+            "width": 224,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh34",
+          "role": "label_candidate",
+          "text": "5",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 456,
+            "y": 381,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh35",
+          "role": "label_candidate",
+          "text": "证明属性",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 495,
+            "y": 375,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh36",
+          "role": "label_candidate",
+          "text": "归纳不少于 2 类典型安全属性",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 451,
+            "y": 414,
+            "width": 224,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh39",
+          "role": "label_candidate",
+          "text": "6",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 82,
+            "y": 381,
+            "width": 12,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh40",
+          "role": "label_candidate",
+          "text": "验收整理",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 121,
+            "y": 375,
+            "width": 95,
+            "height": 34
+          },
+          "text_metrics": {
+            "font_size_px": 22.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh41",
+          "role": "label_candidate",
+          "text": "源码、模型、脚本、复现说明与报告",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 77,
+            "y": 414,
+            "width": 273,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh49",
+          "role": "label_candidate",
+          "text": "1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 165,
+            "y": 557,
+            "width": 30,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 44.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh50",
+          "role": "label_candidate",
+          "text": "3",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 459,
+            "y": 557,
+            "width": 30,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 44.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh51",
+          "role": "label_candidate",
+          "text": "2",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 753,
+            "y": 557,
+            "width": 30,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 44.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh52",
+          "role": "label_candidate",
+          "text": "1",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1047,
+            "y": 557,
+            "width": 30,
+            "height": 68
+          },
+          "text_metrics": {
+            "font_size_px": 44.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh53",
+          "role": "label_candidate",
+          "text": "个核心模型",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 132,
+            "y": 636,
+            "width": 97,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh54",
+          "role": "label_candidate",
+          "text": "项关键操作",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 426,
+            "y": 636,
+            "width": 97,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh55",
+          "role": "label_candidate",
+          "text": "类安全属性",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 720,
+            "y": 636,
+            "width": 97,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh56",
+          "role": "label_candidate",
+          "text": "套案例与报告",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1004,
+            "y": 636,
+            "width": 116,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh57",
+          "role": "label_candidate",
+          "text": "验收不是“整机已证明”，而是一条可复现、可解释、可扩展的 Rust → Rocq 路线",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 295,
+            "y": 523,
+            "width": 691,
+            "height": 28
+          },
+          "text_metrics": {
+            "font_size_px": 18.0,
+            "paragraph_count": 1
+          }
+        },
+        {
+          "slot_id": "s05_sh59",
+          "role": "label_candidate",
+          "text": "05",
+          "paragraph_count": 1,
+          "geometry": {
+            "x": 1205,
+            "y": 688,
+            "width": 20,
+            "height": 25
+          },
+          "text_metrics": {
+            "font_size_px": 16.0,
+            "paragraph_count": 1
+          }
+        }
+      ],
+      "tables": [],
+      "charts": [],
+      "diagrams": []
+    }
+  ],
+  "plan_contract": {
+    "schema": "template_fill_pptx_plan.v1",
+    "slides": [
+      {
+        "source_slide": 1,
+        "purpose": "封面 / 章节 / 内容 / 结尾",
+        "replacements": [
+          {
+            "slot_id": "s01_sh2",
+            "text": "替换后的文字"
+          }
+        ],
+        "table_edits": [
+          {
+            "table_id": "s01_tbl3",
+            "cells": [
+              {
+                "row": 0,
+                "col": 0,
+                "text": "替换后的单元格"
+              }
+            ]
+          }
+        ],
+        "chart_edits": [
+          {
+            "chart_id": "s01_ch4",
+            "categories": [
+              "A",
+              "B"
+            ],
+            "series": [
+              {
+                "name": "系列1",
+                "values": [
+                  1,
+                  2
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

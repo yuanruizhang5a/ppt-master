@@ -1,0 +1,12 @@
+{
+  "schema": "template_fill_pptx_validate.v1",
+  "project": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826",
+  "export": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015447.pptx",
+  "readback": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/validation/readback.md",
+  "summary": {
+    "ok": 38,
+    "warn": 0,
+    "error": 0
+  },
+  "results": []
+}

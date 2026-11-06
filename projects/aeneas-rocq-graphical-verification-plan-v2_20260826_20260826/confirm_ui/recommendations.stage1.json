@@ -1,0 +1,29 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "形式化验证与机密计算项目评审人员，以及需要据此实施和验收的研发团队"
+  },
+  "communication_intent": {
+    "value": "先界定第一阶段研究问题，再解释 Aeneas、Charon 与 Rocq 如何形成可落地的验证链，最后明确实施步骤和结题指标"
+  },
+  "audience_outcome": {
+    "value": "听众能够理解方案为什么范围可控、具体证明什么、如何实施，以及用哪些可量化产物完成验收"
+  },
+  "core_message": {
+    "value": "从真实 Rust 内核中剥离顺序 safe Rust 安全策略，经 Charon 与 Aeneas 转为 Rocq 模型，以页面管理案例证明隔离、完整性和防泄露，并形成可复现交付"
+  },
+  "delivery_context": {
+    "value": "主要用于有主讲的十分钟技术方案评审；次要作为会后独立阅读的实施与验收依据"
+  },
+  "artifact_afterlife": {
+    "value": "作为项目立项论证、阶段实施路线、结题验收和后续扩展的共同基线"
+  },
+  "content_divergence": {
+    "value": "按原文逻辑重组为指定的四至五页；可压缩措辞和合并相邻论点，但不改变事实、边界和论证关系，也不依赖现有PPT版本"
+  }
+}

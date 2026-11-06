@@ -1,0 +1,175 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "first-page",
+  "target": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-rust-confidential-kernel-verification_20260826",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "9a63f064b49cc1a5ce1e9a7e687805d1526a90cde596ca4a3d36e9b913b1f571",
+    "file_count": 1,
+    "files": [
+      {
+        "file": "01_方案定位.svg",
+        "sha256": "8c97f5f9711f9056d9d4fd8109335debbeaff23bd6620cf026de270cf9dc553d"
+      }
+    ]
+  },
+  "summary": {
+    "total": 1,
+    "passed": 1,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#506273": [
+        "01_方案定位.svg"
+      ],
+      "#82919F": [
+        "01_方案定位.svg"
+      ],
+      "#A86500": [
+        "01_方案定位.svg"
+      ],
+      "#F3C36B": [
+        "01_方案定位.svg"
+      ],
+      "#FFF7E8": [
+        "01_方案定位.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 1,
+    "totals": {
+      "text_elements": 15,
+      "image_placements": 0,
+      "icons": 5,
+      "svg_geometry_elements": 9,
+      "preset_shapes": 0,
+      "page_frame_elements": 1,
+      "marker_uses": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 1,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0
+    },
+    "geometry_elements": {
+      "circle": 3,
+      "ellipse": 0,
+      "line": 1,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 5
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_方案定位.svg",
+      "path": "/home/zyr/myCode/ppt-master/projects/aeneas-rocq-rust-confidential-kernel-verification_20260826/svg_output/01_方案定位.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 15,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 5,
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 3,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Consolas, Microsoft YaHei, Arial, monospace",
+          "Microsoft YaHei, Arial, sans-serif"
+        ],
+        "text_elements": 15,
+        "tspan_elements": 6,
+        "contextual_values": {
+          "colors": [
+            "#506273",
+            "#82919F",
+            "#A86500",
+            "#F3C36B",
+            "#FFF7E8"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "8c97f5f9711f9056d9d4fd8109335debbeaff23bd6620cf026de270cf9dc553d"
+    }
+  ]
+}

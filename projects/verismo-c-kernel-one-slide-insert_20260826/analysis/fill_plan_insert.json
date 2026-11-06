@@ -1,0 +1,114 @@
+{
+  "schema": "template_fill_pptx_plan.v1",
+  "status": "confirmed",
+  "source_pptx": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+  "accepted_warnings": [],
+  "slides": [
+    {
+      "source_slide": 1,
+      "purpose": "preserve existing slide 1",
+      "layout_rationale": {
+        "layout_pattern": "original cover",
+        "why_fit": "The user requires the existing slide to remain unchanged.",
+        "risk": "None; no replacement is applied."
+      },
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 2,
+      "purpose": "preserve existing slide 2",
+      "layout_rationale": {
+        "layout_pattern": "original dual-track route",
+        "why_fit": "The user requires the existing slide to remain unchanged.",
+        "risk": "None; no replacement is applied."
+      },
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 3,
+      "purpose": "preserve existing slide 3",
+      "layout_rationale": {
+        "layout_pattern": "original model and properties page",
+        "why_fit": "The user requires the existing slide to remain unchanged.",
+        "risk": "None; no replacement is applied."
+      },
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 4,
+      "purpose": "preserve existing slide 4",
+      "layout_rationale": {
+        "layout_pattern": "original lifecycle page",
+        "why_fit": "The user requires the existing slide to remain unchanged.",
+        "risk": "None; no replacement is applied."
+      },
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 5,
+      "purpose": "inserted summary of the VeriSMo-inspired C-kernel verification plan",
+      "layout_rationale": {
+        "layout_pattern": "six-step serpentine route plus four-part synthesis",
+        "why_fit": "The source material is organized as six connected verification units that converge into four responsibilities and one combined TEE-security conclusion; the existing slide-5 geometry expresses this logic without introducing a new visual language.",
+        "risk": "The reused source slide is an ending-style page, so wording is kept compact and the footer is marked 4A to avoid changing the original slide-5 number."
+      },
+      "notes": "这一页把借鉴 VeriSMo 后的 C 内核验证路线压缩为两层组合。Rocq 机器模型直接描述地址翻译、RMP、寄存器和恶意 Hypervisor 的环境步骤，并证明私有页机密性、完整性与地址稳定；C 实现侧通过 CompCert Clight 和 VST 显式重建页面、页表、锁与寄存器的资源权限。硬件原语契约把两层连接起来，再叠加接口精化、安全标签和顶层 unwinding，形成对 TEE 内核的组合安全结论。与 Rust 方案相比，C 版本的指针别名、未定义行为和汇编包装器会增加证明负担与可信基，因此首个案例应聚焦页面私有与共享切换。",
+      "transition": "keep",
+      "replacements": [
+        {"slot_id": "s05_sh2", "text": "借鉴 VeriSMo 的 C 内核形式化验证方案"},
+        {"slot_id": "s05_sh3", "text": "迁移重点不是复刻 Rust，而是组合机器模型与 C 权限证明"},
+        {"slot_id": "s05_sh6", "text": "六个验证单元｜机器模型与 C 权限证明闭合"},
+        {"slot_id": "s05_sh14", "text": "1"},
+        {"slot_id": "s05_sh15", "text": "机器模型"},
+        {"slot_id": "s05_sh16", "text": "GVA–GPA–SPA、RMP 与寄存器"},
+        {"slot_id": "s05_sh19", "text": "2"},
+        {"slot_id": "s05_sh20", "text": "环境步骤"},
+        {"slot_id": "s05_sh21", "text": "Hypervisor 任意修改硬件状态"},
+        {"slot_id": "s05_sh24", "text": "3"},
+        {"slot_id": "s05_sh25", "text": "机器性质"},
+        {"slot_id": "s05_sh26", "text": "地址稳定 + 私有页机密/完整"},
+        {"slot_id": "s05_sh29", "text": "4"},
+        {"slot_id": "s05_sh30", "text": "C 接入"},
+        {"slot_id": "s05_sh31", "text": "核心 C 代码进入 CompCert Clight"},
+        {"slot_id": "s05_sh34", "text": "5"},
+        {"slot_id": "s05_sh35", "text": "VST 权限"},
+        {"slot_id": "s05_sh36", "text": "页面、页表、锁、寄存器分离逻辑"},
+        {"slot_id": "s05_sh39", "text": "6"},
+        {"slot_id": "s05_sh40", "text": "组合证明"},
+        {"slot_id": "s05_sh41", "text": "接口精化 + 安全标签 + unwinding"},
+        {"slot_id": "s05_sh49", "text": "M"},
+        {"slot_id": "s05_sh50", "text": "C"},
+        {"slot_id": "s05_sh51", "text": "P"},
+        {"slot_id": "s05_sh52", "text": "S"},
+        {"slot_id": "s05_sh53", "text": "恶意环境"},
+        {"slot_id": "s05_sh54", "text": "C 资源权限"},
+        {"slot_id": "s05_sh55", "text": "原语契约"},
+        {"slot_id": "s05_sh56", "text": "组合安全"},
+        {"slot_id": "s05_sh57", "text": "组合结论：机器层约束攻击，VST 约束 C 访问，契约汇合为 TEE 内核安全"},
+        {"slot_id": "s05_sh59", "text": "4A"}
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 5,
+      "purpose": "preserve existing slide 5 after the inserted summary",
+      "layout_rationale": {
+        "layout_pattern": "original implementation and acceptance ending",
+        "why_fit": "The user requires the existing slide to remain unchanged and to follow the inserted slide.",
+        "risk": "Its original page number remains 05 by explicit preservation requirement."
+      },
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    }
+  ]
+}

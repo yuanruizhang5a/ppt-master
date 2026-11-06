@@ -1,0 +1,823 @@
+{
+  "schema": "template_fill_pptx_plan.v1",
+  "status": "draft",
+  "source_pptx": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+  "accepted_warnings": [],
+  "slides": [
+    {
+      "source_slide": 1,
+      "purpose": "cover_candidate",
+      "layout_rationale": {
+        "layout_pattern": "",
+        "why_fit": "",
+        "risk": ""
+      },
+      "replacements": [
+        {
+          "slot_id": "s01_sh2",
+          "old_text": "研究目标与问题界定",
+          "text": "研究目标与问题界定"
+        },
+        {
+          "slot_id": "s01_sh3",
+          "old_text": "Rust 消除了部分内存错误，却不能自动证明权限与清零正确",
+          "text": "Rust 消除了部分内存错误，却不能自动证明权限与清零正确"
+        },
+        {
+          "slot_id": "s01_sh11",
+          "old_text": "Rust 能保证什么",
+          "text": "Rust 能保证什么"
+        },
+        {
+          "slot_id": "s01_sh12",
+          "old_text": "所有权与借用规则",
+          "text": "所有权与借用规则"
+        },
+        {
+          "slot_id": "s01_sh13",
+          "old_text": "类型检查与生命周期约束",
+          "text": "类型检查与生命周期约束"
+        },
+        {
+          "slot_id": "s01_sh14",
+          "old_text": "减少悬垂引用、重复释放等错误",
+          "text": "减少悬垂引用、重复释放等错误"
+        },
+        {
+          "slot_id": "s01_sh16",
+          "old_text": "≠",
+          "text": "≠"
+        },
+        {
+          "slot_id": "s01_sh17",
+          "old_text": "仍有策略证明缺口",
+          "text": "仍有策略证明缺口"
+        },
+        {
+          "slot_id": "s01_sh21",
+          "old_text": "仍需形式化证明什么",
+          "text": "仍需形式化证明什么"
+        },
+        {
+          "slot_id": "s01_sh22",
+          "old_text": "授权隔离：谁能访问哪一页",
+          "text": "授权隔离：谁能访问哪一页"
+        },
+        {
+          "slot_id": "s01_sh23",
+          "old_text": "状态完整性：操作是否保持不变式",
+          "text": "状态完整性：操作是否保持不变式"
+        },
+        {
+          "slot_id": "s01_sh24",
+          "old_text": "重分配清零：旧域数据是否不可见",
+          "text": "重分配清零：旧域数据是否不可见"
+        },
+        {
+          "slot_id": "s01_sh26",
+          "old_text": "验证边界：把可信核心压缩到可审计范围",
+          "text": "验证边界：把可信核心压缩到可审计范围"
+        },
+        {
+          "slot_id": "s01_sh31",
+          "old_text": "本项目证明",
+          "text": "本项目证明"
+        },
+        {
+          "slot_id": "s01_sh32",
+          "old_text": "顺序 safe Rust 策略逻辑",
+          "text": "顺序 safe Rust 策略逻辑"
+        },
+        {
+          "slot_id": "s01_sh33",
+          "old_text": "页访问、释放、重分配",
+          "text": "页访问、释放、重分配"
+        },
+        {
+          "slot_id": "s01_sh34",
+          "old_text": "显式信任",
+          "text": "显式信任"
+        },
+        {
+          "slot_id": "s01_sh35",
+          "old_text": "unsafe 边界与硬件语义",
+          "text": "unsafe 边界与硬件语义"
+        },
+        {
+          "slot_id": "s01_sh36",
+          "old_text": "工具链正确性作为可信基",
+          "text": "工具链正确性作为可信基"
+        },
+        {
+          "slot_id": "s01_sh37",
+          "old_text": "当前不覆盖",
+          "text": "当前不覆盖"
+        },
+        {
+          "slot_id": "s01_sh38",
+          "old_text": "全内核、并发与侧信道",
+          "text": "全内核、并发与侧信道"
+        },
+        {
+          "slot_id": "s01_sh39",
+          "old_text": "不夸大为整机完全验证",
+          "text": "不夸大为整机完全验证"
+        },
+        {
+          "slot_id": "s01_sh47",
+          "old_text": "交付闭环：抽象状态模型 → Rust 对应函数 → Rocq 安全定理 → 可复现脚本与报告",
+          "text": "交付闭环：抽象状态模型 → Rust 对应函数 → Rocq 安全定理 → 可复现脚本与报告"
+        },
+        {
+          "slot_id": "s01_sh49",
+          "old_text": "01",
+          "text": "01"
+        }
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 2,
+      "purpose": "content_candidate",
+      "layout_rationale": {
+        "layout_pattern": "",
+        "why_fit": "",
+        "risk": ""
+      },
+      "replacements": [
+        {
+          "slot_id": "s02_sh2",
+          "old_text": "相关工作 + 总体技术路线",
+          "text": "相关工作 + 总体技术路线"
+        },
+        {
+          "slot_id": "s02_sh3",
+          "old_text": "Charon 抽取语义、Aeneas 函数式化，Rocq 把实现与规约汇合",
+          "text": "Charon 抽取语义、Aeneas 函数式化，Rocq 把实现与规约汇合"
+        },
+        {
+          "slot_id": "s02_sh10",
+          "old_text": "实现轨",
+          "text": "实现轨"
+        },
+        {
+          "slot_id": "s02_sh11",
+          "old_text": "既有工作",
+          "text": "既有工作"
+        },
+        {
+          "slot_id": "s02_sh12",
+          "old_text": "规约轨",
+          "text": "规约轨"
+        },
+        {
+          "slot_id": "s02_sh13",
+          "old_text": "安全目标",
+          "text": "安全目标"
+        },
+        {
+          "slot_id": "s02_sh16",
+          "old_text": "Rust / rustc",
+          "text": "Rust / rustc"
+        },
+        {
+          "slot_id": "s02_sh19",
+          "old_text": "MIR",
+          "text": "MIR"
+        },
+        {
+          "slot_id": "s02_sh20",
+          "old_text": "编译器中间表示",
+          "text": "编译器中间表示"
+        },
+        {
+          "slot_id": "s02_sh23",
+          "old_text": "Charon",
+          "text": "Charon"
+        },
+        {
+          "slot_id": "s02_sh24",
+          "old_text": "ULLBC → LLBC",
+          "text": "ULLBC → LLBC"
+        },
+        {
+          "slot_id": "s02_sh25",
+          "old_text": "剥离编译器细节",
+          "text": "剥离编译器细节"
+        },
+        {
+          "slot_id": "s02_sh28",
+          "old_text": "Aeneas",
+          "text": "Aeneas"
+        },
+        {
+          "slot_id": "s02_sh29",
+          "old_text": "借用语义函数式化",
+          "text": "借用语义函数式化"
+        },
+        {
+          "slot_id": "s02_sh30",
+          "old_text": "Coq 后端生成",
+          "text": "Coq 后端生成"
+        },
+        {
+          "slot_id": "s02_sh33",
+          "old_text": "Rocq",
+          "text": "Rocq"
+        },
+        {
+          "slot_id": "s02_sh34",
+          "old_text": "函数式模型",
+          "text": "函数式模型"
+        },
+        {
+          "slot_id": "s02_sh40",
+          "old_text": "安全需求",
+          "text": "安全需求"
+        },
+        {
+          "slot_id": "s02_sh41",
+          "old_text": "隔离 · 完整性 · 清零",
+          "text": "隔离 · 完整性 · 清零"
+        },
+        {
+          "slot_id": "s02_sh44",
+          "old_text": "抽象状态",
+          "text": "抽象状态"
+        },
+        {
+          "slot_id": "s02_sh45",
+          "old_text": "域、页、拥有者、内容",
+          "text": "域、页、拥有者、内容"
+        },
+        {
+          "slot_id": "s02_sh48",
+          "old_text": "全局不变式",
+          "text": "全局不变式"
+        },
+        {
+          "slot_id": "s02_sh49",
+          "old_text": "唯一拥有 · 合法共享",
+          "text": "唯一拥有 · 合法共享"
+        },
+        {
+          "slot_id": "s02_sh52",
+          "old_text": "函数前置 / 后置条件",
+          "text": "函数前置 / 后置条件"
+        },
+        {
+          "slot_id": "s02_sh53",
+          "old_text": "把策略约束落到每个操作",
+          "text": "把策略约束落到每个操作"
+        },
+        {
+          "slot_id": "s02_sh61",
+          "old_text": "安全定理",
+          "text": "安全定理"
+        },
+        {
+          "slot_id": "s02_sh62",
+          "old_text": "Rocq 检查",
+          "text": "Rocq 检查"
+        },
+        {
+          "slot_id": "s02_sh65",
+          "old_text": "相关工作定位：Charon 负责语义抽取，Aeneas 负责借用感知的函数化翻译；本方案把二者接入内核策略规约与 Rocq 证明。",
+          "text": "相关工作定位：Charon 负责语义抽取，Aeneas 负责借用感知的函数化翻译；本方案把二者接入内核策略规约与 Rocq 证明。"
+        },
+        {
+          "slot_id": "s02_sh67",
+          "old_text": "02",
+          "text": "02"
+        }
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 3,
+      "purpose": "toc_candidate",
+      "layout_rationale": {
+        "layout_pattern": "",
+        "why_fit": "",
+        "risk": ""
+      },
+      "replacements": [
+        {
+          "slot_id": "s03_sh2",
+          "old_text": "第 5–8 节｜状态、翻译与性质",
+          "text": "第 5–8 节｜状态、翻译与性质"
+        },
+        {
+          "slot_id": "s03_sh3",
+          "old_text": "小状态模型足以支撑四类可解释的安全结论",
+          "text": "小状态模型足以支撑四类可解释的安全结论"
+        },
+        {
+          "slot_id": "s03_sh6",
+          "old_text": "01｜Rocq 抽象状态",
+          "text": "01｜Rocq 抽象状态"
+        },
+        {
+          "slot_id": "s03_sh9",
+          "old_text": "DomainId",
+          "text": "DomainId"
+        },
+        {
+          "slot_id": "s03_sh11",
+          "old_text": "PageState",
+          "text": "PageState"
+        },
+        {
+          "slot_id": "s03_sh12",
+          "old_text": "pid : PageId",
+          "text": "pid : PageId"
+        },
+        {
+          "slot_id": "s03_sh15",
+          "old_text": "Kernel",
+          "text": "Kernel"
+        },
+        {
+          "slot_id": "s03_sh16",
+          "old_text": "State",
+          "text": "State"
+        },
+        {
+          "slot_id": "s03_sh19",
+          "old_text": "PageState",
+          "text": "PageState"
+        },
+        {
+          "slot_id": "s03_sh23",
+          "old_text": "owner",
+          "text": "owner"
+        },
+        {
+          "slot_id": "s03_sh24",
+          "old_text": "唯一拥有域",
+          "text": "唯一拥有域"
+        },
+        {
+          "slot_id": "s03_sh25",
+          "old_text": "shared_with",
+          "text": "shared_with"
+        },
+        {
+          "slot_id": "s03_sh26",
+          "old_text": "显式共享域集合",
+          "text": "显式共享域集合"
+        },
+        {
+          "slot_id": "s03_sh27",
+          "old_text": "contents",
+          "text": "contents"
+        },
+        {
+          "slot_id": "s03_sh28",
+          "old_text": "页内容抽象",
+          "text": "页内容抽象"
+        },
+        {
+          "slot_id": "s03_sh29",
+          "old_text": "cleared",
+          "text": "cleared"
+        },
+        {
+          "slot_id": "s03_sh30",
+          "old_text": "重分配前清零标记",
+          "text": "重分配前清零标记"
+        },
+        {
+          "slot_id": "s03_sh32",
+          "old_text": "02｜不变式地基",
+          "text": "02｜不变式地基"
+        },
+        {
+          "slot_id": "s03_sh37",
+          "old_text": "unique_ownership",
+          "text": "unique_ownership"
+        },
+        {
+          "slot_id": "s03_sh38",
+          "old_text": "任一页至多有一个拥有者，",
+          "text": "任一页至多有一个拥有者，"
+        },
+        {
+          "slot_id": "s03_sh39",
+          "old_text": "排除双重归属。",
+          "text": "排除双重归属。"
+        },
+        {
+          "slot_id": "s03_sh40",
+          "old_text": "valid_sharing",
+          "text": "valid_sharing"
+        },
+        {
+          "slot_id": "s03_sh41",
+          "old_text": "共享集合只包含明确授权域，",
+          "text": "共享集合只包含明确授权域，"
+        },
+        {
+          "slot_id": "s03_sh42",
+          "old_text": "共享不绕过所有权。",
+          "text": "共享不绕过所有权。"
+        },
+        {
+          "slot_id": "s03_sh43",
+          "old_text": "reuse_is_clean",
+          "text": "reuse_is_clean"
+        },
+        {
+          "slot_id": "s03_sh44",
+          "old_text": "再次分配前必须清零，",
+          "text": "再次分配前必须清零，"
+        },
+        {
+          "slot_id": "s03_sh45",
+          "old_text": "新域无法观察旧数据。",
+          "text": "新域无法观察旧数据。"
+        },
+        {
+          "slot_id": "s03_sh47",
+          "old_text": "每个 Rust 操作都保持这些条件",
+          "text": "每个 Rust 操作都保持这些条件"
+        },
+        {
+          "slot_id": "s03_sh49",
+          "old_text": "03｜由不变式推出的结论",
+          "text": "03｜由不变式推出的结论"
+        },
+        {
+          "slot_id": "s03_sh60",
+          "old_text": "访问隔离",
+          "text": "访问隔离"
+        },
+        {
+          "slot_id": "s03_sh61",
+          "old_text": "未授权域无法读写该页",
+          "text": "未授权域无法读写该页"
+        },
+        {
+          "slot_id": "s03_sh63",
+          "old_text": "状态完整性",
+          "text": "状态完整性"
+        },
+        {
+          "slot_id": "s03_sh64",
+          "old_text": "每次状态迁移保持全局不变式",
+          "text": "每次状态迁移保持全局不变式"
+        },
+        {
+          "slot_id": "s03_sh66",
+          "old_text": "重分配防泄露",
+          "text": "重分配防泄露"
+        },
+        {
+          "slot_id": "s03_sh67",
+          "old_text": "新拥有者只能看到 zero_page",
+          "text": "新拥有者只能看到 zero_page"
+        },
+        {
+          "slot_id": "s03_sh69",
+          "old_text": "局部非干扰",
+          "text": "局部非干扰"
+        },
+        {
+          "slot_id": "s03_sh70",
+          "old_text": "不等同于全系统非干扰结论",
+          "text": "不等同于全系统非干扰结论"
+        },
+        {
+          "slot_id": "s03_sh73",
+          "old_text": "03",
+          "text": "03"
+        }
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 4,
+      "purpose": "toc_candidate",
+      "layout_rationale": {
+        "layout_pattern": "",
+        "why_fit": "",
+        "risk": ""
+      },
+      "replacements": [
+        {
+          "slot_id": "s04_sh2",
+          "old_text": "第 9–10 节｜方法借鉴与验证样例",
+          "text": "第 9–10 节｜方法借鉴与验证样例"
+        },
+        {
+          "slot_id": "s04_sh3",
+          "old_text": "借鉴 VeriSMo 的边界思想，用三个操作闭合最小验证案例",
+          "text": "借鉴 VeriSMo 的边界思想，用三个操作闭合最小验证案例"
+        },
+        {
+          "slot_id": "s04_sh6",
+          "old_text": "方法迁移：保留思想，不照搬证明规模",
+          "text": "方法迁移：保留思想，不照搬证明规模"
+        },
+        {
+          "slot_id": "s04_sh11",
+          "old_text": "留",
+          "text": "留"
+        },
+        {
+          "slot_id": "s04_sh12",
+          "old_text": "保留",
+          "text": "保留"
+        },
+        {
+          "slot_id": "s04_sh13",
+          "old_text": "以借用边界隔离 unsafe，并让 proof boundary 可审计",
+          "text": "以借用边界隔离 unsafe，并让 proof boundary 可审计"
+        },
+        {
+          "slot_id": "s04_sh15",
+          "old_text": "简",
+          "text": "简"
+        },
+        {
+          "slot_id": "s04_sh16",
+          "old_text": "简化",
+          "text": "简化"
+        },
+        {
+          "slot_id": "s04_sh17",
+          "old_text": "从整机验证收敛到顺序页管理与局部非干扰",
+          "text": "从整机验证收敛到顺序页管理与局部非干扰"
+        },
+        {
+          "slot_id": "s04_sh19",
+          "old_text": "换",
+          "text": "换"
+        },
+        {
+          "slot_id": "s04_sh20",
+          "old_text": "替换",
+          "text": "替换"
+        },
+        {
+          "slot_id": "s04_sh21",
+          "old_text": "以 Charon + Aeneas + Rocq 对接真实 Rust 源码",
+          "text": "以 Charon + Aeneas + Rocq 对接真实 Rust 源码"
+        },
+        {
+          "slot_id": "s04_sh23",
+          "old_text": "最小案例：一页内存从授权访问到安全重分配",
+          "text": "最小案例：一页内存从授权访问到安全重分配"
+        },
+        {
+          "slot_id": "s04_sh26",
+          "old_text": "Page(owner = d₁)",
+          "text": "Page(owner = d₁)"
+        },
+        {
+          "slot_id": "s04_sh27",
+          "old_text": "contents = secret₁",
+          "text": "contents = secret₁"
+        },
+        {
+          "slot_id": "s04_sh28",
+          "old_text": "仅 d₁ / shared_with 可访问",
+          "text": "仅 d₁ / shared_with 可访问"
+        },
+        {
+          "slot_id": "s04_sh31",
+          "old_text": "release_page",
+          "text": "release_page"
+        },
+        {
+          "slot_id": "s04_sh33",
+          "old_text": "Page(owner = None)",
+          "text": "Page(owner = None)"
+        },
+        {
+          "slot_id": "s04_sh34",
+          "old_text": "contents = zero_page",
+          "text": "contents = zero_page"
+        },
+        {
+          "slot_id": "s04_sh35",
+          "old_text": "cleared = true",
+          "text": "cleared = true"
+        },
+        {
+          "slot_id": "s04_sh38",
+          "old_text": "reassign_page",
+          "text": "reassign_page"
+        },
+        {
+          "slot_id": "s04_sh40",
+          "old_text": "Page(owner = d₂)",
+          "text": "Page(owner = d₂)"
+        },
+        {
+          "slot_id": "s04_sh41",
+          "old_text": "contents = zero_page",
+          "text": "contents = zero_page"
+        },
+        {
+          "slot_id": "s04_sh42",
+          "old_text": "旧域数据不进入新域",
+          "text": "旧域数据不进入新域"
+        },
+        {
+          "slot_id": "s04_sh47",
+          "old_text": "证明闭环",
+          "text": "证明闭环"
+        },
+        {
+          "slot_id": "s04_sh48",
+          "old_text": "授权 + 清零 + 不变式",
+          "text": "授权 + 清零 + 不变式"
+        },
+        {
+          "slot_id": "s04_sh54",
+          "old_text": "may_access 是所有读写入口的守门条件；不满足授权即拒绝进入状态迁移。",
+          "text": "may_access 是所有读写入口的守门条件；不满足授权即拒绝进入状态迁移。"
+        },
+        {
+          "slot_id": "s04_sh57",
+          "old_text": "04",
+          "text": "04"
+        }
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 5,
+      "purpose": "ending_candidate",
+      "layout_rationale": {
+        "layout_pattern": "",
+        "why_fit": "",
+        "risk": ""
+      },
+      "replacements": [
+        {
+          "slot_id": "s05_sh2",
+          "old_text": "第 11–12 节｜实施步骤与项目指标",
+          "text": "第 11–12 节｜实施步骤与项目指标"
+        },
+        {
+          "slot_id": "s05_sh3",
+          "old_text": "六阶段路线最终落在可复现的“1–3–2–1”验收闭环",
+          "text": "六阶段路线最终落在可复现的“1–3–2–1”验收闭环"
+        },
+        {
+          "slot_id": "s05_sh6",
+          "old_text": "六阶段实施路线｜每一步都有清晰完成标志",
+          "text": "六阶段实施路线｜每一步都有清晰完成标志"
+        },
+        {
+          "slot_id": "s05_sh14",
+          "old_text": "1",
+          "text": "1"
+        },
+        {
+          "slot_id": "s05_sh15",
+          "old_text": "确定边界",
+          "text": "确定边界"
+        },
+        {
+          "slot_id": "s05_sh16",
+          "old_text": "目标函数 + unsafe / 外部依赖清单",
+          "text": "目标函数 + unsafe / 外部依赖清单"
+        },
+        {
+          "slot_id": "s05_sh19",
+          "old_text": "2",
+          "text": "2"
+        },
+        {
+          "slot_id": "s05_sh20",
+          "old_text": "打通工具",
+          "text": "打通工具"
+        },
+        {
+          "slot_id": "s05_sh21",
+          "old_text": "固定版本，生成可加载 LLBC / Rocq",
+          "text": "固定版本，生成可加载 LLBC / Rocq"
+        },
+        {
+          "slot_id": "s05_sh24",
+          "old_text": "3",
+          "text": "3"
+        },
+        {
+          "slot_id": "s05_sh25",
+          "old_text": "建立规约",
+          "text": "建立规约"
+        },
+        {
+          "slot_id": "s05_sh26",
+          "old_text": "形成抽象状态与核心安全不变式",
+          "text": "形成抽象状态与核心安全不变式"
+        },
+        {
+          "slot_id": "s05_sh29",
+          "old_text": "4",
+          "text": "4"
+        },
+        {
+          "slot_id": "s05_sh30",
+          "old_text": "证明函数",
+          "text": "证明函数"
+        },
+        {
+          "slot_id": "s05_sh31",
+          "old_text": "完成不少于 3 项关键操作证明",
+          "text": "完成不少于 3 项关键操作证明"
+        },
+        {
+          "slot_id": "s05_sh34",
+          "old_text": "5",
+          "text": "5"
+        },
+        {
+          "slot_id": "s05_sh35",
+          "old_text": "证明属性",
+          "text": "证明属性"
+        },
+        {
+          "slot_id": "s05_sh36",
+          "old_text": "归纳不少于 2 类典型安全属性",
+          "text": "归纳不少于 2 类典型安全属性"
+        },
+        {
+          "slot_id": "s05_sh39",
+          "old_text": "6",
+          "text": "6"
+        },
+        {
+          "slot_id": "s05_sh40",
+          "old_text": "验收整理",
+          "text": "验收整理"
+        },
+        {
+          "slot_id": "s05_sh41",
+          "old_text": "源码、模型、脚本、复现说明与报告",
+          "text": "源码、模型、脚本、复现说明与报告"
+        },
+        {
+          "slot_id": "s05_sh49",
+          "old_text": "1",
+          "text": "1"
+        },
+        {
+          "slot_id": "s05_sh50",
+          "old_text": "3",
+          "text": "3"
+        },
+        {
+          "slot_id": "s05_sh51",
+          "old_text": "2",
+          "text": "2"
+        },
+        {
+          "slot_id": "s05_sh52",
+          "old_text": "1",
+          "text": "1"
+        },
+        {
+          "slot_id": "s05_sh53",
+          "old_text": "个核心模型",
+          "text": "个核心模型"
+        },
+        {
+          "slot_id": "s05_sh54",
+          "old_text": "项关键操作",
+          "text": "项关键操作"
+        },
+        {
+          "slot_id": "s05_sh55",
+          "old_text": "类安全属性",
+          "text": "类安全属性"
+        },
+        {
+          "slot_id": "s05_sh56",
+          "old_text": "套案例与报告",
+          "text": "套案例与报告"
+        },
+        {
+          "slot_id": "s05_sh57",
+          "old_text": "验收不是“整机已证明”，而是一条可复现、可解释、可扩展的 Rust → Rocq 路线",
+          "text": "验收不是“整机已证明”，而是一条可复现、可解释、可扩展的 Rust → Rocq 路线"
+        },
+        {
+          "slot_id": "s05_sh59",
+          "old_text": "05",
+          "text": "05"
+        }
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    }
+  ]
+}

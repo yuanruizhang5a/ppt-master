@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "docx",
+  "source": {
+    "path": "借鉴VeriSMo的C内核形式化验证方案.docx",
+    "name": "借鉴VeriSMo的C内核形式化验证方案.docx",
+    "suffix": ".docx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 201471
+  },
+  "outputs": {
+    "markdown": "借鉴VeriSMo的C内核形式化验证方案.md",
+    "asset_dir": "借鉴VeriSMo的C内核形式化验证方案_files",
+    "image_manifest": "借鉴VeriSMo的C内核形式化验证方案_files/image_manifest.json",
+    "image_count": 1
+  },
+  "markdown": {
+    "line_count": 261,
+    "char_count": 8423,
+    "heading_count": 19,
+    "table_count": 7,
+    "image_ref_count": 1,
+    "link_count": 6
+  },
+  "warnings": []
+}

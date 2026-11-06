@@ -1,0 +1,133 @@
+{
+  "source": "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/sources/aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+  "slide_count": 5,
+  "canvas": {
+    "width_px": 1280,
+    "height_px": 720,
+    "aspect": 1.7778
+  },
+  "theme": {
+    "palette": {
+      "background": "#FFFFFF",
+      "background_alt": "#F3F6F8",
+      "text": "#18212B",
+      "text_alt": "#1F497D",
+      "hyperlink": "#E28A22",
+      "accent1": "#153A5B",
+      "accent2": "#E28A22",
+      "accent3": "#0E7490",
+      "accent4": "#153A5B",
+      "accent5": "#CCD8E2",
+      "accent6": "#F79646",
+      "primary": "#153A5B"
+    },
+    "fonts": {
+      "title": {
+        "latin": "Arial",
+        "ea": "Microsoft YaHei",
+        "cs": "Arial",
+        "scripts": {
+          "Jpan": "Microsoft YaHei",
+          "Hang": "Microsoft YaHei",
+          "Hans": "Microsoft YaHei",
+          "Hant": "Microsoft YaHei"
+        }
+      },
+      "body": {
+        "latin": "Arial",
+        "ea": "Microsoft YaHei",
+        "cs": "Arial",
+        "scripts": {
+          "Jpan": "Microsoft YaHei",
+          "Hang": "Microsoft YaHei",
+          "Hans": "Microsoft YaHei",
+          "Hant": "Microsoft YaHei"
+        }
+      }
+    },
+    "sizes": {
+      "title": 33.0,
+      "body": 18.0,
+      "body_levels": [
+        18.0,
+        17.0,
+        16.0,
+        14.5,
+        13.5,
+        12.5,
+        11.0,
+        10.0,
+        9.0
+      ]
+    }
+  },
+  "observed": {
+    "fonts": {
+      "latin": [
+        {
+          "value": "Cambria Math",
+          "count": 70
+        },
+        {
+          "value": "Consolas",
+          "count": 21
+        }
+      ],
+      "ea": [
+        {
+          "value": "Cambria Math",
+          "count": 70
+        },
+        {
+          "value": "Consolas",
+          "count": 21
+        }
+      ]
+    },
+    "sizes_pt": [
+      {
+        "value": 16.5,
+        "count": 93
+      },
+      {
+        "value": 12.0,
+        "count": 39
+      },
+      {
+        "value": 12.8,
+        "count": 34
+      },
+      {
+        "value": 13.5,
+        "count": 20
+      },
+      {
+        "value": 15.0,
+        "count": 15
+      },
+      {
+        "value": 17.2,
+        "count": 9
+      },
+      {
+        "value": 14.2,
+        "count": 7
+      },
+      {
+        "value": 31.5,
+        "count": 5
+      }
+    ],
+    "colors": [
+      {
+        "value": "#153A5B",
+        "count": 70
+      },
+      {
+        "value": "#FFFFFF",
+        "count": 38
+      }
+    ]
+  },
+  "layout_sizes_pt": []
+}

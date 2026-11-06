@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-primary" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#153A5B"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#E28A22"/>
+    </marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="56 28 1168 102">
+    <text x="56" y="54" font-size="17" font-weight="700" letter-spacing="1.2" fill="#0E7490">第 5–8 节｜状态、翻译与性质</text>
+    <text x="56" y="103" font-size="42" font-weight="700" fill="#153A5B">小状态模型足以支撑四类可解释的安全结论</text>
+    <line x1="56" y1="124" x2="1224" y2="124" stroke="#CCD8E2" stroke-width="2"/>
+  </g>
+
+  <g id="state-model" data-pptx-bounds="48 150 428 420">
+    <text x="56" y="178" font-size="20" font-weight="700" fill="#0E7490">01｜Rocq 抽象状态</text>
+    <line x1="118" y1="231" x2="175" y2="231" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <circle cx="88" cy="231" r="30" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <text x="88" y="237" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" font-weight="700" fill="#153A5B">DomainId</text>
+    <rect x="178" y="194" width="148" height="74" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <text x="252" y="224" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#153A5B">PageState</text>
+    <text x="252" y="251" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" fill="#18212B">pid : PageId</text>
+    <line x1="326" y1="231" x2="385" y2="231" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <rect x="388" y="194" width="88" height="74" fill="#153A5B"/>
+    <text x="432" y="224" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" font-weight="700" fill="#FFFFFF">Kernel</text>
+    <text x="432" y="248" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="16" font-weight="700" fill="#FFFFFF">State</text>
+
+    <rect x="84" y="306" width="354" height="218" fill="#FFFFFF" stroke="#CCD8E2" stroke-width="2"/>
+    <rect x="84" y="306" width="354" height="44" fill="#153A5B"/>
+    <text x="105" y="335" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#FFFFFF">PageState</text>
+    <line x1="84" y1="394" x2="438" y2="394" stroke="#CCD8E2" stroke-width="1"/>
+    <line x1="84" y1="438" x2="438" y2="438" stroke="#CCD8E2" stroke-width="1"/>
+    <line x1="84" y1="482" x2="438" y2="482" stroke="#CCD8E2" stroke-width="1"/>
+    <text x="105" y="380" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="17" fill="#153A5B">owner</text>
+    <text x="226" y="380" font-size="17" fill="#18212B">唯一拥有域</text>
+    <text x="105" y="424" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="17" fill="#153A5B">shared_with</text>
+    <text x="226" y="424" font-size="17" fill="#18212B">显式共享域集合</text>
+    <text x="105" y="468" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="17" fill="#153A5B">contents</text>
+    <text x="226" y="468" font-size="17" fill="#18212B">页内容抽象</text>
+    <text x="105" y="512" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="17" fill="#153A5B">cleared</text>
+    <text x="226" y="512" font-size="17" fill="#18212B">重分配前清零标记</text>
+  </g>
+
+  <g id="invariant-foundation" data-pptx-bounds="496 150 290 420">
+    <text x="496" y="178" font-size="20" font-weight="700" fill="#0E7490">02｜不变式地基</text>
+    <line x1="528" y1="220" x2="528" y2="518" stroke="#E28A22" stroke-width="4"/>
+    <circle cx="528" cy="245" r="14" fill="#E28A22"/>
+    <circle cx="528" cy="350" r="14" fill="#E28A22"/>
+    <circle cx="528" cy="455" r="14" fill="#E28A22"/>
+    <text x="562" y="239" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#153A5B">unique_ownership</text>
+    <text x="562" y="269" font-size="17" fill="#18212B">任一页至多有一个拥有者，</text>
+    <text x="562" y="294" font-size="17" fill="#18212B">排除双重归属。</text>
+    <text x="562" y="344" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#153A5B">valid_sharing</text>
+    <text x="562" y="374" font-size="17" fill="#18212B">共享集合只包含明确授权域，</text>
+    <text x="562" y="399" font-size="17" fill="#18212B">共享不绕过所有权。</text>
+    <text x="562" y="449" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="18" font-weight="700" fill="#153A5B">reuse_is_clean</text>
+    <text x="562" y="479" font-size="17" fill="#18212B">再次分配前必须清零，</text>
+    <text x="562" y="504" font-size="17" fill="#18212B">新域无法观察旧数据。</text>
+    <rect x="552" y="526" width="214" height="40" fill="#F3F6F8" stroke="#0E7490" stroke-width="2"/>
+    <text x="659" y="552" text-anchor="middle" font-size="17" font-weight="700" fill="#0E7490">每个 Rust 操作都保持这些条件</text>
+  </g>
+
+  <g id="security-outcomes" data-pptx-bounds="806 150 418 420">
+    <text x="806" y="178" font-size="20" font-weight="700" fill="#0E7490">03｜由不变式推出的结论</text>
+    <line x1="846" y1="235" x2="846" y2="510" stroke="#153A5B" stroke-width="3"/>
+    <line x1="846" y1="245" x2="892" y2="245" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <line x1="846" y1="330" x2="892" y2="330" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <line x1="846" y1="415" x2="892" y2="415" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <line x1="846" y1="500" x2="892" y2="500" stroke="#153A5B" stroke-width="2" marker-end="url(#arrow-primary)"/>
+    <circle cx="846" cy="245" r="8" fill="#E28A22"/>
+    <circle cx="846" cy="330" r="8" fill="#E28A22"/>
+    <circle cx="846" cy="415" r="8" fill="#E28A22"/>
+    <circle cx="846" cy="500" r="8" fill="#E28A22"/>
+    <rect x="896" y="211" width="306" height="68" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <text x="916" y="239" font-size="20" font-weight="700" fill="#153A5B">访问隔离</text>
+    <text x="916" y="264" font-size="16" fill="#18212B">未授权域无法读写该页</text>
+    <rect x="896" y="296" width="306" height="68" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <text x="916" y="324" font-size="20" font-weight="700" fill="#153A5B">状态完整性</text>
+    <text x="916" y="349" font-size="16" fill="#18212B">每次状态迁移保持全局不变式</text>
+    <rect x="896" y="381" width="306" height="68" fill="#FFFFFF" stroke="#E28A22" stroke-width="2"/>
+    <text x="916" y="409" font-size="20" font-weight="700" fill="#E28A22">重分配防泄露</text>
+    <text x="916" y="434" font-size="16" fill="#18212B">新拥有者只能看到 zero_page</text>
+    <rect x="896" y="466" width="306" height="68" fill="#F3F6F8" stroke="#0E7490" stroke-width="2"/>
+    <text x="916" y="494" font-size="20" font-weight="700" fill="#0E7490">局部非干扰</text>
+    <text x="916" y="519" font-size="16" fill="#18212B">不等同于全系统非干扰结论</text>
+  </g>
+
+  <g id="state-formula" data-pptx-replace-with="formula"
+     data-pptx-x="56" data-pptx-y="586"
+     data-pptx-width="1168" data-pptx-height="96"
+     data-pptx-bounds="56 586 1168 96">
+    <metadata type="application/json"><![CDATA[
+      {"latex":"\\begin{aligned}\\mathrm{authorized}(d,p) &:= \\mathrm{owner}(p)=\\mathrm{Some}(d)\\lor d\\in\\mathrm{shared\\_with}(p) \\\\ \\mathrm{valid\\_state}(s) &:= \\mathrm{unique\\_ownership}(s)\\land\\mathrm{valid\\_sharing}(s)\\land\\mathrm{reuse\\_is\\_clean}(s)\\end{aligned}","display":"block","font_size":22,"color":"#153A5B","align":"center"}
+    ]]></metadata>
+    <rect x="56" y="586" width="1168" height="96" fill="#F3F6F8" stroke="#CCD8E2" stroke-width="2"/>
+    <text x="640" y="623" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="19" fill="#153A5B">authorized(d,p) := owner(p)=Some(d) ∨ d∈shared_with(p)</text>
+    <text x="640" y="657" text-anchor="middle" font-family="Consolas, Microsoft YaHei, Arial, monospace" font-size="19" fill="#153A5B">valid_state(s) := unique_ownership(s) ∧ valid_sharing(s) ∧ reuse_is_clean(s)</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1224" y="702" text-anchor="end" font-size="16" fill="#153A5B">03</text>
+</svg>

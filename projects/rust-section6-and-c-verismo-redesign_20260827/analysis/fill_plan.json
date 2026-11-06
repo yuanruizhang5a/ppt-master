@@ -1,0 +1,156 @@
+{
+  "schema": "template_fill_pptx_plan.v1",
+  "status": "confirmed",
+  "source_pptx": "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.pptx",
+  "accepted_warnings": [],
+  "slides": [
+    {
+      "source_slide": 1,
+      "purpose": "preserve existing slide 1",
+      "layout_rationale": {
+        "layout_pattern": "original contrast cover",
+        "why_fit": "The existing slide must remain unchanged.",
+        "risk": "None; no visual replacement is applied."
+      },
+      "notes": "这一页先界定我们究竟要证明什么。Rust 的所有权、借用、类型和生命周期规则，确实能够减少悬垂引用、重复释放等内存安全错误，但这不等于系统的安全策略已经得到证明：代码仍然可能把页面授权给错误的安全域，也可能在回收和重新分配时遗漏清零。因此，本项目把证明目标集中在三个问题上，也就是授权隔离、状态完整性和重分配防泄露。\n\n验证范围被有意压缩为顺序执行的 safe Rust 策略逻辑，首批操作是页访问、页释放和页重新分配。unsafe 边界、硬件语义以及 rustc、Charon、Aeneas 等工具链正确性作为显式可信基础记录下来；全内核、多核并发、时间与缓存侧信道不在本阶段结论之内。这样做不是降低严谨性，而是让结论与假设一一对应，避免把局部验证夸大为整机完全验证。最终交付形成从抽象状态模型、Rust 对应函数、Rocq 安全定理到复现脚本和报告的闭环。",
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 2,
+      "purpose": "preserve existing slide 2",
+      "layout_rationale": {
+        "layout_pattern": "original dual-track route",
+        "why_fit": "The existing slide must remain unchanged.",
+        "risk": "None; no visual replacement is applied."
+      },
+      "notes": "总体路线由实现轨和规约轨并行推进，最后在 Rocq 的安全定理处汇合。实现轨从真实 Rust 源码进入 rustc 的 MIR，Charon 再把编译器表示抽取为 ULLBC 和 LLBC，剥离与证明无关的编译细节；Aeneas 进一步把借用感知的 Rust 语义翻译成函数式模型，并通过 Coq 后端生成可以在 Rocq 中加载的定义。这里 Charon 解决的是语义抽取问题，Aeneas 解决的是带借用程序如何转成适合定理证明的纯函数问题。\n\n规约轨从访问隔离、状态完整性和清零要求出发，依次定义域、页、拥有者和内容等抽象状态，再建立唯一拥有、合法共享和安全复用等全局不变式，最后把这些条件落实为每个 Rust 操作的前置条件和后置条件。两条轨道的汇合点不是一份独立于实现的纸面模型，而是生成的 Rocq 函数与安全规约之间的证明。由此形成七个连续环节：选择安全核心、提取 MIR、生成 LLBC、函数式翻译、建立抽象状态、写出操作契约、由 Rocq 检查安全定理。",
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 3,
+      "purpose": "preserve existing slide 3",
+      "layout_rationale": {
+        "layout_pattern": "original state-model and properties page",
+        "why_fit": "The existing slide must remain unchanged.",
+        "risk": "None; no visual replacement is applied."
+      },
+      "notes": "为了证明典型页管理策略，不需要一开始就重建完整处理器和虚拟化平台。左侧模型以 DomainId 和 PageId 为基本标识，把每一页抽象为 PageState，其中记录唯一拥有者、显式共享集合、页内容和是否已经清零；KernelState 则组织所有页面状态。授权关系由拥有者或共享集合给出，这个定义既足够贴近 Rust 操作，又能保持证明规模可控。\n\n中间三条不变式构成证明地基。unique ownership 排除同一页面同时归属多个安全域，valid sharing 要求共享主体必须得到明确授权，reuse is clean 则要求页面再次分配之前已经清零。每个由 Aeneas 生成或对应到 Rocq 的 Rust 操作，都要证明执行前后的状态继续满足这三条条件。\n\n在这个基础上可以得到四类结论。访问隔离说明未授权域不能读写该页；状态完整性说明每次合法状态迁移都保持全局不变式；重分配防泄露说明新拥有者观察到的是 zero page，而不是旧域数据；局部非干扰则在给定观察关系和单步顺序语义下保持公开等价。最后一个结论需要特别限定，它不是包含调度、环境行为、缓存与时间侧信道的全系统非干扰证明。",
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 2,
+      "purpose": "new summary of section 6: Rust code to Rocq model processing flow",
+      "layout_rationale": {
+        "layout_pattern": "two-lane translation pipeline converging on reproducible proof readiness",
+        "why_fit": "Section 6 contains a five-step implementation translation chain plus a parallel set of engineering prerequisites; the dual-lane source layout makes both paths visible and shows their convergence.",
+        "risk": "This repeats the slide-2 visual grammar, but it represents a different, source-backed translation process and is inserted as a technical drill-down rather than another overview."
+      },
+      "notes": "这一页把第六节的处理流程具体化。首先把目标安全策略剥离成能够独立编译的小型 Rust crate，尽量减少复杂宏、外部依赖和不必要的 unsafe；随后在固定版本的 Cargo 与 rustc 环境中编译，由 Charon 从 MIR 生成 LLBC 文件，再由 Aeneas 的 Coq 后端翻译成函数式模型。生成模型进入 Rocq 工程后，还需要补齐外部类型、库函数和必要的抽象定义，最后围绕生成函数编写规约与定理。为了保证结果可复现，Charon、Aeneas、rustc、Rocq 和依赖版本都要锁定，并应尽早在真实目标代码上完成一次最小可行性验证。",
+      "transition": "keep",
+      "replacements": [
+        {"slot_id": "s02_sh2", "text": "第 6 节｜Rust 代码到 Rocq 模型"},
+        {"slot_id": "s02_sh3", "text": "五步翻译链把 Rust 实现变成可在 Rocq 中证明的函数模型"},
+        {"slot_id": "s02_sh10", "text": "翻译链"},
+        {"slot_id": "s02_sh11", "text": "翻译过程"},
+        {"slot_id": "s02_sh12", "text": "工程链"},
+        {"slot_id": "s02_sh13", "text": "复现条件"},
+        {"slot_id": "s02_sh16", "text": "Rust crate"},
+        {"slot_id": "s02_sh19", "text": "MIR"},
+        {"slot_id": "s02_sh20", "text": "固定编译环境"},
+        {"slot_id": "s02_sh23", "text": "Charon"},
+        {"slot_id": "s02_sh24", "text": "MIR → LLBC"},
+        {"slot_id": "s02_sh25", "text": "输出 .llbc"},
+        {"slot_id": "s02_sh28", "text": "Aeneas"},
+        {"slot_id": "s02_sh29", "text": "Coq 后端翻译"},
+        {"slot_id": "s02_sh30", "text": "函数式模型"},
+        {"slot_id": "s02_sh33", "text": "Rocq"},
+        {"slot_id": "s02_sh34", "text": "模型与定理"},
+        {"slot_id": "s02_sh40", "text": "代码准备"},
+        {"slot_id": "s02_sh41", "text": "独立 crate · 少宏"},
+        {"slot_id": "s02_sh44", "text": "版本固定"},
+        {"slot_id": "s02_sh45", "text": "四类工具与依赖锁定"},
+        {"slot_id": "s02_sh48", "text": "依赖补全"},
+        {"slot_id": "s02_sh49", "text": "类型 · 库函数 · 抽象"},
+        {"slot_id": "s02_sh52", "text": "证明工程"},
+        {"slot_id": "s02_sh53", "text": "规约 · 定理 · Rocq 检查"},
+        {"slot_id": "s02_sh61", "text": "可复现"},
+        {"slot_id": "s02_sh62", "text": "早期测试"},
+        {"slot_id": "s02_sh65", "text": "处理原则：先隔离可编译的小型 crate，再锁定工具版本与依赖；尽早用真实代码验证 Coq 后端可用性。"},
+        {"slot_id": "s02_sh67", "text": "3A"}
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 4,
+      "purpose": "preserve existing slide 4",
+      "layout_rationale": {
+        "layout_pattern": "original VeriSMo transfer and lifecycle page",
+        "why_fit": "The existing slide must remain unchanged and follows the new section-6 drill-down.",
+        "risk": "None; no visual replacement is applied."
+      },
+      "notes": "这一页说明如何借鉴 VeriSMo 而不照搬它的完整证明规模。保留的是它对安全策略、环境假设和实现边界的区分方式，尤其是页面所有权、访问隔离、共享授权和重分配前清零这些核心问题；简化的是完整 CPU、TLB、嵌套页表、RMP、多核并发和全系统非干扰模型；替换的是实现验证工具链，我们使用 Charon、Aeneas 和 Rocq 对接真实的 safe Rust 源码。\n\n最小案例沿着一页内存的生命周期展开。初始状态下页面由 d 一拥有，内容是 secret 一，只有拥有者或 shared with 中的主体可以通过 may access；release page 成功后，页面进入无拥有者、内容为 zero page、cleared 为 true 的中间状态；只有满足这一清零条件，reassign page 才能把页面交给 d 二。这样，访问守门、页面回收和安全重分配三个操作共同闭合授权、清零和不变式证明。\n\n对应的两个核心命题也很直接：may access 返回真，必须能够推出调用者已获授权；reassign page 成功，必须能够推出新状态中的页面内容等于 zero page。这个案例规模足够小，便于在工具能力受限时把 Vec、泛型或外部库模型简化掉，同时仍然保留最关键的安全策略和可验收证明结论。",
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 1,
+      "purpose": "redesigned summary of the VeriSMo-inspired C-kernel verification plan",
+      "layout_rationale": {
+        "layout_pattern": "original-versus-C-migration contrast plus three-layer contract bridge",
+        "why_fit": "The source material explicitly contrasts VeriSMo's Rust/Verus permission carrier with the Rocq, Clight, and VST replacement for C, then composes machine, contract, and implementation layers; the contrast layout communicates this without repeating the slide-6 roadmap.",
+        "risk": "The layout was originally a problem-boundary page, so all replacement statements are kept concise while the three lower zones and conclusion band provide the requested additional explanation."
+      },
+      "notes": "新的 C 方案页不再复用六阶段路线，而是直接比较原方法与迁移后的证明载体。VeriSMo 的关键不是 Rust 语言本身，而是机器模型处理恶意 Hypervisor、实现侧用不可复制权限约束资源访问；迁移到 C 后，机器层仍由 Rocq 表示页表、RMP、寄存器和攻击者步骤，代码层则以 CompCert Clight 固定 C 语义，并用 VST 显式证明指针、页面、锁和寄存器权限。两层通过 pvalidate、RMP 调整和页表写入等硬件原语契约连接，再叠加接口精化、安全标签与 unwinding，才能得到 TEE 内核的组合机密性和完整性。需要保留的边界是，C 的别名、越界、生命周期和未定义行为会增加证明负担，而仅以可信后置条件描述的汇编包装器仍属于可信基。",
+      "transition": "keep",
+      "replacements": [
+        {"slot_id": "s01_sh2", "text": "VeriSMo：C 内核迁移"},
+        {"slot_id": "s01_sh3", "text": "C 迁移不复刻 Rust，而是重建机器模型与资源权限证明"},
+        {"slot_id": "s01_sh11", "text": "VeriSMo 原骨架"},
+        {"slot_id": "s01_sh12", "text": "机器层建模攻击者"},
+        {"slot_id": "s01_sh13", "text": "Rust ownership 与 tracked 权限"},
+        {"slot_id": "s01_sh14", "text": "组合机密性、完整性与信息流"},
+        {"slot_id": "s01_sh16", "text": "≠"},
+        {"slot_id": "s01_sh17", "text": "权限载体不同"},
+        {"slot_id": "s01_sh21", "text": "C 内核对应替换"},
+        {"slot_id": "s01_sh22", "text": "Rocq：页表、RMP、寄存器"},
+        {"slot_id": "s01_sh23", "text": "Clight：固定真实 C 语义"},
+        {"slot_id": "s01_sh24", "text": "VST：指针、锁与资源权限"},
+        {"slot_id": "s01_sh26", "text": "两层架构通过硬件原语契约闭合"},
+        {"slot_id": "s01_sh31", "text": "机器模型层"},
+        {"slot_id": "s01_sh32", "text": "Rocq 机器模型"},
+        {"slot_id": "s01_sh33", "text": "攻击可达 · 地址稳定"},
+        {"slot_id": "s01_sh34", "text": "契约桥"},
+        {"slot_id": "s01_sh35", "text": "硬件原语契约"},
+        {"slot_id": "s01_sh36", "text": "pvalidate · RMP · 页表"},
+        {"slot_id": "s01_sh37", "text": "C 实现层"},
+        {"slot_id": "s01_sh38", "text": "Clight + VST 权限证明"},
+        {"slot_id": "s01_sh39", "text": "精化 · 标签 · unwinding"},
+        {"slot_id": "s01_sh47", "text": "机器层抗攻击，VST 管 C 资源，原语契约组合出 TEE 安全；首案验证私有/共享页。"},
+        {"slot_id": "s01_sh49", "text": "4A"}
+      ],
+      "table_edits": [],
+      "chart_edits": []
+    },
+    {
+      "source_slide": 6,
+      "purpose": "preserve existing final slide",
+      "layout_rationale": {
+        "layout_pattern": "original six-stage implementation and acceptance roadmap",
+        "why_fit": "The existing slide must remain unchanged and remains the ending page.",
+        "risk": "Its original page number remains 05 by preservation requirement."
+      },
+      "notes": "实施工作分为六个有完成标志的阶段。第一阶段确定边界，形成目标函数、unsafe 调用、外部依赖和可信假设清单；第二阶段固定工具版本，打通 Charon 提取与 Aeneas Coq 输出，得到可加载的 LLBC 和 Rocq 文件；第三阶段建立页面状态、权限关系和生命周期规约，形成抽象状态与安全不变式；第四阶段证明访问、回收和重新分配函数；第五阶段从这些函数证明中归纳典型安全属性；第六阶段整理源码、模型、证明脚本、复现说明和验证报告。\n\n结题指标可以压缩成一、三、二、一：不少于一个机密计算 Rust 核心安全模型，不少于三项关键操作，不少于两类典型安全属性，以及一套验证案例和分析报告。同时还要实际完成 Rust 安全关键代码到 Rocq 函数式模型的转换。三项操作优先选择访问权限检查、页面回收和页面重新分配，两类属性优先选择访问隔离与页面重分配防泄露。\n\n最终价值不是宣称整个系统已经被彻底验证，而是建立一条可复现、可解释、可扩展的 Rust 到 Rocq 实现级验证路线。只要边界、假设、模型、操作证明和复现材料能够闭合，这个研究项目就具备清晰而务实的验收依据。",
+      "replacements": [],
+      "table_edits": [],
+      "chart_edits": []
+    }
+  ]
+}

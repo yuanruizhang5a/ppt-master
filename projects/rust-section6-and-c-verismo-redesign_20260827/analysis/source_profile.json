@@ -1,0 +1,210 @@
+{
+  "schema": "pptx_intake_index.v1",
+  "deck_count": 1,
+  "decks": [
+    {
+      "schema": "pptx_intake_profile.v1",
+      "stem": "verismo-c-kernel-inserted-slide_20260827_015447",
+      "source_pptx": "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.pptx",
+      "slide_count": 6,
+      "usage_contract": {
+        "standard_generation": "Use identity and slide-library fields as source facts and recommendation candidates only; do not preserve original page count, order, or coordinates unless the user selected the beautify profile or Fill Native PPTX route.",
+        "beautify": "Promote source text, page order, page count, colors, fonts, and font sizes into locked constraints after user confirmation.",
+        "template_fill": "Use slide slots, tables, charts, diagrams, and geometry as the native PPTX fill contract; diagrams are inventory-only and remain unchanged."
+      },
+      "artifacts": {
+        "identity": "verismo-c-kernel-inserted-slide_20260827_015447.identity.json",
+        "slide_library": "verismo-c-kernel-inserted-slide_20260827_015447.slide_library.json"
+      },
+      "canvas": {
+        "width_px": 1280,
+        "height_px": 720,
+        "aspect": 1.7778
+      },
+      "identity": {
+        "theme_palette": {
+          "background": "#FFFFFF",
+          "background_alt": "#F3F6F8",
+          "text": "#18212B",
+          "text_alt": "#1F497D",
+          "hyperlink": "#E28A22",
+          "accent1": "#153A5B",
+          "accent2": "#E28A22",
+          "accent3": "#0E7490",
+          "accent4": "#153A5B",
+          "accent5": "#CCD8E2",
+          "accent6": "#F79646",
+          "primary": "#153A5B"
+        },
+        "theme_fonts": {
+          "title": {
+            "latin": "Arial",
+            "ea": "Microsoft YaHei",
+            "cs": "Arial",
+            "scripts": {
+              "Jpan": "Microsoft YaHei",
+              "Hang": "Microsoft YaHei",
+              "Hans": "Microsoft YaHei",
+              "Hant": "Microsoft YaHei"
+            }
+          },
+          "body": {
+            "latin": "Arial",
+            "ea": "Microsoft YaHei",
+            "cs": "Arial",
+            "scripts": {
+              "Jpan": "Microsoft YaHei",
+              "Hang": "Microsoft YaHei",
+              "Hans": "Microsoft YaHei",
+              "Hant": "Microsoft YaHei"
+            }
+          }
+        },
+        "theme_sizes": {
+          "title": 33.0,
+          "body": 18.0,
+          "body_levels": [
+            18.0,
+            17.0,
+            16.0,
+            14.5,
+            13.5,
+            12.5,
+            11.0,
+            10.0,
+            9.0
+          ]
+        },
+        "observed_colors": [
+          {
+            "value": "#153A5B",
+            "count": 70
+          },
+          {
+            "value": "#FFFFFF",
+            "count": 48
+          }
+        ],
+        "observed_fonts": {
+          "latin": [
+            {
+              "value": "Cambria Math",
+              "count": 70
+            },
+            {
+              "value": "Consolas",
+              "count": 21
+            }
+          ],
+          "ea": [
+            {
+              "value": "Cambria Math",
+              "count": 70
+            },
+            {
+              "value": "Consolas",
+              "count": 21
+            }
+          ]
+        },
+        "observed_sizes_pt": [
+          {
+            "value": 16.5,
+            "count": 99
+          },
+          {
+            "value": 12.0,
+            "count": 46
+          },
+          {
+            "value": 12.8,
+            "count": 35
+          },
+          {
+            "value": 13.5,
+            "count": 31
+          },
+          {
+            "value": 15.0,
+            "count": 16
+          },
+          {
+            "value": 17.2,
+            "count": 9
+          },
+          {
+            "value": 33.0,
+            "count": 8
+          },
+          {
+            "value": 14.2,
+            "count": 7
+          }
+        ],
+        "layout_sizes_pt": []
+      },
+      "structure": {
+        "canvas_px": {
+          "width": 1280,
+          "height": 720
+        },
+        "page_types": [
+          {
+            "slide_index": 1,
+            "page_type": "cover_candidate",
+            "slot_count": 24,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 2,
+            "page_type": "content_candidate",
+            "slot_count": 29,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 3,
+            "page_type": "toc_candidate",
+            "slot_count": 39,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 4,
+            "page_type": "toc_candidate",
+            "slot_count": 29,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 5,
+            "page_type": "content_candidate",
+            "slot_count": 31,
+            "diagram_count": 0
+          },
+          {
+            "slide_index": 6,
+            "page_type": "ending_candidate",
+            "slot_count": 31,
+            "diagram_count": 0
+          }
+        ]
+      },
+      "tables": {
+        "table_count": 0,
+        "tables": []
+      },
+      "charts": {
+        "chart_count": 0,
+        "series_count": 0,
+        "multi_plot_chart_count": 0,
+        "charts": []
+      },
+      "diagrams": {
+        "diagram_count": 0,
+        "text_item_count": 0,
+        "unreadable_count": 0,
+        "warning_count": 0,
+        "slides_with_diagrams": [],
+        "diagrams": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+
+=== 2026-08-26T18:02:37.175Z NOTE id=5ab172ab3524 ===
+Project initialized: profile=default; path=/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827
+
+=== 2026-08-26T18:02:44.081Z PYTHON run=b683923556e9 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/project_manager.py", "import-sources", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827", "--copy", "/home/zyr/myCode/ppt-master/projects/verismo-c-kernel-one-slide-insert_20260826/exports/verismo-c-kernel-inserted-slide_20260827_015447.pptx", "/home/zyr/myCode/ppt-master/projects/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.docx", "/home/zyr/myCode/ppt-master/projects/借鉴VeriSMo的C内核形式化验证方案.docx"]
+
+=== 2026-08-26T18:02:44.442Z PYTHON run=40b9c4c4bf2b ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/pptx_intake.py", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis"]
+stderr:
+  PPTX intake -> /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis
+    identity: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/verismo-c-kernel-inserted-slide_20260827_015447.identity.json
+    slide_library: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/verismo-c-kernel-inserted-slide_20260827_015447.slide_library.json
+    source_profile: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/source_profile.json
+=== 2026-08-26T18:02:44.590Z END run=40b9c4c4bf2b elapsed_ms=148 output_lines=4 retained=4 omitted=0 ===
+
+=== 2026-08-26T18:02:44.675Z PYTHON run=658eb6bf2178 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.md
+=== 2026-08-26T18:02:44.845Z END run=658eb6bf2178 elapsed_ms=170 output_lines=3 retained=1 omitted=2 ===
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.md
+
+=== 2026-08-26T18:02:44.933Z PYTHON run=2e3899c71498 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/doc_to_md.py", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.docx", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/基于Aeneas与Rocq的Rust机密计算内核形式化验证方案.md (20 KB)
+=== 2026-08-26T18:02:45.108Z END run=2e3899c71498 elapsed_ms=174 output_lines=6 retained=1 omitted=5 ===
+
+=== 2026-08-26T18:02:45.179Z PYTHON run=c20d9a89042e ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/doc_to_md.py", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/借鉴VeriSMo的C内核形式化验证方案.docx", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/借鉴VeriSMo的C内核形式化验证方案.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/借鉴VeriSMo的C内核形式化验证方案.md (16 KB)
+=== 2026-08-26T18:02:45.327Z END run=c20d9a89042e elapsed_ms=147 output_lines=4 retained=1 omitted=3 ===
+=== 2026-08-26T18:02:45.339Z END run=b683923556e9 elapsed_ms=1257 output_lines=26 retained=1 omitted=25 ===
+
+=== 2026-08-26T18:06:11.015Z PYTHON run=3ab4de74ad3f ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/verismo-c-kernel-inserted-slide_20260827_015447.slide_library.json", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json
+=== 2026-08-26T18:06:11.153Z END run=3ab4de74ad3f elapsed_ms=137 output_lines=16 retained=1 omitted=15 ===
+
+=== 2026-08-26T18:06:46.904Z PYTHON run=8a8d38ffb572 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/verismo-c-kernel-inserted-slide_20260827_015447.slide_library.json", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json
+=== 2026-08-26T18:06:47.033Z END run=8a8d38ffb572 elapsed_ms=128 output_lines=3 retained=1 omitted=2 ===
+
+=== 2026-08-26T18:06:59.987Z PYTHON run=2e39a32daa65 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "check-plan", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/verismo-c-kernel-inserted-slide_20260827_015447.slide_library.json", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json"]
+stderr:
+  Check report -> /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/check_report.json
+=== 2026-08-26T18:07:00.114Z END run=2e39a32daa65 elapsed_ms=127 output_lines=2 retained=1 omitted=1 ===
+
+=== 2026-08-26T18:10:14.085Z PYTHON run=50e131b8c785 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "apply", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/sources/verismo-c-kernel-inserted-slide_20260827_015447.pptx", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/analysis/fill_plan.json", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/exports/rust-section6-and-c-verismo-redesigned.pptx"]
+stderr:
+  Template-filled PPTX -> /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/exports/rust-section6-and-c-verismo-redesigned_20260827_021014.pptx
+=== 2026-08-26T18:10:14.338Z END run=50e131b8c785 elapsed_ms=253 output_lines=1 retained=1 omitted=0 ===
+
+=== 2026-08-26T18:10:18.092Z PYTHON run=1d45ac1dd3ae ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/template_fill_pptx.py", "validate", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827"]
+
+=== 2026-08-26T18:10:18.302Z PYTHON run=87ed662cf460 ===
+cwd: /home/zyr/myCode/ppt-master
+argv: ["/home/zyr/myCode/ppt-master/.venv/bin/python3", "/home/zyr/myCode/ppt-master/skills/ppt-master/scripts/source_to_md/ppt_to_md.py", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/exports/rust-section6-and-c-verismo-redesigned_20260827_021014.pptx", "-o", "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/validation/readback.md"]
+stdout:
+  [OK] Saved Markdown to: /home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/validation/readback.md
+=== 2026-08-26T18:10:18.509Z END run=87ed662cf460 elapsed_ms=206 output_lines=3 retained=1 omitted=2 ===
+=== 2026-08-26T18:10:18.532Z END run=1d45ac1dd3ae elapsed_ms=439 output_lines=3 retained=0 omitted=3 ===

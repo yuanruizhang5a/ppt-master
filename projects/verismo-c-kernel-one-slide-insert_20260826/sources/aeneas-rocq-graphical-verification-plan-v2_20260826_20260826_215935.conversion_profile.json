@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+    "name": "aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 57067
+  },
+  "outputs": {
+    "markdown": "aeneas-rocq-graphical-verification-plan-v2_20260826_20260826_215935.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 342,
+    "char_count": 4663,
+    "heading_count": 11,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 0
+  },
+  "warnings": []
+}

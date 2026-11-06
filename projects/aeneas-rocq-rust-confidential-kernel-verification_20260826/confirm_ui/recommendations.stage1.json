@@ -1,0 +1,29 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "项目评审与结题验收人员、课题负责人，以及了解 Rust 或形式化验证基础的技术决策者"
+  },
+  "communication_intent": {
+    "value": "用不超过 5 页概括研究边界、技术路线、核心证明目标和验收指标，使方案可快速评审并便于后续实施对齐"
+  },
+  "audience_outcome": {
+    "value": "听众能准确理解该方案证明什么、不证明什么，并据此判断其技术可行性、实施范围与验收闭环"
+  },
+  "core_message": {
+    "value": "把顺序 safe Rust 安全策略从底层机制中剥离，经 Charon 与 Aeneas 转换为 Rocq 模型，可在明确可信边界下完成页面访问、回收和重分配的可机器检查证明"
+  },
+  "delivery_context": {
+    "value": "以有主讲的短时方案汇报为主，同时支持会后独立阅读与项目验收归档"
+  },
+  "artifact_afterlife": {
+    "value": "作为研究方案评审、实施对齐、结题验收和后续扩展的摘要材料"
+  },
+  "content_divergence": {
+    "value": ""
+  }
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="header" data-pptx-bounds="72 48 1136 112">
+    <text x="72" y="82" font-size="18" font-weight="700" fill="#167D9A">02 · 验证边界</text>
+    <text x="72" y="137" font-size="44" font-weight="700" fill="#123B5D">可信边界让证明结论可解释</text>
+    <line x1="72" y1="157" x2="1208" y2="157" stroke="#D7E0E8" stroke-width="2" />
+  </g>
+
+  <g id="verified-scope" data-pptx-bounds="72 184 536 350">
+    <rect x="72" y="184" width="536" height="350" rx="18" fill="#F3F6FA" stroke="#BFCFDA" stroke-width="1.5" />
+    <circle cx="120" cy="232" r="26" fill="#123B5D" />
+    
+  <g transform="translate(102, 214) scale(1.5)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
+    <path d="M15 19l2 2l4 -4" />
+  </g>
+    <text x="164" y="242" font-size="32" font-weight="700" fill="#123B5D">纳入验证</text>
+    <text font-size="22" fill="#1B2430" x="104" y="294">• 代表性的内存页状态管理模块</text><text font-size="22" fill="#1B2430" x="104" y="342">• 明确约束下的安全 Rust 代码</text><text font-size="22" fill="#1B2430" x="104" y="390">• 页面访问、释放与重新分配操作</text><text font-size="22" fill="#1B2430" x="104" y="438">• 所有权唯一性、共享有效性与清零复用</text><rect x="104" y="482" width="472" height="32" rx="16" fill="#DDEAF0" />
+    <text x="340" y="505" text-anchor="middle" font-size="18" font-weight="700" fill="#167D9A">结论绑定到模型、假设和指定代码范围</text>
+  </g>
+
+  <g id="trusted-boundary" data-pptx-bounds="672 184 536 350">
+    <rect x="672" y="184" width="536" height="350" rx="18" fill="#FFF7E8" stroke="#F3C36B" stroke-width="1.5" />
+    <circle cx="720" cy="232" r="26" fill="#F59E0B" />
+    
+  <g transform="translate(702, 214) scale(1.5)" fill="none" stroke="#FFFFFF" stroke-width="2">
+    <path d="M12 9v4" />
+    <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0" />
+    <path d="M12 16h.01" />
+  </g>
+    <text x="764" y="242" font-size="32" font-weight="700" fill="#8D5700">可信基与暂不覆盖</text>
+    <text font-size="22" fill="#1B2430" x="704" y="294">• rustc、Charon 与 Aeneas 翻译链的正确性</text><text font-size="22" fill="#1B2430" x="704" y="342">• Rocq 内核及其逻辑基础</text><text font-size="22" fill="#1B2430" x="704" y="390">• unsafe、内联汇编、并发与硬件微架构</text><text font-size="22" fill="#1B2430" x="704" y="438">• 完整内核、驱动与端到端侧信道安全</text><rect x="704" y="482" width="472" height="32" rx="16" fill="#FBE6BA" />
+    <text x="940" y="505" text-anchor="middle" font-size="18" font-weight="700" fill="#8D5700">可信并不等于已证明，必须显式记录</text>
+  </g>
+
+  <g id="scope-conclusion" data-pptx-bounds="72 568 1136 86">
+    <rect x="72" y="568" width="1136" height="86" rx="12" fill="#123B5D" />
+    <text x="104" y="603" font-size="18" font-weight="700" fill="#9ED4E1">不可过度声称</text>
+    <text x="104" y="638" font-size="24" font-weight="700" fill="#FFFFFF">证明的是“指定模型与假设下的目标模块属性”，不是整个机密计算系统绝对安全。</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1208" y="690" text-anchor="end" font-size="18" fill="#82919F">02</text>
+</svg>

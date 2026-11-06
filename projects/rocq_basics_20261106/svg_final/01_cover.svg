@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" font-family="Arial, DejaVu Sans, sans-serif" font-size="24" fill="#171717" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" width="1024" height="768" fill="#FFFFFF" />
+<g id="opening" data-pptx-bounds="48 80 928 270"><text x="52" y="118" font-size="20" fill="#3333B2">SOFTWARE FOUNDATIONS · LOGICAL FOUNDATIONS</text><text font-size="56" fill="#3333B2" x="52" y="210">Functional Programming</text><text font-size="56" fill="#3333B2" x="52" y="278">in Rocq</text><text x="52" y="336" font-size="28">Basics: from executable definitions to checked proofs</text></g>
+<g id="program" data-pptx-bounds="48 400 928 148"><rect x="48" y="400" width="928" height="148" fill="#F5F5F8" /><text x="72" y="436" font-size="20" fill="#262686">PROGRAM</text><text x="72" y="484" font-family="Consolas, DejaVu Sans Mono, monospace" font-size="22">Compute (next_working_day friday).</text><text x="72" y="524" fill="#006B2D">monday : day</text></g>
+<g id="promise" data-pptx-bounds="48 590 928 130"><text x="52" y="628" font-size="28">Define data. Compute results. Prove properties.</text><text x="52" y="679" font-size="20">Based on the supplied Basics chapter · examples and guided practice</text></g>
+</svg>

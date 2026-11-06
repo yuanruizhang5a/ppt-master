@@ -1,0 +1,12 @@
+{
+  "schema": "template_fill_pptx_validate.v1",
+  "project": "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827",
+  "export": "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/exports/rust-section6-and-c-verismo-redesigned_20260827_021014.pptx",
+  "readback": "/home/zyr/myCode/ppt-master/projects/rust-section6-and-c-verismo-redesign_20260827/validation/readback.md",
+  "summary": {
+    "ok": 61,
+    "warn": 0,
+    "error": 0
+  },
+  "results": []
+}

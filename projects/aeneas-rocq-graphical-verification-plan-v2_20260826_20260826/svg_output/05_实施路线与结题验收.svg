@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending" font-family="Microsoft YaHei, Arial, sans-serif">
+  <defs>
+    <marker id="arrow-primary" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#153A5B"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0,0 10,5 0,10" fill="#E28A22"/>
+    </marker>
+  </defs>
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="56 28 1168 102">
+    <text x="56" y="54" font-size="17" font-weight="700" letter-spacing="1.2" fill="#0E7490">第 11–12 节｜实施步骤与项目指标</text>
+    <text x="56" y="103" font-size="42" font-weight="700" fill="#153A5B">六阶段路线最终落在可复现的“1–3–2–1”验收闭环</text>
+    <line x1="56" y1="124" x2="1224" y2="124" stroke="#CCD8E2" stroke-width="2"/>
+  </g>
+
+  <g id="six-stage-roadmap" data-pptx-bounds="56 148 1168 344">
+    <text x="56" y="176" font-size="20" font-weight="700" fill="#0E7490">六阶段实施路线｜每一步都有清晰完成标志</text>
+
+    <line x1="350" y1="251" x2="418" y2="251" stroke="#153A5B" stroke-width="3" marker-end="url(#arrow-primary)"/>
+    <line x1="724" y1="251" x2="792" y2="251" stroke="#153A5B" stroke-width="3" marker-end="url(#arrow-primary)"/>
+    <line x1="1140" y1="296" x2="1140" y2="353" stroke="#E28A22" stroke-width="3" marker-end="url(#arrow-accent)"/>
+    <line x1="792" y1="408" x2="724" y2="408" stroke="#153A5B" stroke-width="3" marker-end="url(#arrow-primary)"/>
+    <line x1="418" y1="408" x2="350" y2="408" stroke="#153A5B" stroke-width="3" marker-end="url(#arrow-primary)"/>
+
+    <rect x="56" y="202" width="294" height="98" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <circle cx="88" cy="232" r="20" fill="#153A5B"/>
+    <text x="88" y="239" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="122" y="237" font-size="22" font-weight="700" fill="#153A5B">确定边界</text>
+    <text x="78" y="271" font-size="16" fill="#18212B">目标函数 + unsafe / 外部依赖清单</text>
+
+    <rect x="430" y="202" width="294" height="98" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <circle cx="462" cy="232" r="20" fill="#153A5B"/>
+    <text x="462" y="239" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="496" y="237" font-size="22" font-weight="700" fill="#153A5B">打通工具</text>
+    <text x="452" y="271" font-size="16" fill="#18212B">固定版本，生成可加载 LLBC / Rocq</text>
+
+    <rect x="804" y="202" width="294" height="98" fill="#F3F6F8" stroke="#153A5B" stroke-width="2"/>
+    <circle cx="836" cy="232" r="20" fill="#153A5B"/>
+    <text x="836" y="239" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="870" y="237" font-size="22" font-weight="700" fill="#153A5B">建立规约</text>
+    <text x="826" y="271" font-size="16" fill="#18212B">形成抽象状态与核心安全不变式</text>
+
+    <rect x="804" y="359" width="294" height="98" fill="#FFFFFF" stroke="#E28A22" stroke-width="3"/>
+    <circle cx="836" cy="389" r="20" fill="#E28A22"/>
+    <text x="836" y="396" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">4</text>
+    <text x="870" y="394" font-size="22" font-weight="700" fill="#153A5B">证明函数</text>
+    <text x="826" y="428" font-size="16" fill="#18212B">完成不少于 3 项关键操作证明</text>
+
+    <rect x="430" y="359" width="294" height="98" fill="#F3F6F8" stroke="#0E7490" stroke-width="2"/>
+    <circle cx="462" cy="389" r="20" fill="#0E7490"/>
+    <text x="462" y="396" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="496" y="394" font-size="22" font-weight="700" fill="#153A5B">证明属性</text>
+    <text x="452" y="428" font-size="16" fill="#18212B">归纳不少于 2 类典型安全属性</text>
+
+    <rect x="56" y="359" width="294" height="98" fill="#153A5B"/>
+    <circle cx="88" cy="389" r="20" fill="#FFFFFF"/>
+    <text x="88" y="396" text-anchor="middle" font-size="18" font-weight="700" fill="#153A5B">6</text>
+    <text x="122" y="394" font-size="22" font-weight="700" fill="#FFFFFF">验收整理</text>
+    <text x="78" y="428" font-size="16" fill="#FFFFFF">源码、模型、脚本、复现说明与报告</text>
+  </g>
+
+  <g id="acceptance-loop" data-pptx-bounds="56 510 1168 166">
+    <rect x="56" y="510" width="1168" height="158" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <line x1="170" y1="578" x2="1110" y2="578" stroke="#CCD8E2" stroke-width="4"/>
+    <circle cx="180" cy="578" r="46" fill="#153A5B"/>
+    <circle cx="474" cy="578" r="46" fill="#0E7490"/>
+    <circle cx="768" cy="578" r="46" fill="#E28A22"/>
+    <circle cx="1062" cy="578" r="46" fill="#FFFFFF" stroke="#153A5B" stroke-width="3"/>
+    <text x="180" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">1</text>
+    <text x="474" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">3</text>
+    <text x="768" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#FFFFFF">2</text>
+    <text x="1062" y="594" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#153A5B">1</text>
+    <text x="180" y="651" text-anchor="middle" font-size="18" font-weight="700" fill="#153A5B">个核心模型</text>
+    <text x="474" y="651" text-anchor="middle" font-size="18" font-weight="700" fill="#153A5B">项关键操作</text>
+    <text x="768" y="651" text-anchor="middle" font-size="18" font-weight="700" fill="#153A5B">类安全属性</text>
+    <text x="1062" y="651" text-anchor="middle" font-size="18" font-weight="700" fill="#153A5B">套案例与报告</text>
+    <text x="640" y="538" text-anchor="middle" font-size="18" font-weight="700" fill="#0E7490">验收不是“整机已证明”，而是一条可复现、可解释、可扩展的 Rust → Rocq 路线</text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1224" y="702" text-anchor="end" font-size="16" fill="#153A5B">05</text>
+</svg>

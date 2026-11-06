@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover" font-family="Microsoft YaHei, Arial, sans-serif">
+  <rect id="slide-background" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="header" data-pptx-bounds="56 28 1168 106">
+    <text x="56" y="54" font-size="17" font-weight="700" letter-spacing="1.2" fill="#0E7490">研究目标与问题界定</text>
+    <text x="56" y="104" font-size="42" font-weight="700" fill="#153A5B">Rust 消除了部分内存错误，却不能自动证明权限与清零正确</text>
+    <line x1="56" y1="125" x2="1224" y2="125" stroke="#CCD8E2" stroke-width="2"/>
+  </g>
+
+  <g id="rust-versus-proof" data-pptx-bounds="56 150 1168 228">
+    <rect x="56" y="150" width="492" height="210" fill="#F3F6F8" stroke="#CCD8E2" stroke-width="2"/>
+    <rect x="732" y="150" width="492" height="210" fill="#FFFFFF" stroke="#153A5B" stroke-width="2"/>
+    <rect x="56" y="150" width="8" height="210" fill="#0E7490"/>
+    <rect x="1216" y="150" width="8" height="210" fill="#E28A22"/>
+    <use data-icon="simple-icons/rust" x="88" y="180" width="46" height="46" fill="#153A5B" stroke-width="2"/>
+    <text x="152" y="201" font-size="26" font-weight="700" fill="#153A5B">Rust 能保证什么</text>
+    <g id="rust-guarantee-ownership"><text x="88" y="254" font-size="23" fill="#18212B">所有权与借用规则</text></g>
+    <g id="rust-guarantee-lifetime"><text x="88" y="292" font-size="23" fill="#18212B">类型检查与生命周期约束</text></g>
+    <g id="rust-guarantee-memory"><text x="88" y="330" font-size="23" fill="#18212B">减少悬垂引用、重复释放等错误</text></g>
+
+    <circle cx="640" cy="255" r="54" fill="#FFFFFF" stroke="#E28A22" stroke-width="3"/>
+    <text x="640" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#E28A22">≠</text>
+    <text x="640" y="338" text-anchor="middle" font-size="17" font-weight="700" fill="#E28A22">仍有策略证明缺口</text>
+
+    <use data-icon="tabler-outline/shield-check" x="764" y="180" width="46" height="46" fill="#E28A22" stroke-width="2"/>
+    <text x="828" y="201" font-size="26" font-weight="700" fill="#153A5B">仍需形式化证明什么</text>
+    <text x="764" y="254" font-size="23" fill="#18212B"><tspan font-weight="700" fill="#E28A22">授权隔离</tspan>：谁能访问哪一页</text>
+    <text x="764" y="292" font-size="23" fill="#18212B"><tspan font-weight="700" fill="#E28A22">状态完整性</tspan>：操作是否保持不变式</text>
+    <text x="764" y="330" font-size="23" fill="#18212B"><tspan font-weight="700" fill="#E28A22">重分配清零</tspan>：旧域数据是否不可见</text>
+  </g>
+
+  <g id="verification-boundary" data-pptx-bounds="56 394 1168 178">
+    <text x="56" y="421" font-size="18" font-weight="700" letter-spacing="1" fill="#0E7490">验证边界：把可信核心压缩到可审计范围</text>
+    <line x1="96" y1="486" x2="1184" y2="486" stroke="#CCD8E2" stroke-width="4"/>
+    <circle cx="216" cy="486" r="20" fill="#0E7490"/>
+    <circle cx="640" cy="486" r="20" fill="#E28A22"/>
+    <circle cx="1064" cy="486" r="20" fill="#FFFFFF" stroke="#153A5B" stroke-width="3"/>
+    <text x="216" y="467" text-anchor="middle" font-size="17" font-weight="700" fill="#0E7490">本项目证明</text>
+    <text x="216" y="527" text-anchor="middle" font-size="24" font-weight="700" fill="#153A5B">顺序 safe Rust 策略逻辑</text>
+    <text x="216" y="557" text-anchor="middle" font-size="17" fill="#18212B">页访问、释放、重分配</text>
+    <text x="640" y="467" text-anchor="middle" font-size="17" font-weight="700" fill="#E28A22">显式信任</text>
+    <text x="640" y="527" text-anchor="middle" font-size="24" font-weight="700" fill="#153A5B">unsafe 边界与硬件语义</text>
+    <text x="640" y="557" text-anchor="middle" font-size="17" fill="#18212B">工具链正确性作为可信基</text>
+    <text x="1064" y="467" text-anchor="middle" font-size="17" font-weight="700" fill="#153A5B">当前不覆盖</text>
+    <text x="1064" y="527" text-anchor="middle" font-size="24" font-weight="700" fill="#153A5B">全内核、并发与侧信道</text>
+    <text x="1064" y="557" text-anchor="middle" font-size="17" fill="#18212B">不夸大为整机完全验证</text>
+  </g>
+
+  <g id="deliverable-summary" data-pptx-bounds="56 598 1168 76">
+    <rect x="56" y="598" width="1168" height="68" fill="#153A5B"/>
+    <use data-icon="tabler-outline/checklist" x="82" y="615" width="34" height="34" fill="#FFFFFF" stroke-width="2"/>
+    <text x="134" y="642" font-size="22" fill="#FFFFFF">交付闭环：<tspan font-weight="700">抽象状态模型</tspan> → <tspan font-weight="700">Rust 对应函数</tspan> → <tspan font-weight="700">Rocq 安全定理</tspan> → <tspan font-weight="700">可复现脚本与报告</tspan></text>
+  </g>
+
+  <text id="page-number" data-pptx-role="page-number" x="1224" y="702" text-anchor="end" font-size="16" fill="#153A5B">01</text>
+</svg>
