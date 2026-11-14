@@ -1,0 +1,1301 @@
+[
+  {
+    "part": 1,
+    "before": "Data and functions. Then proofs of their behavior.",
+    "after": [
+      "Data and functions → proofs of behavior"
+    ]
+  },
+  {
+    "part": 1,
+    "before": "A source companion to Basics.html and Basics.v",
+    "after": [
+      "Sources: Basics.html and Basics.v"
+    ]
+  },
+  {
+    "part": 1,
+    "before": "Exercises retain their original unfinished status.",
+    "after": [
+      "Exercises remain unfinished"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "Programs as mathematical functions",
+    "after": [
+      "Programs as mathematical functions"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "Without side effects, input → output describes behavior. This connection supports formal correctness proofs and sound informal reasoning about programs.",
+    "after": [
+      "Pure functions: input → output",
+      "Support formal proofs and informal reasoning"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "Functions as first-class values",
+    "after": [
+      "Functions as first-class values"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "Pass functions as arguments, return them as results, and include them in data structures.",
+    "after": [
+      "Functions as arguments, results, and stored data"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "Rocq offers algebraic data types, pattern matching, and polymorphic type systems for abstraction and reuse.",
+    "after": [
+      "Algebraic types, pattern matching, and polymorphic types",
+      "Abstraction and code reuse"
+    ]
+  },
+  {
+    "part": 2,
+    "before": "First half: Gallina programs. Second half: proof tactics.",
+    "after": [
+      "Chapter path: Gallina programs → proof tactics"
+    ]
+  },
+  {
+    "part": 3,
+    "before": "1. Do not change exercise names. The grading scripts must be able to find each solution.",
+    "after": [
+      "Keep exercise names unchanged for the grader"
+    ]
+  },
+  {
+    "part": 3,
+    "before": "2. Do not delete exercises. Leave partial proofs ending with Admitted, not Abort.",
+    "after": [
+      "Keep every exercise",
+      "End unfinished proofs with Admitted, not Abort"
+    ]
+  },
+  {
+    "part": 3,
+    "before": "3. Additional helper definitions and lemmas are fine. Place them before the theorem that uses them.",
+    "after": [
+      "Add helper definitions or lemmas before use"
+    ]
+  },
+  {
+    "part": 3,
+    "before": "4. If a helper lemma ends with Admitted, the main theorem using it must also end with Admitted. This preserves appropriate partial-credit accounting.",
+    "after": [
+      "Admitted helper → Admitted main theorem",
+      "Preserve partial-credit accounting"
+    ]
+  },
+  {
+    "part": 4,
+    "before": "BasicsTest.v checks formatting and calculates exercise points.",
+    "after": [
+      "BasicsTest.v: format checks and exercise scores"
+    ]
+  },
+  {
+    "part": 4,
+    "before": "Submit Basics.v; BasicsTest.v and Preface.v are not needed.",
+    "after": [
+      "Submit Basics.v only; omit BasicsTest.v and Preface.v"
+    ]
+  },
+  {
+    "part": 4,
+    "before": "If the course uses Canvas:",
+    "after": [
+      "Canvas submissions"
+    ]
+  },
+  {
+    "part": 4,
+    "before": "The most recent submission is the one graded.",
+    "after": [
+      "Latest submission is graded"
+    ]
+  },
+  {
+    "part": 4,
+    "before": "Submit multiple assigned files together in one submission, using “Add another file”.",
+    "after": [
+      "Submit all assigned files together via “Add another file”"
+    ]
+  },
+  {
+    "part": 5,
+    "before": "Rocq has an extremely small set of built-in features.",
+    "after": [
+      "A minimal built-in core"
+    ]
+  },
+  {
+    "part": 5,
+    "before": "A powerful datatype mechanism defines new types from scratch, including familiar booleans and numbers.",
+    "after": [
+      "Define familiar types from scratch"
+    ]
+  },
+  {
+    "part": 5,
+    "before": "The standard library supplies booleans, numbers, lists, hash tables, and other common structures.",
+    "after": [
+      "Standard library: booleans, numbers, lists, and hash tables"
+    ]
+  },
+  {
+    "part": 5,
+    "before": "There is nothing primitive or magical about those definitions.",
+    "after": [
+      "Library definitions use the same datatype mechanisms"
+    ]
+  },
+  {
+    "part": 5,
+    "before": "This course rebuilds almost all the definitions it needs to make that foundation explicit.",
+    "after": [
+      "Rebuild definitions to expose their foundations"
+    ]
+  },
+  {
+    "part": 6,
+    "before": "This declaration defines a type named day. Its members are monday, tuesday, …, sunday. Functions can now operate on these values.",
+    "after": [
+      "day: seven constructors, monday through sunday",
+      "Define functions on these values"
+    ]
+  },
+  {
+    "part": 7,
+    "before": "The first line declares both argument and return types. Rocq can often infer types; explicit types aid the reader.",
+    "after": [
+      "Header: argument and return types",
+      "Type inference is possible",
+      "Explicit types improve readability"
+    ]
+  },
+  {
+    "part": 8,
+    "before": "The source shows Rocq’s responses in comments.",
+    "after": [
+      "Rocq’s responses appear in source comments"
+    ]
+  },
+  {
+    "part": 8,
+    "before": "Load Basics.v in your IDE, submit these commands, and observe the results.",
+    "after": [
+      "Open Basics.v in your IDE and evaluate the commands"
+    ]
+  },
+  {
+    "part": 9,
+    "before": "A named assertion is checked: both sides evaluate equally.",
+    "after": [
+      "Named assertion: both sides evaluate to the same value"
+    ]
+  },
+  {
+    "part": 9,
+    "before": "Extraction produces an OCaml, Scheme, or Haskell program from a Gallina definition for efficient compilation.",
+    "after": [
+      "Extract Gallina programs to OCaml, Scheme, or Haskell",
+      "Compile the extracted code efficiently"
+    ]
+  },
+  {
+    "part": 9,
+    "before": "This trusts extraction and the target-language compiler.",
+    "after": [
+      "Trust assumptions: extraction and the target compiler"
+    ]
+  },
+  {
+    "part": 9,
+    "before": "The chapter also imports strings for grading infrastructure:",
+    "after": [
+      "String import: grading infrastructure"
+    ]
+  },
+  {
+    "part": 10,
+    "before": "Names match the standard library wherever possible.",
+    "after": [
+      "Names follow the standard library where possible"
+    ]
+  },
+  {
+    "part": 11,
+    "before": "The first four tests form the complete truth table for orb. Square brackets mark code in .v comments; HTML uses a code font.",
+    "after": [
+      "Four tests: the complete orb truth table",
+      "Code in .v comments uses square brackets",
+      "HTML displays code in a distinct font"
+    ]
+  },
+  {
+    "part": 12,
+    "before": "Conditionals work for any inductive type with two clauses.",
+    "after": [
+      "Conditionals: any inductive type with two constructors"
+    ]
+  },
+  {
+    "part": 12,
+    "before": "The first constructor selects the then branch; the second selects the else branch.",
+    "after": [
+      "First constructor → then; second → else"
+    ]
+  },
+  {
+    "part": 13,
+    "before": "The constructor order determines the conditional branches.",
+    "after": [
+      "Constructor order determines the conditional branch"
+    ]
+  },
+  {
+    "part": 14,
+    "before": "Return true if either or both inputs are false. Complete the definition and each of the four proofs.",
+    "after": [
+      "nandb: true when either input is false",
+      "Complete the definition and all four proofs"
+    ]
+  },
+  {
+    "part": 14,
+    "before": "Admitted marks unfinished work. Replace the definition’s period with := and your body. If simpl does nothing, try a match definition or go directly to reflexivity, as the source suggests.",
+    "after": [
+      "Admitted: unfinished work",
+      "Replace the definition placeholder with := and a body",
+      "If simpl stalls, try match or use reflexivity directly"
+    ]
+  },
+  {
+    "part": 15,
+    "before": "Return true when all three inputs are true; false otherwise. Complete the definition and verify all four examples.",
+    "after": [
+      "andb3: true only when all inputs are true",
+      "Complete the definition and four test proofs"
+    ]
+  },
+  {
+    "part": 16,
+    "before": "Every expression has a type describing what it computes.",
+    "after": [
+      "Every expression has a type"
+    ]
+  },
+  {
+    "part": 16,
+    "before": "Check prints the type; a type annotation asks Rocq to verify it.",
+    "after": [
+      "Check: print a type or verify an annotation"
+    ]
+  },
+  {
+    "part": 16,
+    "before": "Functions are values too. bool → bool maps a boolean to a boolean; bool → bool → bool takes two boolean inputs.",
+    "after": [
+      "Functions are values",
+      "bool → bool: one boolean input",
+      "bool → bool → bool: two boolean inputs"
+    ]
+  },
+  {
+    "part": 17,
+    "before": "Inductive introduces constructors and groups them into a type. A constructor expression must obey argument counts and types.",
+    "after": [
+      "Inductive: introduce constructors and a type",
+      "Constructor expressions must obey argument counts and types"
+    ]
+  },
+  {
+    "part": 18,
+    "before": "rgb contains red, green, and blue. color contains black, white, and primary p for each p : rgb. Only constructor expressions formed in these ways belong. Pattern matching defines functions on the resulting values.",
+    "after": [
+      "rgb: red, green, blue",
+      "color: black, white, or primary p with p : rgb",
+      "Only constructor-generated expressions belong",
+      "Pattern matching defines functions on these values"
+    ]
+  },
+  {
+    "part": 19,
+    "before": "A pattern for primary must include its argument.",
+    "after": [
+      "A primary pattern includes its argument"
+    ]
+  },
+  {
+    "part": 19,
+    "before": "Use a variable, a suitable constant, or the wildcard _.",
+    "after": [
+      "Argument patterns: variable, constant, or wildcard _"
+    ]
+  },
+  {
+    "part": 19,
+    "before": "After the red branch, primary _ covers the other rgb values. The wildcard has the same effect as an unused variable p.",
+    "after": [
+      "After primary red, primary _ matches the remaining rgb values",
+      "Wildcard _ acts like an unused variable"
+    ]
+  },
+  {
+    "part": 20,
+    "before": "Modules organize declarations and limit their scope. After End Playground, its declaration is Playground.foo. This lets the chapter reuse names without interference.",
+    "after": [
+      "Modules scope declarations and support name reuse",
+      "After End Playground, use Playground.foo"
+    ]
+  },
+  {
+    "part": 21,
+    "before": "One constructor with several parameters forms a tuple type. A nybble is four bits: half a byte. The bits constructor wraps those four components.",
+    "after": [
+      "One constructor with several parameters forms a tuple",
+      "nybble: four bits, or half a byte",
+      "bits wraps the four components"
+    ]
+  },
+  {
+    "part": 22,
+    "before": "Pattern matching unwraps the tuple. Wildcards avoid names for components that are not used.",
+    "after": [
+      "Pattern matching unwraps tuples",
+      "Wildcards ignore unused components"
+    ]
+  },
+  {
+    "part": 23,
+    "before": "Earlier enumerated and tuple types were finite. Natural numbers form an infinite set.",
+    "after": [
+      "Earlier types: finite; natural numbers: infinite"
+    ]
+  },
+  {
+    "part": 23,
+    "before": "The same number has several representations:",
+    "after": [
+      "One number, several representations"
+    ]
+  },
+  {
+    "part": 23,
+    "before": "Binary simplifies hardware; unary simplifies our proofs.",
+    "after": [
+      "Binary simplifies hardware; unary simplifies proofs"
+    ]
+  },
+  {
+    "part": 23,
+    "before": "Unary uses a succession of marks ending in zero.",
+    "after": [
+      "Unary: successor marks ending in zero"
+    ]
+  },
+  {
+    "part": 23,
+    "before": "NatPlayground isolates the chapter’s own nat definition from the standard library’s natural numbers.",
+    "after": [
+      "NatPlayground isolates the chapter’s nat from the library type"
+    ]
+  },
+  {
+    "part": 24,
+    "before": "O is the letter O, representing zero. If n is a natural number, S n is a natural number. Only expressions built by these two rules belong to nat.",
+    "after": [
+      "O: the letter O, representing zero",
+      "n : nat implies S n : nat",
+      "Only expressions generated by O and S belong to nat"
+    ]
+  },
+  {
+    "part": 25,
+    "before": "Constructor names are arbitrary; use gives them interpretation.",
+    "after": [
+      "Constructor names are arbitrary; computation gives them meaning"
+    ]
+  },
+  {
+    "part": 25,
+    "before": "After End, nat refers again to the standard library type.",
+    "after": [
+      "After End, nat refers to the standard library type"
+    ]
+  },
+  {
+    "part": 26,
+    "before": "Decimal numerals are parsing and printing conveniences.",
+    "after": [
+      "Decimal numerals simplify parsing and printing"
+    ]
+  },
+  {
+    "part": 26,
+    "before": "S builds a representation; pred and minustwo have computation rules. Applying S itself performs no computation.",
+    "after": [
+      "S builds data; pred and minustwo compute",
+      "Applying S itself performs no computation"
+    ]
+  },
+  {
+    "part": 27,
+    "before": "Recursion uses Fixpoint; odd reuses even in a Definition. In these tests, reflexivity can do the work without simpl.",
+    "after": [
+      "Fixpoint defines recursion; Definition lets odd reuse even",
+      "These tests need only reflexivity"
+    ]
+  },
+  {
+    "part": 28,
+    "before": "Use the successor clause three times, then the zero clause.",
+    "after": [
+      "Reduction: three successor clauses, then the zero clause"
+    ]
+  },
+  {
+    "part": 29,
+    "before": "Arguments of the same type may share one annotation.",
+    "after": [
+      "Same-type arguments can share an annotation"
+    ]
+  },
+  {
+    "part": 30,
+    "before": "A comma allows matching two expressions simultaneously.",
+    "after": [
+      "Comma-separated matching handles two expressions at once"
+    ]
+  },
+  {
+    "part": 31,
+    "before": "Translate the standard factorial recurrence into Rocq.",
+    "after": [
+      "Translate the factorial recurrence into Rocq"
+    ]
+  },
+  {
+    "part": 31,
+    "before": "Replace the placeholder with := and your definition; do not omit :=.",
+    "after": [
+      "Replace the placeholder with := and a definition"
+    ]
+  },
+  {
+    "part": 32,
+    "before": "Notation changes parsing and pretty-printing. It does not change the underlying definitions. Levels, associativity, and scopes are revisited later.",
+    "after": [
+      "Notation changes parsing and printing, not definitions",
+      "Levels, associativity, and scopes follow later"
+    ]
+  },
+  {
+    "part": 33,
+    "before": "Even equality testing is user-defined. These nested matches could also be a simultaneous match.",
+    "after": [
+      "Equality testing is user-defined",
+      "Nested matches can be written as a simultaneous match"
+    ]
+  },
+  {
+    "part": 34,
+    "before": "Each supplied test: Proof. simpl. reflexivity. Qed. x = y is a proposition to prove. x =? y is a boolean expression to compute.",
+    "after": [
+      "Test proofs: simpl followed by reflexivity",
+      "x = y: a proposition to prove",
+      "x =? y: a boolean to compute"
+    ]
+  },
+  {
+    "part": 35,
+    "before": "Define a boolean test for “less than” on natural numbers. Hint: reuse a previously defined function instead of Fixpoint.",
+    "after": [
+      "ltb: boolean less-than on natural numbers",
+      "Hint: reuse a function instead of writing a new Fixpoint"
+    ]
+  },
+  {
+    "part": 36,
+    "before": "simpl reduces both sides; reflexivity checks equality.",
+    "after": [
+      "simpl: reduce; reflexivity: check equal sides"
+    ]
+  },
+  {
+    "part": 36,
+    "before": "0 + n reduces to n whatever n is, directly from plus.",
+    "after": [
+      "By the definition of plus, 0 + n reduces to n"
+    ]
+  },
+  {
+    "part": 36,
+    "before": "forall makes the statement general. HTML renders this quantifier as ∀.",
+    "after": [
+      "forall: all values of n",
+      "HTML notation: ∀"
+    ]
+  },
+  {
+    "part": 37,
+    "before": "reflexivity simplifies automatically and may unfold definitions.",
+    "after": [
+      "reflexivity simplifies and may unfold definitions"
+    ]
+  },
+  {
+    "part": 37,
+    "before": "When it succeeds, the goal is finished.",
+    "after": [
+      "Success closes the goal"
+    ]
+  },
+  {
+    "part": 37,
+    "before": "simpl exposes an intermediate goal for us to inspect; it avoids blindly expanding everything into a messy expression.",
+    "after": [
+      "simpl exposes a readable intermediate goal"
+    ]
+  },
+  {
+    "part": 37,
+    "before": "Theorem, Example, Lemma, Fact, and Remark are synonyms for this purpose; the choice communicates style.",
+    "after": [
+      "Theorem, Example, Lemma, Fact, Remark: stylistic synonyms"
+    ]
+  },
+  {
+    "part": 37,
+    "before": "intros n moves the quantified variable into the context.",
+    "after": [
+      "intros n moves n into the context"
+    ]
+  },
+  {
+    "part": 38,
+    "before": "intros can choose a different variable name.",
+    "after": [
+      "intros may choose a new variable name"
+    ]
+  },
+  {
+    "part": 38,
+    "before": "intros, simpl, and reflexivity are tactics between Proof and Qed.",
+    "after": [
+      "Tactics run between Proof and Qed"
+    ]
+  },
+  {
+    "part": 38,
+    "before": "The suffix _l means “on the left”. Step through the proofs; add simpl to observe how the context and goal change.",
+    "after": [
+      "_l: “on the left”",
+      "Step through proofs with simpl to inspect context and goal"
+    ]
+  },
+  {
+    "part": 39,
+    "before": "intros introduces the variables and the hypothesis H : n = m.",
+    "after": [
+      "intros introduces variables and H : n = m"
+    ]
+  },
+  {
+    "part": 39,
+    "before": "rewrite replaces n with m; the goal then has equal sides.",
+    "after": [
+      "rewrite replaces n with m, making both sides equal"
+    ]
+  },
+  {
+    "part": 39,
+    "before": "In a proposition, → means implication. In rewrite, it selects left-to-right replacement; ← reverses it. → is the default.",
+    "after": [
+      "Proposition →: implication",
+      "rewrite →: left to right, the default",
+      "rewrite ←: right to left"
+    ]
+  },
+  {
+    "part": 40,
+    "before": "There are two hypotheses to introduce: n = m and m = o.",
+    "after": [
+      "Introduce both hypotheses: n = m and m = o"
+    ]
+  },
+  {
+    "part": 40,
+    "before": "Admitted accepts a claim without proving it.",
+    "after": [
+      "Admitted accepts an unproved claim"
+    ]
+  },
+  {
+    "part": 40,
+    "before": "It can temporarily support a larger proof while lemmas are being developed, then be replaced by real proofs.",
+    "after": [
+      "Temporary admissions support proof development",
+      "Replace them with proofs later"
+    ]
+  },
+  {
+    "part": 40,
+    "before": "Each admission leaves an unchecked assumption.",
+    "after": [
+      "Every admission leaves an unchecked assumption"
+    ]
+  },
+  {
+    "part": 41,
+    "before": "Rocq matches a theorem’s quantified variables against the goal.",
+    "after": [
+      "Rocq matches quantified theorem variables to the goal"
+    ]
+  },
+  {
+    "part": 42,
+    "before": "Use mult_n_Sm and mult_n_O. Recall that 1 is S O.",
+    "after": [
+      "Use mult_n_Sm and mult_n_O",
+      "Recall: 1 is S O"
+    ]
+  },
+  {
+    "part": 43,
+    "before": "plus and eqb both match on their first argument.",
+    "after": [
+      "plus and eqb match on their first argument"
+    ]
+  },
+  {
+    "part": 43,
+    "before": "An unknown n blocks plus; n + 1 then blocks eqb.",
+    "after": [
+      "Unknown n blocks plus, which blocks eqb"
+    ]
+  },
+  {
+    "part": 43,
+    "before": "Consider the possible forms of n separately:",
+    "after": [
+      "Analyze the two constructors of n"
+    ]
+  },
+  {
+    "part": 43,
+    "before": "n = O: compute the result directly.",
+    "after": [
+      "n = O: compute directly"
+    ]
+  },
+  {
+    "part": 43,
+    "before": "n = S n′: n + 1 starts with S, enough to make eqb false.",
+    "after": [
+      "n = S n′: n + 1 starts with S, so eqb returns false"
+    ]
+  },
+  {
+    "part": 44,
+    "before": "destruct generates one subgoal per constructor.",
+    "after": [
+      "destruct: one subgoal per constructor"
+    ]
+  },
+  {
+    "part": 44,
+    "before": "as [| n′] names the constructor arguments: O takes none; S takes one, called n′.",
+    "after": [
+      "as [| n′]: no argument for O, one named argument for S"
+    ]
+  },
+  {
+    "part": 44,
+    "before": "eqn:E records n = O or n = S n′ in the respective case. Keeping the equation helps document the proof state.",
+    "after": [
+      "eqn:E records n = O or n = S n′",
+      "Keep the equation to document the case"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "A bullet begins the complete proof of one subgoal.",
+    "after": [
+      "Each bullet starts one complete subgoal proof"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "Rocq checks that it finishes before the next case begins.",
+    "after": [
+      "Finish the current case before starting the next"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "Bullets are optional, but make structure visible and prevent proofs for different subgoals from getting mixed together.",
+    "after": [
+      "Bullets expose structure and prevent mixed-up subgoals"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "In the S case, reflexivity simplifies the successor expression and the eqb match before checking equal sides.",
+    "after": [
+      "S case: reflexivity simplifies the successor and eqb match"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "Mark every point where multiple subgoals are generated.",
+    "after": [
+      "Mark every split into multiple subgoals"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "Use line breaks and indentation that reveal their nesting.",
+    "after": [
+      "Indentation and line breaks reveal nesting"
+    ]
+  },
+  {
+    "part": 45,
+    "before": "The source suggests roughly 80-character lines (or 120 on a wide screen), rather than either extreme.",
+    "after": [
+      "Aim for 80-character code lines, or 120 on wide screens"
+    ]
+  },
+  {
+    "part": 46,
+    "before": "destruct works for any inductively defined datatype.",
+    "after": [
+      "destruct works on any inductive type"
+    ]
+  },
+  {
+    "part": 46,
+    "before": "Boolean negation is its own inverse.",
+    "after": [
+      "Boolean negation is its own inverse"
+    ]
+  },
+  {
+    "part": 46,
+    "before": "No as clause is needed here: neither boolean constructor has arguments to name. In general, choose names explicitly; automatically chosen names can be confusing.",
+    "after": [
+      "No as clause: boolean constructors have no arguments",
+      "Otherwise, choose names explicitly"
+    ]
+  },
+  {
+    "part": 47,
+    "before": "Each pair of reflexivity calls closes the two cases of c. Different bullet shapes distinguish the nesting levels.",
+    "after": [
+      "Each reflexivity pair closes the two cases of c",
+      "Different bullet shapes mark different nesting levels"
+    ]
+  },
+  {
+    "part": 48,
+    "before": "Braces mark both the beginning and end of each subproof. Use -, +, *, repeated bullets, braces, or a combination. Braces allow the same bullet shapes at multiple levels.",
+    "after": [
+      "Braces delimit each subproof",
+      "Use -, +, *, repeated bullets, braces, or combinations",
+      "Braces allow bullet shapes to be reused at deeper levels"
+    ]
+  },
+  {
+    "part": 50,
+    "before": "Mark cases and subcases with bullets.",
+    "after": [
+      "Mark cases and subcases with bullets"
+    ]
+  },
+  {
+    "part": 50,
+    "before": "Hint 1: simpl in H simplifies a hypothesis.",
+    "after": [
+      "Hint 1: simpl in H simplifies a hypothesis"
+    ]
+  },
+  {
+    "part": 50,
+    "before": "Hint 2: You will need both booleans. Simplify the hypothesis before destructing the second one.",
+    "after": [
+      "Hint 2: simplify the hypothesis before destructing the second boolean",
+      "Both booleans will need case analysis"
+    ]
+  },
+  {
+    "part": 50,
+    "before": "Hint 3: If hypotheses contradict one another, consider how to rewrite using that contradiction.",
+    "after": [
+      "Hint 3: rewrite using contradictory hypotheses"
+    ]
+  },
+  {
+    "part": 51,
+    "before": "Intro patterns combine intros and destruct, but omit the eqn:E record of each case. Use [] if no constructor arguments need names.",
+    "after": [
+      "Intro patterns: intros + destruct without eqn:E",
+      "[]: no constructor arguments to name"
+    ]
+  },
+  {
+    "part": 52,
+    "before": "Complete the proof using the tactics introduced so far.",
+    "after": [
+      "Prove the claim using the tactics introduced so far"
+    ]
+  },
+  {
+    "part": 53,
+    "before": "Precedence levels range from 0 to 100. Associativity may be left, right, or no associativity.",
+    "after": [
+      "Precedence: 0–100",
+      "Associativity: left, right, or none"
+    ]
+  },
+  {
+    "part": 53,
+    "before": "Context often identifies the scope: S (O*O) uses nat_scope; the pair type bool*bool uses type_scope.",
+    "after": [
+      "Context selects scopes",
+      "S (O*O): nat_scope",
+      "bool*bool: type_scope"
+    ]
+  },
+  {
+    "part": 53,
+    "before": "(x*y)%nat makes the intended scope explicit. 0%nat means O; 0%Z means the integer zero.",
+    "after": [
+      "(x*y)%nat: explicit natural-number scope",
+      "0%nat: O; 0%Z: integer zero"
+    ]
+  },
+  {
+    "part": 53,
+    "before": "Optional sections may be skimmed on a first reading. The source cautions that the notation mechanism is limited.",
+    "after": [
+      "Optional sections can be skimmed initially",
+      "The notation mechanism has limitations"
+    ]
+  },
+  {
+    "part": 54,
+    "before": "Rocq reports “decreasing on 1st argument”.",
+    "after": [
+      "Rocq reports “decreasing on 1st argument”"
+    ]
+  },
+  {
+    "part": 54,
+    "before": "Each recursive call uses a strictly smaller part of n.",
+    "after": [
+      "Recursive calls use strictly smaller parts of n"
+    ]
+  },
+  {
+    "part": 54,
+    "before": "Every Fixpoint needs a decreasing argument.",
+    "after": [
+      "Every Fixpoint needs a decreasing argument"
+    ]
+  },
+  {
+    "part": 54,
+    "before": "This guarantees termination, but decreasing analysis is limited: some terminating functions require an unnatural formulation.",
+    "after": [
+      "Structural recursion guarantees termination",
+      "Limited analysis may reject natural-looking definitions"
+    ]
+  },
+  {
+    "part": 55,
+    "before": "Find a sensible Fixpoint definition of a simple function on numbers that terminates on all inputs, but that Rocq rejects because of its structural-recursion restriction.",
+    "after": [
+      "Find a terminating Fixpoint that structural analysis rejects"
+    ]
+  },
+  {
+    "part": 55,
+    "before": "If you submit this optional exercise, comment it out. A rejected definition must not make the entire file fail.",
+    "after": [
+      "Comment out this optional solution before submission",
+      "A rejected definition must not break the entire file"
+    ]
+  },
+  {
+    "part": 56,
+    "before": "Prove this theorem about boolean functions using the tactics introduced so far.",
+    "after": [
+      "Prove the boolean-function theorem using earlier tactics"
+    ]
+  },
+  {
+    "part": 57,
+    "before": "State and prove a theorem named negation_fn_applied_twice.",
+    "after": [
+      "State and prove negation_fn_applied_twice"
+    ]
+  },
+  {
+    "part": 57,
+    "before": "Use the previous theorem as a model, but assume that the function satisfies f x = negb x.",
+    "after": [
+      "Adapt the previous theorem with hypothesis f x = negb x"
+    ]
+  },
+  {
+    "part": 57,
+    "before": "The source leaves both the statement and proof to you.",
+    "after": [
+      "Supply both the statement and proof"
+    ]
+  },
+  {
+    "part": 57,
+    "before": "Do not modify the autograder definition:",
+    "after": [
+      "Keep the autograder definition unchanged"
+    ]
+  },
+  {
+    "part": 58,
+    "before": "Source hint: both destruct and rewrite may be needed. Destructing everything in sight is not the best approach.",
+    "after": [
+      "Hint: combine destruct and rewrite",
+      "Avoid unnecessary case splits"
+    ]
+  },
+  {
+    "part": 59,
+    "before": "Model a policy that lowers grades for too many late days. A grade contains a letter and a modifier. “A−” is Grade A Minus; “C” is Grade C Natural.",
+    "after": [
+      "Model grade penalties for late submissions",
+      "grade: a letter plus a modifier",
+      "A−: Grade A Minus; C: Grade C Natural"
+    ]
+  },
+  {
+    "part": 60,
+    "before": "A three-way result carries more information than a boolean. A simultaneous match abbreviates nested matching:",
+    "after": [
+      "Three-way comparison is more informative than a boolean",
+      "Simultaneous matching abbreviates nested matches"
+    ]
+  },
+  {
+    "part": 60,
+    "before": "Alternative pattern C, (A | B) covers both C, A and C, B.",
+    "after": [
+      "C, (A | B): either C, A or C, B"
+    ]
+  },
+  {
+    "part": 62,
+    "before": "Prove that comparing any letter with itself gives Eq.",
+    "after": [
+      "Prove: comparing any letter with itself returns Eq"
+    ]
+  },
+  {
+    "part": 63,
+    "before": "The intended order is Plus > Natural > Minus.",
+    "after": [
+      "Modifier order: Plus > Natural > Minus"
+    ]
+  },
+  {
+    "part": 64,
+    "before": "Lexicographic order: compare letters first; only when equal compare modifiers. Every A grade is above every B grade. Hint: match grades, then letter_comparison; just three outcomes.",
+    "after": [
+      "Lexicographic order: letters first, then modifiers if equal",
+      "Every A grade exceeds every B grade",
+      "Hint: match grades, then the three letter_comparison results"
+    ]
+  },
+  {
+    "part": 65,
+    "before": "F is the lowest possible letter, so it remains unchanged.",
+    "after": [
+      "F is the lowest letter and stays unchanged"
+    ]
+  },
+  {
+    "part": 65,
+    "before": "Does lower_letter always return a strictly lower letter? The next source example tests that proposed claim.",
+    "after": [
+      "Does lower_letter always lower strictly?",
+      "Test the claim in the next example"
+    ]
+  },
+  {
+    "part": 66,
+    "before": "The claim fails at F: its lowered result is equal, not less. The corrected theorem must exclude this boundary case.",
+    "after": [
+      "Counterexample: lowering F returns F",
+      "The corrected claim must exclude this case"
+    ]
+  },
+  {
+    "part": 67,
+    "before": "The hypothesis says F is strictly below l. It rules out the problematic case l = F. Prove this corrected version.",
+    "after": [
+      "Hypothesis: F is strictly below l",
+      "Exclude l = F and prove strict lowering"
+    ]
+  },
+  {
+    "part": 68,
+    "before": "Lower a grade by one step; keep Grade F Minus unchanged.",
+    "after": [
+      "Lower one step; keep Grade F Minus unchanged"
+    ]
+  },
+  {
+    "part": 68,
+    "before": "Hint: use lower_letter and nested pattern matching. The outer match should consider only the modifier. Do not enumerate every letter/modifier case. The source notes that its solution is under 10 lines.",
+    "after": [
+      "Hint: reuse lower_letter with nested matching",
+      "Outer match: modifier only",
+      "Avoid enumerating all letter/modifier pairs",
+      "The source solution uses fewer than 10 lines"
+    ]
+  },
+  {
+    "part": 70,
+    "before": "Starting above F−, lowering really gives a lower grade.",
+    "after": [
+      "Above F−, lower_grade returns a lower grade"
+    ]
+  },
+  {
+    "part": 70,
+    "before": "Use destruct judiciously, together with rewriting.",
+    "after": [
+      "Combine selective destruct with rewriting"
+    ]
+  },
+  {
+    "part": 70,
+    "before": "With the suggested grade_comparison, only one case requires destructing a letter.",
+    "after": [
+      "With the suggested comparison, only one case needs a letter split"
+    ]
+  },
+  {
+    "part": 70,
+    "before": "The F case may benefit from lower_grade_F_Minus.",
+    "after": [
+      "F case: use lower_grade_F_Minus"
+    ]
+  },
+  {
+    "part": 71,
+    "before": "0–8 late days: no penalty. 9–16: lower one step (A+ → A → A− → B+, etc.). 17–20: lower two steps. 21 or more: lower three steps, a whole letter.",
+    "after": [
+      "0–8 late days: no penalty",
+      "9–16: one step, A+ → A → A− → B+",
+      "17–20: two steps",
+      "21 or more: three steps, a whole letter"
+    ]
+  },
+  {
+    "part": 72,
+    "before": "reflexivity proves the definition equals its own body. This equality lets rewrite expose that body in later proofs.",
+    "after": [
+      "reflexivity equates a definition with its body",
+      "rewrite then exposes that body in later proofs"
+    ]
+  },
+  {
+    "part": 73,
+    "before": "At most eight late days leave the grade unchanged.",
+    "after": [
+      "At most eight late days: no grade change"
+    ]
+  },
+  {
+    "part": 73,
+    "before": "Source hint: use apply_late_policy_unfold, then rewrite with the hypothesis.",
+    "after": [
+      "Hint: apply_late_policy_unfold, then rewrite with the hypothesis"
+    ]
+  },
+  {
+    "part": 74,
+    "before": "Between 9 and 16 late days, the grade is lowered one step.",
+    "after": [
+      "9–16 late days: lower one grade step"
+    ]
+  },
+  {
+    "part": 74,
+    "before": "The source’s exercise label is “graded_lowered_once”; the theorem identifier is grade_lowered_once.",
+    "after": [
+      "Source label: graded_lowered_once",
+      "Theorem identifier: grade_lowered_once"
+    ]
+  },
+  {
+    "part": 75,
+    "before": "The low-order bit is on the left, the high-order bit on the right.",
+    "after": [
+      "Low-order bit on the left; high-order bit on the right"
+    ]
+  },
+  {
+    "part": 75,
+    "before": "This is the reverse of customary binary notation.",
+    "after": [
+      "Reverse of customary binary notation"
+    ]
+  },
+  {
+    "part": 75,
+    "before": "Source comprehension check: What unary numeral does B0 Z represent?",
+    "after": [
+      "Check: what unary numeral does B0 Z represent?"
+    ]
+  },
+  {
+    "part": 76,
+    "before": "Complete incr to increment a binary numeral. Complete bin_to_nat to convert it to a unary natural number.",
+    "after": [
+      "Implement incr: increment a binary numeral",
+      "Implement bin_to_nat: convert binary to unary"
+    ]
+  },
+  {
+    "part": 77,
+    "before": "Passing these tests does not fully establish correctness.",
+    "after": [
+      "Passing unit tests does not prove full correctness"
+    ]
+  },
+  {
+    "part": 78,
+    "before": "This check is optional. If all required exercises are complete and Rocq accepts them, you are already in good shape.",
+    "after": [
+      "Optional check: Rocq-accepted solutions to all required exercises suffice"
+    ]
+  },
+  {
+    "part": 78,
+    "before": "Save Basics.v before running BasicsTest.v.",
+    "after": [
+      "Save Basics.v before running BasicsTest.v"
+    ]
+  },
+  {
+    "part": 78,
+    "before": "The directory must contain _CoqProject with the line -Q . LF.",
+    "after": [
+      "_CoqProject must contain -Q . LF"
+    ]
+  },
+  {
+    "part": 78,
+    "before": "A deleted or renamed exercise makes the test fail with an error naming the missing exercise.",
+    "after": [
+      "Missing or renamed exercises trigger an error naming the exercise"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "First comes the output from Basics.v itself.",
+    "after": [
+      "First: output from Basics.v"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "Then each required exercise reports its point value, whether its type is ok, and the assumptions it relies on.",
+    "after": [
+      "Per exercise: points, type-ok status, and assumptions"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "A type that is not ok usually means the statement changed: you proved the wrong thing and receive no points.",
+    "after": [
+      "Wrong type → wrong statement → no credit"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "“Closed under the global context” means no unproved theorems are needed: the exercise is solved.",
+    "after": [
+      "“Closed under the global context”: no unproved dependencies"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "A list of axioms means the work is not fully proved, except for any permitted “Allowed Axioms”.",
+    "after": [
+      "Unapproved axioms mean the proof is incomplete"
+    ]
+  },
+  {
+    "part": 79,
+    "before": "If the exercise’s own name is listed, it is still unproved, probably because it was Admitted.",
+    "after": [
+      "Exercise name among assumptions: still unproved, usually Admitted"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "Third: maximum standard and advanced assignment points. These reflect the non-optional exercises’ stars. There are no advanced exercises in this file.",
+    "after": [
+      "Third: maximum scores from non-optional exercise stars",
+      "No advanced exercises in this file"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "Fourth: Allowed Axioms lists permitted unproved assumptions.",
+    "after": [
+      "Fourth: Allowed Axioms lists permitted assumptions"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "The source says functional_extensionality may appear; its meaning is covered in a later chapter.",
+    "after": [
+      "functional_extensionality may appear; explained in a later chapter"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "Finally: a summary of which exercises are solved.",
+    "after": [
+      "Finally: solved-exercise summary"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "The summary does not include the critical type-ok check. Read the earlier per-exercise report as well.",
+    "after": [
+      "Check type-ok status in the detailed report",
+      "The summary omits this critical check"
+    ]
+  },
+  {
+    "part": 80,
+    "before": "Manual-grading entries still need a human evaluator.",
+    "after": [
+      "Manual grading still requires a human"
+    ]
+  }
+]

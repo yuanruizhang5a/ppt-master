@@ -1,0 +1,649 @@
+{
+  "html_heading_count": 21,
+  "slides": 81,
+  "native_sections": [
+    "Basics",
+    "Introduction",
+    "Homework Submission Guidelines",
+    "Data and Functions",
+    "Proof by Simplification",
+    "Proof by Rewriting",
+    "Proof by Case Analysis",
+    "More Exercises",
+    "Optional: Testing Your Solutions"
+  ],
+  "mapping": [
+    {
+      "original_slide": 2,
+      "slide": 3,
+      "section": "Introduction",
+      "subsection": "",
+      "title": "Introduction",
+      "topic": "Functional programming in two senses"
+    },
+    {
+      "original_slide": 3,
+      "slide": 4,
+      "section": "Homework Submission Guidelines",
+      "subsection": "",
+      "title": "Homework Submission Guidelines",
+      "topic": "Keep the assignment compatible with grading"
+    },
+    {
+      "original_slide": 4,
+      "slide": 5,
+      "section": "Homework Submission Guidelines",
+      "subsection": "",
+      "title": "Homework Submission Guidelines",
+      "topic": "Submitting and checking homework"
+    },
+    {
+      "original_slide": 5,
+      "slide": 6,
+      "section": "Data and Functions",
+      "subsection": "Enumerated Types",
+      "title": "Data and Functions:Enumerated Types",
+      "topic": "Enumerated Types"
+    },
+    {
+      "original_slide": 6,
+      "slide": 7,
+      "section": "Data and Functions",
+      "subsection": "Days of the Week",
+      "title": "Data and Functions:Days of the Week",
+      "topic": "Days of the Week"
+    },
+    {
+      "original_slide": 7,
+      "slide": 8,
+      "section": "Data and Functions",
+      "subsection": "Days of the Week",
+      "title": "Data and Functions:Days of the Week",
+      "topic": "The next working day"
+    },
+    {
+      "original_slide": 8,
+      "slide": 9,
+      "section": "Data and Functions",
+      "subsection": "Days of the Week",
+      "title": "Data and Functions:Days of the Week",
+      "topic": "First: compute an expression"
+    },
+    {
+      "original_slide": 9,
+      "slide": 10,
+      "section": "Data and Functions",
+      "subsection": "Days of the Week",
+      "title": "Data and Functions:Days of the Week",
+      "topic": "Second: prove. Third: extract."
+    },
+    {
+      "original_slide": 10,
+      "slide": 11,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "Booleans"
+    },
+    {
+      "original_slide": 11,
+      "slide": 12,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "Boolean tests and notation"
+    },
+    {
+      "original_slide": 12,
+      "slide": 13,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "Conditional expressions"
+    },
+    {
+      "original_slide": 13,
+      "slide": 14,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "Conditionals on another type"
+    },
+    {
+      "original_slide": 14,
+      "slide": 15,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "nandb"
+    },
+    {
+      "original_slide": 15,
+      "slide": 16,
+      "section": "Data and Functions",
+      "subsection": "Booleans",
+      "title": "Data and Functions:Booleans",
+      "topic": "andb3"
+    },
+    {
+      "original_slide": 16,
+      "slide": 17,
+      "section": "Data and Functions",
+      "subsection": "Types",
+      "title": "Data and Functions:Types",
+      "topic": "Types"
+    },
+    {
+      "original_slide": 17,
+      "slide": 18,
+      "section": "Data and Functions",
+      "subsection": "New Types from Old",
+      "title": "Data and Functions:New Types from Old",
+      "topic": "New Types from Old"
+    },
+    {
+      "original_slide": 18,
+      "slide": 19,
+      "section": "Data and Functions",
+      "subsection": "New Types from Old",
+      "title": "Data and Functions:New Types from Old",
+      "topic": "What the constructors generate"
+    },
+    {
+      "original_slide": 19,
+      "slide": 20,
+      "section": "Data and Functions",
+      "subsection": "New Types from Old",
+      "title": "Data and Functions:New Types from Old",
+      "topic": "Matching constructor arguments"
+    },
+    {
+      "original_slide": 20,
+      "slide": 21,
+      "section": "Data and Functions",
+      "subsection": "Modules",
+      "title": "Data and Functions:Modules",
+      "topic": "Modules"
+    },
+    {
+      "original_slide": 21,
+      "slide": 22,
+      "section": "Data and Functions",
+      "subsection": "Tuples",
+      "title": "Data and Functions:Tuples",
+      "topic": "Tuples"
+    },
+    {
+      "original_slide": 22,
+      "slide": 23,
+      "section": "Data and Functions",
+      "subsection": "Tuples",
+      "title": "Data and Functions:Tuples",
+      "topic": "Unwrapping a tuple"
+    },
+    {
+      "original_slide": 23,
+      "slide": 24,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Numbers: choosing a representation"
+    },
+    {
+      "original_slide": 24,
+      "slide": 25,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Unary natural numbers"
+    },
+    {
+      "original_slide": 25,
+      "slide": 26,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Representations and predecessor"
+    },
+    {
+      "original_slide": 26,
+      "slide": 27,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Numerals, minustwo, and constructors"
+    },
+    {
+      "original_slide": 27,
+      "slide": 28,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Recursion: even and odd"
+    },
+    {
+      "original_slide": 28,
+      "slide": 29,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Recursive addition"
+    },
+    {
+      "original_slide": 29,
+      "slide": 30,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Recursive multiplication"
+    },
+    {
+      "original_slide": 30,
+      "slide": 31,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Subtraction and exponentiation"
+    },
+    {
+      "original_slide": 31,
+      "slide": 32,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "factorial"
+    },
+    {
+      "original_slide": 32,
+      "slide": 33,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Arithmetic notation"
+    },
+    {
+      "original_slide": 33,
+      "slide": 34,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Testing equality: eqb"
+    },
+    {
+      "original_slide": 34,
+      "slide": 35,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "Ordering: leb and boolean comparison"
+    },
+    {
+      "original_slide": 35,
+      "slide": 36,
+      "section": "Data and Functions",
+      "subsection": "Numbers",
+      "title": "Data and Functions:Numbers",
+      "topic": "ltb"
+    },
+    {
+      "original_slide": 36,
+      "slide": 37,
+      "section": "Proof by Simplification",
+      "subsection": "",
+      "title": "Proof by Simplification",
+      "topic": "From examples to general properties"
+    },
+    {
+      "original_slide": 37,
+      "slide": 38,
+      "section": "Proof by Simplification",
+      "subsection": "",
+      "title": "Proof by Simplification",
+      "topic": "What reflexivity can do"
+    },
+    {
+      "original_slide": 38,
+      "slide": 39,
+      "section": "Proof by Simplification",
+      "subsection": "",
+      "title": "Proof by Simplification",
+      "topic": "More simplification proofs"
+    },
+    {
+      "original_slide": 39,
+      "slide": 40,
+      "section": "Proof by Rewriting",
+      "subsection": "",
+      "title": "Proof by Rewriting",
+      "topic": "Use an equality from the context"
+    },
+    {
+      "original_slide": 40,
+      "slide": 41,
+      "section": "Proof by Rewriting",
+      "subsection": "",
+      "title": "Proof by Rewriting",
+      "topic": "plus_id_exercise"
+    },
+    {
+      "original_slide": 41,
+      "slide": 42,
+      "section": "Proof by Rewriting",
+      "subsection": "",
+      "title": "Proof by Rewriting",
+      "topic": "Rewriting with existing theorems"
+    },
+    {
+      "original_slide": 42,
+      "slide": 43,
+      "section": "Proof by Rewriting",
+      "subsection": "",
+      "title": "Proof by Rewriting",
+      "topic": "mult_n_1"
+    },
+    {
+      "original_slide": 43,
+      "slide": 44,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "When simplification gets stuck"
+    },
+    {
+      "original_slide": 44,
+      "slide": 45,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Case analysis with destruct"
+    },
+    {
+      "original_slide": 45,
+      "slide": 46,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Bullets and proof structure"
+    },
+    {
+      "original_slide": 46,
+      "slide": 47,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Negation is involutive"
+    },
+    {
+      "original_slide": 47,
+      "slide": 48,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Nested case analysis"
+    },
+    {
+      "original_slide": 48,
+      "slide": 49,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Braces instead of bullets"
+    },
+    {
+      "original_slide": 49,
+      "slide": 50,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Combining braces and bullets"
+    },
+    {
+      "original_slide": 50,
+      "slide": 51,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "andb_true_elim2"
+    },
+    {
+      "original_slide": 51,
+      "slide": 52,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "Case analysis while introducing"
+    },
+    {
+      "original_slide": 52,
+      "slide": 53,
+      "section": "Proof by Case Analysis",
+      "subsection": "",
+      "title": "Proof by Case Analysis",
+      "topic": "zero_nbeq_plus_1"
+    },
+    {
+      "original_slide": 53,
+      "slide": 54,
+      "section": "Proof by Case Analysis",
+      "subsection": "More on Notation (Optional)",
+      "title": "Proof by Case Analysis:More on Notation (Optional)",
+      "topic": "Precedence, associativity, and scopes"
+    },
+    {
+      "original_slide": 54,
+      "slide": 55,
+      "section": "Proof by Case Analysis",
+      "subsection": "Fixpoints and Structural Recursion (Optional)",
+      "title": "Proof by Case Analysis:Fixpoints and Structural Recursion (Optional)",
+      "topic": "Why recursive calls terminate"
+    },
+    {
+      "original_slide": 55,
+      "slide": 56,
+      "section": "Proof by Case Analysis",
+      "subsection": "Fixpoints and Structural Recursion (Optional)",
+      "title": "Proof by Case Analysis:Fixpoints and Structural Recursion (Optional)",
+      "topic": "decreasing"
+    },
+    {
+      "original_slide": 56,
+      "slide": 57,
+      "section": "More Exercises",
+      "subsection": "Warmups",
+      "title": "More Exercises:Warmups",
+      "topic": "identity_fn_applied_twice"
+    },
+    {
+      "original_slide": 57,
+      "slide": 58,
+      "section": "More Exercises",
+      "subsection": "Warmups",
+      "title": "More Exercises:Warmups",
+      "topic": "negation_fn_applied_twice"
+    },
+    {
+      "original_slide": 58,
+      "slide": 59,
+      "section": "More Exercises",
+      "subsection": "Warmups",
+      "title": "More Exercises:Warmups",
+      "topic": "andb_eq_orb"
+    },
+    {
+      "original_slide": 59,
+      "slide": 60,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Course Late Policies, Formalized"
+    },
+    {
+      "original_slide": 60,
+      "slide": 61,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Comparison and pattern abbreviations"
+    },
+    {
+      "original_slide": 61,
+      "slide": 62,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Comparing letters"
+    },
+    {
+      "original_slide": 62,
+      "slide": 63,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "letter_comparison"
+    },
+    {
+      "original_slide": 63,
+      "slide": 64,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Comparing modifiers"
+    },
+    {
+      "original_slide": 64,
+      "slide": 65,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "grade_comparison"
+    },
+    {
+      "original_slide": 65,
+      "slide": 66,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Lowering a letter"
+    },
+    {
+      "original_slide": 66,
+      "slide": 67,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "An edge case invalidates a theorem"
+    },
+    {
+      "original_slide": 67,
+      "slide": 68,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "lower_letter_lowers"
+    },
+    {
+      "original_slide": 68,
+      "slide": 69,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "lower_grade"
+    },
+    {
+      "original_slide": 69,
+      "slide": 70,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Testing lower_grade"
+    },
+    {
+      "original_slide": 70,
+      "slide": 71,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "lower_grade_lowers"
+    },
+    {
+      "original_slide": 71,
+      "slide": 72,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "A concrete late-days policy"
+    },
+    {
+      "original_slide": 72,
+      "slide": 73,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "Exposing a definition for rewriting"
+    },
+    {
+      "original_slide": 73,
+      "slide": 74,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "no_penalty_for_mostly_on_time"
+    },
+    {
+      "original_slide": 74,
+      "slide": 75,
+      "section": "More Exercises",
+      "subsection": "Course Late Policies, Formalized",
+      "title": "More Exercises:Course Late Policies, Formalized",
+      "topic": "grade_lowered_once"
+    },
+    {
+      "original_slide": 75,
+      "slide": 76,
+      "section": "More Exercises",
+      "subsection": "Binary Numerals",
+      "title": "More Exercises:Binary Numerals",
+      "topic": "Binary Numerals"
+    },
+    {
+      "original_slide": 76,
+      "slide": 77,
+      "section": "More Exercises",
+      "subsection": "Binary Numerals",
+      "title": "More Exercises:Binary Numerals",
+      "topic": "Implement the binary functions"
+    },
+    {
+      "original_slide": 77,
+      "slide": 78,
+      "section": "More Exercises",
+      "subsection": "Binary Numerals",
+      "title": "More Exercises:Binary Numerals",
+      "topic": "All seven source tests"
+    },
+    {
+      "original_slide": 78,
+      "slide": 79,
+      "section": "Optional: Testing Your Solutions",
+      "subsection": "",
+      "title": "Optional: Testing Your Solutions",
+      "topic": "Run the chapter\u2019s test script"
+    },
+    {
+      "original_slide": 79,
+      "slide": 80,
+      "section": "Optional: Testing Your Solutions",
+      "subsection": "",
+      "title": "Optional: Testing Your Solutions",
+      "topic": "Interpreting types and assumptions"
+    },
+    {
+      "original_slide": 80,
+      "slide": 81,
+      "section": "Optional: Testing Your Solutions",
+      "subsection": "",
+      "title": "Optional: Testing Your Solutions",
+      "topic": "Scores, allowed axioms, and summary"
+    }
+  ]
+}

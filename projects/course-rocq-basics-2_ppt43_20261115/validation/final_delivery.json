@@ -1,0 +1,17 @@
+{
+  "file": "/home/zyr/myCode/ppt-master/projects/course-rocq/Basics-2.pptx",
+  "bytes": 300278,
+  "sha256": "596f676b52bcb097a01932a5cd424d4a40dd9f8b63b924f662e0d9011aa45502",
+  "slides": 80,
+  "notes": 80,
+  "source_declarations_and_commands_preserved": 171,
+  "source_lines_in_note_sources": 2052,
+  "zip_crc": "passed",
+  "xml_parsing": "passed",
+  "internal_relationships": "passed",
+  "python_pptx_open": "passed",
+  "images": 0,
+  "application_opening": "not tested; PowerPoint unavailable",
+  "warning": "79 built-in multiline geometry advisories; all 1124 lines passed independent exporter-metric fit checks",
+  "note_formatting": "The exporter normalizes Markdown bullets and whitespace; original source formatting is retained in the Markdown notes."
+}

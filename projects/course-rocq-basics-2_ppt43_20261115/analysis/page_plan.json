@@ -1,0 +1,642 @@
+[
+  {
+    "id": "P01",
+    "title": "Basics: Functional Programming in Rocq",
+    "start": 1,
+    "end": 12,
+    "brief": "Chapter title and source scope; no exercise solutions.",
+    "filename": "01_basics.svg"
+  },
+  {
+    "id": "P02",
+    "title": "Introduction",
+    "start": 13,
+    "end": 43,
+    "brief": "Pure input-output reasoning, first-class functions, algebraic types, pattern matching, polymorphism; Gallina then tactics.",
+    "filename": "02_basics.svg"
+  },
+  {
+    "id": "P03",
+    "title": "Homework Submission Guidelines",
+    "start": 44,
+    "end": 69,
+    "brief": "Keep exercise names and exercises; use Admitted for unfinished work; helper definitions and admitted dependencies.",
+    "filename": "03_basics.svg"
+  },
+  {
+    "id": "P04",
+    "title": "Submitting and checking homework",
+    "start": 70,
+    "end": 94,
+    "brief": "BasicsTest.v commands, files to submit, Canvas submission guidance.",
+    "filename": "04_basics.svg"
+  },
+  {
+    "id": "P05",
+    "title": "Data and Functions: Enumerated Types",
+    "start": 95,
+    "end": 114,
+    "brief": "Small core and user-defined types; standard library and the course rebuild strategy.",
+    "filename": "05_basics.svg"
+  },
+  {
+    "id": "P06",
+    "title": "Days of the Week",
+    "start": 115,
+    "end": 135,
+    "brief": "The seven constructors of day and their type.",
+    "filename": "06_basics.svg"
+  },
+  {
+    "id": "P07",
+    "title": "The next working day",
+    "start": 136,
+    "end": 154,
+    "brief": "Exact next_working_day definition; explicit argument and return types and type inference.",
+    "filename": "07_basics.svg"
+  },
+  {
+    "id": "P08",
+    "title": "Computing with days",
+    "start": 155,
+    "end": 170,
+    "brief": "The two source Compute commands and their reported results.",
+    "filename": "08_basics.svg"
+  },
+  {
+    "id": "P09",
+    "title": "Examples, proofs, and extraction",
+    "start": 171,
+    "end": 212,
+    "brief": "test_next_working_day, supplied proof, extraction purpose and trust, String import.",
+    "filename": "09_basics.svg"
+  },
+  {
+    "id": "P10",
+    "title": "Booleans",
+    "start": 213,
+    "end": 250,
+    "brief": "bool, negb, andb, orb; two arguments and matching definitions.",
+    "filename": "10_basics.svg"
+  },
+  {
+    "id": "P11",
+    "title": "Boolean tests and notation",
+    "start": 251,
+    "end": 281,
+    "brief": "All five orb tests and proofs; && and || notation; bracket conventions in comments versus HTML.",
+    "filename": "11_basics.svg"
+  },
+  {
+    "id": "P12",
+    "title": "Conditional expressions",
+    "start": 282,
+    "end": 308,
+    "brief": "negb', andb', orb'; first and second constructor branches for any two-constructor type.",
+    "filename": "12_basics.svg"
+  },
+  {
+    "id": "P13",
+    "title": "Conditionals on another type",
+    "start": 309,
+    "end": 327,
+    "brief": "bw and invert, both Compute commands and results.",
+    "filename": "13_basics.svg"
+  },
+  {
+    "id": "P14",
+    "title": "Exercise: nandb",
+    "start": 328,
+    "end": 360,
+    "brief": "1 star; exact specification, unfinished signature, four named tests; source simpl/reflexivity hint.",
+    "filename": "14_basics.svg"
+  },
+  {
+    "id": "P15",
+    "title": "Exercise: andb3",
+    "start": 361,
+    "end": 380,
+    "brief": "1 star; signature and all four named tests; true iff all three inputs are true.",
+    "filename": "15_basics.svg"
+  },
+  {
+    "id": "P16",
+    "title": "Types",
+    "start": 381,
+    "end": 413,
+    "brief": "Check with and without type annotation; functions as values and arrow types.",
+    "filename": "16_basics.svg"
+  },
+  {
+    "id": "P17",
+    "title": "New Types from Old",
+    "start": 414,
+    "end": 449,
+    "brief": "rgb and color definitions; constructors with arguments and valid/invalid constructor expressions.",
+    "filename": "17_basics.svg"
+  },
+  {
+    "id": "P18",
+    "title": "What the constructors generate",
+    "start": 450,
+    "end": 480,
+    "brief": "The only values of rgb and color; constructor rules, argument typing, monochrome definition.",
+    "filename": "18_basics.svg"
+  },
+  {
+    "id": "P19",
+    "title": "Matching constructor arguments",
+    "start": 481,
+    "end": 499,
+    "brief": "Exact isred definition; variable and wildcard patterns; ordered branches.",
+    "filename": "19_basics.svg"
+  },
+  {
+    "id": "P20",
+    "title": "Modules",
+    "start": 500,
+    "end": 519,
+    "brief": "Playground.foo versus foo; exact module example and Check commands.",
+    "filename": "20_basics.svg"
+  },
+  {
+    "id": "P21",
+    "title": "Tuples",
+    "start": 520,
+    "end": 541,
+    "brief": "TuplePlayground, bit, nybble, bits and the Check command.",
+    "filename": "21_basics.svg"
+  },
+  {
+    "id": "P22",
+    "title": "Unwrapping a tuple",
+    "start": 542,
+    "end": 563,
+    "brief": "all_zero, wildcards, both Compute examples and End TuplePlayground.",
+    "filename": "22_basics.svg"
+  },
+  {
+    "id": "P23",
+    "title": "Numbers: choosing a representation",
+    "start": 564,
+    "end": 602,
+    "brief": "Finite earlier types versus infinite naturals; decimal, hex, octal, binary and unary; proof convenience.",
+    "filename": "23_basics.svg"
+  },
+  {
+    "id": "P24",
+    "title": "Unary natural numbers",
+    "start": 603,
+    "end": 640,
+    "brief": "NatPlayground.nat, O and S; precise closure and exclusion rules, finite constructor expressions.",
+    "filename": "24_basics.svg"
+  },
+  {
+    "id": "P25",
+    "title": "Representations and predecessor",
+    "start": 641,
+    "end": 670,
+    "brief": "otherNat, arbitrary constructor names, interpretation via computation, pred and End NatPlayground.",
+    "filename": "25_basics.svg"
+  },
+  {
+    "id": "P26",
+    "title": "Numerals, minustwo, and constructors",
+    "start": 671,
+    "end": 711,
+    "brief": "Decimal printing; Check 4; minustwo and result; S versus computing functions and their types.",
+    "filename": "26_basics.svg"
+  },
+  {
+    "id": "P27",
+    "title": "Recursion: even and odd",
+    "start": 712,
+    "end": 739,
+    "brief": "Exact even and odd definitions; both odd tests and proofs; Fixpoint versus Definition.",
+    "filename": "27_basics.svg"
+  },
+  {
+    "id": "P28",
+    "title": "Recursive addition",
+    "start": 740,
+    "end": 771,
+    "brief": "NatPlayground2.plus and Compute plus 3 2; complete source reduction trace and result.",
+    "filename": "28_basics.svg"
+  },
+  {
+    "id": "P29",
+    "title": "Recursive multiplication",
+    "start": 772,
+    "end": 786,
+    "brief": "mult definition, grouped argument syntax, test_mult1 and proof.",
+    "filename": "29_basics.svg"
+  },
+  {
+    "id": "P30",
+    "title": "Subtraction and exponentiation",
+    "start": 787,
+    "end": 804,
+    "brief": "Simultaneous match in minus; End NatPlayground2; exp definition.",
+    "filename": "30_basics.svg"
+  },
+  {
+    "id": "P31",
+    "title": "Exercise: factorial",
+    "start": 805,
+    "end": 828,
+    "brief": "1 star; mathematical recurrence, unfinished function, both named tests, := hint.",
+    "filename": "31_basics.svg"
+  },
+  {
+    "id": "P32",
+    "title": "Arithmetic notation",
+    "start": 829,
+    "end": 851,
+    "brief": "All three notation declarations, levels, associativity, scope, Check expression; parser-only change.",
+    "filename": "32_basics.svg"
+  },
+  {
+    "id": "P33",
+    "title": "Testing equality: eqb",
+    "start": 852,
+    "end": 875,
+    "brief": "Exact nested matches in eqb; boolean result.",
+    "filename": "33_basics.svg"
+  },
+  {
+    "id": "P34",
+    "title": "Ordering: leb and boolean comparison",
+    "start": 876,
+    "end": 909,
+    "brief": "leb, all tests and proofs, =? and <=? notation; proposition = versus boolean =?.",
+    "filename": "34_basics.svg"
+  },
+  {
+    "id": "P35",
+    "title": "Exercise: ltb",
+    "start": 910,
+    "end": 933,
+    "brief": "1 star; signature, source hint to reuse a function, notation and all three named tests.",
+    "filename": "35_basics.svg"
+  },
+  {
+    "id": "P36",
+    "title": "Proof by Simplification",
+    "start": 934,
+    "end": 964,
+    "brief": "plus_1_1 and plus_O_n with supplied proofs; general versus concrete claims.",
+    "filename": "36_basics.svg"
+  },
+  {
+    "id": "P37",
+    "title": "What reflexivity can do",
+    "start": 965,
+    "end": 1006,
+    "brief": "plus_O_n' proof; simpl versus unfolding by reflexivity; theorem synonyms, forall, intros and context.",
+    "filename": "37_basics.svg"
+  },
+  {
+    "id": "P38",
+    "title": "More simplification proofs",
+    "start": 1007,
+    "end": 1038,
+    "brief": "plus_O_n'' with renamed binder, plus_1_l and mult_0_l; tactics and left suffix.",
+    "filename": "38_basics.svg"
+  },
+  {
+    "id": "P39",
+    "title": "Proof by Rewriting",
+    "start": 1039,
+    "end": 1084,
+    "brief": "plus_id_example and supplied proof; intros quantifiers/hypothesis, rewrite direction and implication distinction.",
+    "filename": "39_basics.svg"
+  },
+  {
+    "id": "P40",
+    "title": "Exercise: plus_id_exercise",
+    "start": 1085,
+    "end": 1112,
+    "brief": "1 star; exact two-hypothesis theorem, unfinished proof, meaning and risk of Admitted.",
+    "filename": "40_basics.svg"
+  },
+  {
+    "id": "P41",
+    "title": "Rewriting with existing theorems",
+    "start": 1113,
+    "end": 1136,
+    "brief": "mult_n_O and mult_n_Sm Check output; mult_n_0_m_0 supplied proof and theorem instantiation.",
+    "filename": "41_basics.svg"
+  },
+  {
+    "id": "P42",
+    "title": "Exercise: mult_n_1",
+    "start": 1137,
+    "end": 1149,
+    "brief": "1 star; exact theorem, unfinished proof and hint to use mult_n_Sm, mult_n_O and 1 = S O.",
+    "filename": "42_basics.svg"
+  },
+  {
+    "id": "P43",
+    "title": "When simplification gets stuck",
+    "start": 1150,
+    "end": 1182,
+    "brief": "plus_1_neq_0_firsttry, supplied aborted proof, unknown first argument and blocked match.",
+    "filename": "43_basics.svg"
+  },
+  {
+    "id": "P44",
+    "title": "Case analysis with destruct",
+    "start": 1183,
+    "end": 1220,
+    "brief": "plus_1_neq_0 complete proof; intro pattern, generated cases and eqn:E.",
+    "filename": "44_basics.svg"
+  },
+  {
+    "id": "P45",
+    "title": "Bullets and proof structure",
+    "start": 1221,
+    "end": 1249,
+    "brief": "Whole subgoal proofs, completion checks, readable nesting, line-length advice and simplification of S case.",
+    "filename": "45_basics.svg"
+  },
+  {
+    "id": "P46",
+    "title": "Negation is involutive",
+    "start": 1250,
+    "end": 1272,
+    "brief": "negb_involutive and supplied proof; no as required when no arguments need names.",
+    "filename": "46_basics.svg"
+  },
+  {
+    "id": "P47",
+    "title": "Nested case analysis",
+    "start": 1273,
+    "end": 1291,
+    "brief": "andb_commutative exact supplied proof with nested bullets.",
+    "filename": "47_basics.svg"
+  },
+  {
+    "id": "P48",
+    "title": "Braces instead of bullets",
+    "start": 1292,
+    "end": 1310,
+    "brief": "andb_commutative' supplied proof; braces delimit nested subproofs and may reuse bullet shapes.",
+    "filename": "48_basics.svg"
+  },
+  {
+    "id": "P49",
+    "title": "Combining braces and bullets",
+    "start": 1311,
+    "end": 1330,
+    "brief": "andb3_exchange exact supplied proof; three boolean case splits.",
+    "filename": "49_basics.svg"
+  },
+  {
+    "id": "P50",
+    "title": "Exercise: andb_true_elim2",
+    "start": 1331,
+    "end": 1353,
+    "brief": "2 stars; exact theorem and all three source hints; no added proof.",
+    "filename": "50_basics.svg"
+  },
+  {
+    "id": "P51",
+    "title": "Case analysis while introducing",
+    "start": 1354,
+    "end": 1387,
+    "brief": "plus_1_neq_0' and andb_commutative'' supplied proofs; intro patterns omit eqn recording.",
+    "filename": "51_basics.svg"
+  },
+  {
+    "id": "P52",
+    "title": "Exercise: zero_nbeq_plus_1",
+    "start": 1388,
+    "end": 1395,
+    "brief": "1 star; exact theorem and unfinished proof.",
+    "filename": "52_basics.svg"
+  },
+  {
+    "id": "P53",
+    "title": "More on Notation (Optional)",
+    "start": 1396,
+    "end": 1441,
+    "brief": "Precedence, associativity, 1+2*3*4 parse; notation scopes, %nat, %Z and source limitations.",
+    "filename": "53_basics.svg"
+  },
+  {
+    "id": "P54",
+    "title": "Structural Recursion (Optional)",
+    "start": 1442,
+    "end": 1465,
+    "brief": "Exact plus' definition; strictly smaller arguments, termination and limited decreasing analysis.",
+    "filename": "54_basics.svg"
+  },
+  {
+    "id": "P55",
+    "title": "Exercise: decreasing (Optional)",
+    "start": 1466,
+    "end": 1481,
+    "brief": "2 stars; find a terminating definition rejected by structural analysis; comment it out for submission.",
+    "filename": "55_basics.svg"
+  },
+  {
+    "id": "P56",
+    "title": "More Exercises: identity_fn_applied_twice",
+    "start": 1482,
+    "end": 1500,
+    "brief": "1 star; exact function-hypothesis theorem and unfinished proof.",
+    "filename": "56_basics.svg"
+  },
+  {
+    "id": "P57",
+    "title": "Exercise: negation_fn_applied_twice",
+    "start": 1501,
+    "end": 1514,
+    "brief": "1 star; source asks students to state and prove theorem; preserve manual-grade marker unchanged.",
+    "filename": "57_basics.svg"
+  },
+  {
+    "id": "P58",
+    "title": "Exercise: andb_eq_orb (Optional)",
+    "start": 1515,
+    "end": 1531,
+    "brief": "3 stars; exact theorem, unfinished proof, source hint on judicious destruct and rewrite.",
+    "filename": "58_basics.svg"
+  },
+  {
+    "id": "P59",
+    "title": "Course Late Policies, Formalized",
+    "start": 1532,
+    "end": 1560,
+    "brief": "LateDays module; letter, modifier, grade; A- and C representations.",
+    "filename": "59_basics.svg"
+  },
+  {
+    "id": "P60",
+    "title": "Comparison and pattern abbreviations",
+    "start": 1561,
+    "end": 1596,
+    "brief": "comparison type; simultaneous matches, expanded nested match, alternative patterns.",
+    "filename": "60_basics.svg"
+  },
+  {
+    "id": "P61",
+    "title": "Comparing letters",
+    "start": 1597,
+    "end": 1625,
+    "brief": "Exact letter_comparison definition; all three Compute examples and results.",
+    "filename": "61_basics.svg"
+  },
+  {
+    "id": "P62",
+    "title": "Exercise: letter_comparison",
+    "start": 1626,
+    "end": 1632,
+    "brief": "1 star; letter_comparison_Eq exact statement and unfinished proof.",
+    "filename": "62_basics.svg"
+  },
+  {
+    "id": "P63",
+    "title": "Comparing modifiers",
+    "start": 1633,
+    "end": 1646,
+    "brief": "Plus > Natural > Minus and exact modifier_comparison definition.",
+    "filename": "63_basics.svg"
+  },
+  {
+    "id": "P64",
+    "title": "Exercise: grade_comparison",
+    "start": 1647,
+    "end": 1684,
+    "brief": "2 stars; lexicographic order, unfinished function and all four source named tests and hint.",
+    "filename": "64_basics.svg"
+  },
+  {
+    "id": "P65",
+    "title": "Lowering a letter",
+    "start": 1685,
+    "end": 1704,
+    "brief": "Exact lower_letter; F is fixed; introduce the proposed strict-lowering claim.",
+    "filename": "65_basics.svg"
+  },
+  {
+    "id": "P66",
+    "title": "An edge case invalidates a theorem",
+    "start": 1705,
+    "end": 1729,
+    "brief": "Aborted lower_letter_lowers proof and the proved lower_letter_F_is_F; source counterexample explanation.",
+    "filename": "66_basics.svg"
+  },
+  {
+    "id": "P67",
+    "title": "Exercise: lower_letter_lowers",
+    "start": 1730,
+    "end": 1742,
+    "brief": "2 stars; corrected statement with F comparison hypothesis, unfinished proof.",
+    "filename": "67_basics.svg"
+  },
+  {
+    "id": "P68",
+    "title": "Exercise: lower_grade",
+    "start": 1743,
+    "end": 1772,
+    "brief": "2 stars; exact function signature, one-step specification, F- floor, nested-match hint; first examples.",
+    "filename": "68_basics.svg"
+  },
+  {
+    "id": "P69",
+    "title": "Testing lower_grade",
+    "start": 1773,
+    "end": 1815,
+    "brief": "Remaining named examples, repeated lowering, F- theorem and fractional grading metadata.",
+    "filename": "69_basics.svg"
+  },
+  {
+    "id": "P70",
+    "title": "Exercise: lower_grade_lowers",
+    "start": 1816,
+    "end": 1837,
+    "brief": "3 stars; exact theorem, unfinished proof, source hints on destruct, rewrite and F case.",
+    "filename": "70_basics.svg"
+  },
+  {
+    "id": "P71",
+    "title": "A concrete late-days policy",
+    "start": 1838,
+    "end": 1855,
+    "brief": "Exact apply_late_policy; 0\u20138 / 9\u201316 / 17\u201320 / >=21 boundaries and corresponding penalties.",
+    "filename": "71_basics.svg"
+  },
+  {
+    "id": "P72",
+    "title": "Exposing a definition for rewriting",
+    "start": 1856,
+    "end": 1882,
+    "brief": "Exact apply_late_policy_unfold theorem and supplied reflexivity proof; purpose of this equality.",
+    "filename": "72_basics.svg"
+  },
+  {
+    "id": "P73",
+    "title": "Exercise: no_penalty_for_mostly_on_time",
+    "start": 1883,
+    "end": 1895,
+    "brief": "2 stars; exact theorem, unfinished proof; source rewrite hint.",
+    "filename": "73_basics.svg"
+  },
+  {
+    "id": "P74",
+    "title": "Exercise: grade_lowered_once",
+    "start": 1896,
+    "end": 1908,
+    "brief": "2 stars; exact theorem and unfinished proof; source exercise label is graded_lowered_once; End LateDays.",
+    "filename": "74_basics.svg"
+  },
+  {
+    "id": "P75",
+    "title": "Binary Numerals",
+    "start": 1909,
+    "end": 1938,
+    "brief": "3-star binary exercise; source decimal 0\u20138 representations, low-order bit on left and B0 Z comprehension question.",
+    "filename": "75_basics.svg"
+  },
+  {
+    "id": "P76",
+    "title": "Exercise: binary functions",
+    "start": 1939,
+    "end": 1953,
+    "brief": "bin definition, incr and bin_to_nat unfinished signatures; implement both functions.",
+    "filename": "76_basics.svg"
+  },
+  {
+    "id": "P77",
+    "title": "Binary unit tests",
+    "start": 1954,
+    "end": 1985,
+    "brief": "All seven named tests and exact assertions; unit tests do not fully establish correctness.",
+    "filename": "77_basics.svg"
+  },
+  {
+    "id": "P78",
+    "title": "Optional: Testing Your Solutions",
+    "start": 1986,
+    "end": 2009,
+    "brief": "Optional status; save and compile source, then test script, or make; _CoqProject requirement and missing-name errors.",
+    "filename": "78_basics.svg"
+  },
+  {
+    "id": "P79",
+    "title": "Interpreting types and assumptions",
+    "start": 2010,
+    "end": 2030,
+    "brief": "Report order, point values, type ok, admitted axioms, Closed under the global context and wrong-statement failure.",
+    "filename": "79_basics.svg"
+  },
+  {
+    "id": "P80",
+    "title": "Scores, allowed axioms, and summary",
+    "start": 2031,
+    "end": 2052,
+    "brief": "Standard/advanced maxima, no advanced exercises here, allowed functional_extensionality, summary limitation and manual grading.",
+    "filename": "80_basics.svg"
+  }
+]

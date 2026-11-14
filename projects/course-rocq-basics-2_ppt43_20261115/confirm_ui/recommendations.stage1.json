@@ -1,0 +1,29 @@
+{
+  "stage": "stage1",
+  "lang": "en",
+  "primary_language": "en",
+  "recommend": {
+    "canvas": "ppt43"
+  },
+  "audience": {
+    "value": "Students learning functional programming and elementary proofs in Rocq, following Software Foundations: Logical Foundations."
+  },
+  "communication_intent": {
+    "value": "Teach the Basics chapter in its original order, preserving all substantive explanations, definitions, examples, proofs, exercises, optional sections, submission rules, and testing guidance."
+  },
+  "audience_outcome": {
+    "value": "Students can follow Basics.html alongside Basics.v, understand each supplied definition and proof, and attempt all 20 exercises without receiving added solutions."
+  },
+  "core_message": {
+    "value": "Define data and functions in Gallina; reason about their behavior with simplification, rewriting, and case analysis, following the source chapter exactly."
+  },
+  "delivery_context": {
+    "value": "Primary: presenter-led course lectures following the chapter; secondary: independent review alongside the original HTML and executable Rocq source."
+  },
+  "artifact_afterlife": {
+    "value": "Editable course slides and a reference for the Basics chapter, with source locations for checking fidelity."
+  },
+  "content_divergence": {
+    "value": "Strictly follow lf/Basics.html and lf/Basics.v: retain source order and substance, exact Rocq identifiers and code semantics, all exercises and optional labels; do not add solutions or unrelated examples."
+  }
+}

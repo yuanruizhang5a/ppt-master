@@ -1,0 +1,139 @@
+{
+  "slides": 80,
+  "source_lines_in_notes": 2052,
+  "source_line_coverage": "complete, in order, without gaps or duplicates",
+  "visual_lines_measured": 1124,
+  "line_fit_issues": [],
+  "exercise_count": 20,
+  "html_v_exercise_order_matches": true,
+  "exercises": [
+    {
+      "name": "nandb",
+      "line": 328,
+      "slide": "P14",
+      "present": true
+    },
+    {
+      "name": "andb3",
+      "line": 361,
+      "slide": "P15",
+      "present": true
+    },
+    {
+      "name": "factorial",
+      "line": 805,
+      "slide": "P31",
+      "present": true
+    },
+    {
+      "name": "ltb",
+      "line": 910,
+      "slide": "P35",
+      "present": true
+    },
+    {
+      "name": "plus_id_exercise",
+      "line": 1085,
+      "slide": "P40",
+      "present": true
+    },
+    {
+      "name": "mult_n_1",
+      "line": 1137,
+      "slide": "P42",
+      "present": true
+    },
+    {
+      "name": "andb_true_elim2",
+      "line": 1331,
+      "slide": "P50",
+      "present": true
+    },
+    {
+      "name": "zero_nbeq_plus_1",
+      "line": 1388,
+      "slide": "P52",
+      "present": true
+    },
+    {
+      "name": "decreasing",
+      "line": 1466,
+      "slide": "P55",
+      "present": true
+    },
+    {
+      "name": "identity_fn_applied_twice",
+      "line": 1487,
+      "slide": "P56",
+      "present": true
+    },
+    {
+      "name": "negation_fn_applied_twice",
+      "line": 1501,
+      "slide": "P57",
+      "present": true
+    },
+    {
+      "name": "andb_eq_orb",
+      "line": 1515,
+      "slide": "P58",
+      "present": true
+    },
+    {
+      "name": "letter_comparison",
+      "line": 1626,
+      "slide": "P62",
+      "present": true
+    },
+    {
+      "name": "grade_comparison",
+      "line": 1647,
+      "slide": "P64",
+      "present": true
+    },
+    {
+      "name": "lower_letter_lowers",
+      "line": 1730,
+      "slide": "P67",
+      "present": true
+    },
+    {
+      "name": "lower_grade",
+      "line": 1743,
+      "slide": "P68",
+      "present": true
+    },
+    {
+      "name": "lower_grade_lowers",
+      "line": 1816,
+      "slide": "P70",
+      "present": true
+    },
+    {
+      "name": "no_penalty_for_mostly_on_time",
+      "line": 1883,
+      "slide": "P73",
+      "present": true
+    },
+    {
+      "name": "graded_lowered_once",
+      "line": 1896,
+      "slide": "P74",
+      "present": true
+    },
+    {
+      "name": "binary",
+      "line": 1911,
+      "slide": "P75",
+      "present": true
+    }
+  ],
+  "sources": {
+    "Basics.html": "477e632a1d616b7b0d1c03e988843702456bcdf2edb6b2821b4bada2e1553543",
+    "Basics.v": "cb21119b21292016b3d7f6e26d2a1786080b75d57553f88f932f7d943044c2e1"
+  },
+  "limitations": [
+    "PowerPoint is unavailable for an application-level opening test.",
+    "Built-in checker cannot estimate direct-leading-text multiline carriers; the independent audit measures all explicit visual lines with the exporter width estimator."
+  ]
+}

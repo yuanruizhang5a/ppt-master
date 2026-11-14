@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "html",
+  "source": {
+    "path": "/home/zyr/myCode/ppt-master/projects/course-rocq/lf/Basics.html",
+    "name": "Basics.html",
+    "suffix": ".html",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 331725
+  },
+  "outputs": {
+    "markdown": "Basics.md",
+    "asset_dir": "Basics_files",
+    "image_manifest": "Basics_files/image_manifest.json",
+    "image_count": 1
+  },
+  "markdown": {
+    "line_count": 1976,
+    "char_count": 125661,
+    "heading_count": 42,
+    "table_count": 0,
+    "image_ref_count": 1,
+    "link_count": 1365
+  },
+  "warnings": []
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768" data-pptx-page-role="cover" font-family="Arial" fill="#263445">
+<rect id="bg" data-pptx-role="background" width="1024" height="768" fill="#FFFFFF"/>
+<text id="series" data-pptx-role="header" x="56" y="80" font-size="16" fill="#087E8B">SOFTWARE FOUNDATIONS · LOGICAL FOUNDATIONS</text>
+<g id="chapter-title" data-pptx-bounds="48 140 928 240">
+<text x="56" y="210" font-size="44" font-weight="bold" fill="#14324B">Basics</text>
+<text x="56" y="284" font-size="34" fill="#14324B">Functional Programming in Rocq</text>
+</g>
+<g id="chapter-scope" data-pptx-bounds="48 400 928 240">
+<text x="56" y="450" font-size="26">Data and functions. Then proofs of their behavior.</text>
+<text x="56" y="516" font-size="24">A source companion to Basics.html and Basics.v</text>
+<text x="56" y="566" font-size="24">Exercises retain their original unfinished status.</text>
+</g>
+<text id="footer" data-pptx-role="footer" x="56" y="738" font-size="14" fill="#586778">Basics.v · 1–12                                      Basics-2 · 01 / 80</text>
+</svg>
