@@ -345,17 +345,28 @@ Compute (invert bw_white).
     over [simpl] and go directly to [reflexivity]. We'll explain
     what's happening later in the chapter. *)
 
-Definition nandb (b1:bool) (b2:bool) : bool
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition nandb (b1:bool) (b2:bool) : bool :=
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *)
+  if b1 
+    then 
+      if b2 then false else true
+    else true.
 
 Example test_nandb1:               (nandb true false) = true.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed. 
+
 Example test_nandb2:               (nandb false false) = true.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
+
 Example test_nandb3:               (nandb false true) = true.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
+
 Example test_nandb4:               (nandb true true) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
 (** [] *)
 
 (** **** Exercise: 1 star, standard (andb3)
@@ -365,16 +376,35 @@ Example test_nandb4:               (nandb true true) = false.
     otherwise. *)
 
 Definition andb3 (b1:bool) (b2:bool) (b3:bool) : bool
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *)
+  :=
+  if b1 
+    then 
+      if b2
+        then 
+          if b3
+            then true
+          else false
+      else false
+  else false.
+    
+    
 
 Example test_andb31:                 (andb3 true true true) = true.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
+
 Example test_andb32:                 (andb3 false true true) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
+
 Example test_andb33:                 (andb3 true false true) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
+
 Example test_andb34:                 (andb3 true true false) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed.
 (** [] *)
 
 (* ================================================================= *)
@@ -817,12 +847,19 @@ Fixpoint exp (base power : nat) : nat :=
     you've forgotten the [:=]. *)
 
 Fixpoint factorial (n:nat) : nat
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *)
+  :=
+  match n with
+  | O => S O
+  | S n' => mult n (factorial n')
+  end. 
 
 Example test_factorial1:          (factorial 3) = 6.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof. simpl. reflexivity. Qed. 
+
 Example test_factorial2:          (factorial 5) = (mult 10 12).
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) Proof. simpl. reflexivity. Qed.
 (** [] *)
 
 (** Again, we can make numerical expressions easier to read and write
@@ -918,16 +955,17 @@ Proof. simpl. reflexivity.  Qed.
     function, but you can use two if you want. *)
 
 Definition ltb (n m : nat) : bool
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *)
+  := (leb n m) && (negb (leb m n)).
 
 Notation "x <? y" := (ltb x y) (at level 70) : nat_scope.
 
 Example test_ltb1:             (ltb 2 2) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) Proof. simpl. reflexivity. Qed.
 Example test_ltb2:             (ltb 2 4) = true.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) Proof. simpl. reflexivity. Qed.
 Example test_ltb3:             (ltb 4 2) = false.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) Proof. simpl. reflexivity. Qed.
 (** [] *)
 
 (* ################################################################# *)
@@ -1091,7 +1129,12 @@ Proof.
 Theorem plus_id_exercise : forall n m o : nat,
   n = m -> m = o -> n + m = m + o.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
+  intros.
+  rewrite -> H.
+  rewrite -> H0.
+  reflexivity.
+  Qed.
 (** [] *)
 
 (** The [Admitted] command tells Rocq that we want to skip trying
@@ -1142,7 +1185,11 @@ Proof.
 Theorem mult_n_1 : forall p : nat,
   p * 1 = p.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
+  intros p.
+  rewrite <- mult_n_Sm.
+  rewrite <- mult_n_O.
+  reflexivity. Qed.
 
 (** [] *)
 
