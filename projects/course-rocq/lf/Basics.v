@@ -1210,6 +1210,7 @@ Proof.
   simpl.  (* does nothing! *)
 Abort.
 
+
 (** The reason for getting stuck is that the definitions of both
     [eqb] and [+] begin by performing a [match] on their first argument.
     Here, the first argument to [+] is the unknown number [n] and the
@@ -1395,8 +1396,15 @@ Qed.
 Theorem andb_true_elim2 : forall b c : bool,
   andb b c = true -> c = true.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
 (** [] *)
+  intros.
+  destruct c.
+  - reflexivity.
+  - destruct b.
+    * simpl in H. rewrite -> H. reflexivity.
+    * simpl in H. rewrite -> H. reflexivity.
+  Qed.     
 
 (** Before closing the chapter, we should mention one final
     convenience.  As you may have noticed, many proofs perform case
@@ -1436,8 +1444,12 @@ Qed.
 Theorem zero_nbeq_plus_1 : forall n : nat,
   0 =? (n + 1) = false.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
 (** [] *)
+  intros [|n].
+  - simpl. reflexivity.
+  - simpl. reflexivity.
+Qed.  
 
 (* ================================================================= *)
 (** ** More on Notation (Optional) *)
@@ -1541,7 +1553,12 @@ Theorem identity_fn_applied_twice :
   (forall (x : bool), f x = x) ->
   forall (b : bool), f (f b) = b.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
+  intros.
+  destruct b.
+  - rewrite -> H. rewrite -> H. reflexivity.
+  - rewrite -> H. rewrite -> H. reflexivity.
+  Qed.
 
 (** [] *)
 
@@ -1552,6 +1569,18 @@ Proof.
     function [f] has the property that [f x = negb x]. *)
 
 (* FILL IN HERE *)
+Theorem negation_fn_applied_twice :
+  forall (f : bool -> bool),
+  (forall (x : bool), f x = negb x) ->
+  forall (b : bool), f (f b) = b.
+Proof.
+  intros.
+  rewrite -> H. rewrite -> H.
+  destruct b.
+  - reflexivity.
+  - reflexivity.
+  Qed. 
+
 
 (* Do not modify the following line: *)
 Definition manual_grade_for_negation_fn_applied_twice : option (nat*string) := None.
@@ -1571,7 +1600,13 @@ Theorem andb_eq_orb :
   (andb b c = orb b c) ->
   b = c.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *)
+  intros [] [].
+  - simpl. reflexivity.
+  - simpl. intros. rewrite -> H. reflexivity.
+  - simpl. intros. rewrite -> H. reflexivity.
+  - simpl. reflexivity.
+  Qed.  
 
 (** [] *)
 
@@ -1674,7 +1709,16 @@ Compute letter_comparison B F.
 Theorem letter_comparison_Eq :
   forall l, letter_comparison l l = Eq.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  (* FILL IN HERE *) 
+  intros. 
+  destruct l.
+  - simpl. reflexivity.
+  - simpl. reflexivity.   
+  - simpl. reflexivity.
+  - simpl. reflexivity.
+  - simpl. reflexivity.
+  Qed.           
+
 (** [] *)
 
 (** We can follow the same strategy to define the comparison operation
@@ -1706,26 +1750,47 @@ Definition modifier_comparison (m1 m2 : modifier) : comparison :=
     possibilities. *)
 
 Definition grade_comparison (g1 g2 : grade) : comparison
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *) :=
+  match g1, g2 with
+  | Grade l1 m1, Grade l2 m2 =>
+    match (letter_comparison l1 l2) with
+    | Gt => Gt
+    | Lt => Lt
+    | Eq => match (modifier_comparison m1 m2) with
+      | Gt => Gt
+      | Eq => Eq
+      | Lt => Lt
+      end
+    end
+  end.
 
 (** The following "unit tests" of your [grade_comparison] function
     should pass once you have defined it correctly. *)
 
 Example test_grade_comparison1 :
   (grade_comparison (Grade A Minus) (Grade B Plus)) = Gt.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof.
+  simpl. reflexivity. Qed.
 
 Example test_grade_comparison2 :
   (grade_comparison (Grade A Minus) (Grade A Plus)) = Lt.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof.
+  simpl. reflexivity. Qed.
+
 
 Example test_grade_comparison3 :
   (grade_comparison (Grade F Plus) (Grade F Plus)) = Eq.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof.
+  simpl. reflexivity. Qed.
 
 Example test_grade_comparison4 :
   (grade_comparison (Grade B Minus) (Grade C Plus)) = Gt.
-(* FILL IN HERE *) Admitted.
+(* FILL IN HERE *) 
+Proof.
+  simpl. reflexivity. Qed.
 
 (** [] *)
 
